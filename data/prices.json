@@ -1,0 +1,32 @@
+{
+  "dialogue-manet": {
+    "title": "Dialogue with Manet",
+    "price": 2300,
+    "onRequest": false
+  },
+  "x-space-gun": {
+    "title": "X Space gun",
+    "price": 2000,
+    "onRequest": false
+  },
+  "mucha": {
+    "title": "Dialogue avec Alfons Mucha",
+    "price": null,
+    "onRequest": true
+  },
+  "wesselmann": {
+    "title": "Dialogue avec Tom Wesselmann",
+    "price": null,
+    "onRequest": true
+  },
+  "bather-garden": {
+    "title": "Bather in the garden",
+    "price": null,
+    "onRequest": true
+  },
+  "robineuf": {
+    "title": "Robineuf",
+    "price": null,
+    "onRequest": true
+  }
+}

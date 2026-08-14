@@ -1,0 +1,153 @@
+/* Panier E9 INERTION — styles partagés */
+.lang-select{
+  font-family:'Space Mono', monospace;
+  font-size:12px;
+  border:1.5px solid var(--ink);
+  background:var(--paper);
+  color:var(--ink);
+  padding:6px 8px;
+  cursor:pointer;
+  border-radius:2px;
+}
+
+.cart-btn{
+  position:relative;
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  background:none;
+  border:1.5px solid var(--ink);
+  color:var(--ink);
+  font-family:'Space Mono', monospace;
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:0.06em;
+  padding:7px 12px;
+  cursor:pointer;
+  border-radius:2px;
+}
+.cart-btn:hover{ background:rgba(22,21,19,0.06); }
+.cart-btn .cart-count{
+  display:none;
+  align-items:center;
+  justify-content:center;
+  min-width:18px;
+  height:18px;
+  padding:0 4px;
+  background:#C23B22;
+  color:#fff;
+  border-radius:999px;
+  font-size:10px;
+  font-weight:700;
+}
+
+.cart-overlay{
+  position:fixed; inset:0;
+  background:rgba(22,21,19,0.4);
+  opacity:0; pointer-events:none;
+  transition:opacity .2s ease;
+  z-index:40;
+}
+.cart-overlay.cart-open{ opacity:1; pointer-events:auto; }
+
+.cart-panel{
+  position:fixed; top:0; right:0; bottom:0;
+  width:min(400px, 92vw);
+  background:var(--paper);
+  border-left:1.5px solid var(--ink);
+  z-index:50;
+  transform:translateX(100%);
+  transition:transform .25s ease;
+  display:flex; flex-direction:column;
+  font-family:'Space Mono', monospace;
+}
+.cart-panel.cart-open{ transform:translateX(0); }
+
+.cart-panel-head{
+  display:flex; justify-content:space-between; align-items:center;
+  padding:20px 22px; border-bottom:1.5px solid var(--ink);
+}
+.cart-panel-head h2{
+  font-family:'Archivo', sans-serif; font-weight:900; font-size:16px;
+  text-transform:uppercase; margin:0;
+}
+.cart-panel-close{
+  background:none; border:none; font-size:18px; cursor:pointer; color:var(--ink);
+}
+
+.cart-panel-body{
+  flex:1; overflow-y:auto; padding:16px 22px;
+}
+.cart-empty{ font-size:13px; color:#413F3A; }
+
+.cart-row{
+  display:grid; grid-template-columns:56px 1fr auto; gap:12px; align-items:center;
+  padding:12px 0; border-bottom:0.5px solid rgba(22,21,19,0.15);
+}
+.cart-row img{ width:56px; height:56px; object-fit:cover; border:1px solid var(--ink); }
+.cart-row-title{ font-size:12.5px; margin:0 0 4px; }
+.cart-row-price{ font-size:12px; color:#413F3A; margin:0; }
+.cart-row-remove{
+  background:none; border:none; color:#413F3A; cursor:pointer; font-size:14px;
+}
+
+.cart-panel-foot{
+  border-top:1.5px solid var(--ink); padding:18px 22px;
+}
+.cart-dest-label{
+  display:block; font-size:11px; text-transform:uppercase; letter-spacing:0.06em;
+  color:#413F3A; margin-bottom:6px;
+}
+.cart-dest-select{
+  width:100%; margin-bottom:14px;
+  font-family:'Space Mono', monospace; font-size:13px;
+  padding:8px 10px; border:1.5px solid var(--ink); background:var(--paper); color:var(--ink);
+}
+.cart-total-row{
+  display:flex; justify-content:space-between; font-size:13px; margin-bottom:6px;
+}
+.cart-total-row span:last-child{ font-weight:700; }
+.cart-total-row-final{
+  border-top:0.5px solid rgba(22,21,19,0.25);
+  padding-top:8px; margin-top:8px; margin-bottom:14px;
+  font-size:14px;
+}
+.cart-checkout-btn{
+  width:100%;
+  background:var(--ink); color:var(--paper);
+  border:none; padding:12px; font-family:'Archivo', sans-serif;
+  font-weight:700; text-transform:uppercase; letter-spacing:0.06em; font-size:13px;
+  cursor:pointer;
+}
+.cart-checkout-btn:disabled{ opacity:0.4; cursor:not-allowed; }
+.cart-paypal-btn{
+  width:100%;
+  background:#FFC439; color:#1a1a1a;
+  border:none; padding:12px; margin-bottom:10px;
+  font-family:'Archivo', sans-serif;
+  font-weight:900; text-transform:none; font-size:14px;
+  cursor:pointer;
+  display:flex; align-items:center; justify-content:center; gap:6px;
+}
+.cart-paypal-btn:disabled{ opacity:0.4; cursor:not-allowed; }
+.cart-paypal-btn:hover:not(:disabled){ background:#f0b429; }
+.cart-panel-foot p.note{ font-size:11px; color:#413F3A; margin:10px 0 0; }
+
+.add-to-cart-btn{
+  display:inline-block;
+  margin-top:8px;
+  background:var(--ink); color:var(--paper);
+  border:none; padding:8px 14px;
+  font-family:'Space Mono', monospace; font-size:11.5px;
+  text-transform:uppercase; letter-spacing:0.04em;
+  cursor:pointer;
+}
+.add-to-cart-btn:hover{ opacity:0.85; }
+.on-request-tag{
+  display:inline-block; margin-top:8px;
+  font-size:11px; color:#413F3A; text-transform:uppercase; letter-spacing:0.04em;
+  border-bottom:1px dotted #413F3A;
+}
+.piece-price{
+  font-family:'Archivo', sans-serif; font-weight:700; font-size:13px; margin:6px 0 0;
+}

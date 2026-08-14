@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E9 INERTION — Étienne Frouin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/cart.css">
+
+<style>
+  :root{
+    --paper:#EDEAE1;
+    --ink:#161513;
+    --red:#C23B22;    /* parallélépipède — HASARD */
+    --blue:#1D4E89;   /* disque — sculptures */
+    --yellow:#D9A404; /* pyramide — tableau périodique */
+    --green:#3B7A3E;  /* étoile — figuratif, hors code */
+    --line:#161513;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Space Mono', monospace;
+    line-height:1.6;
+  }
+  h1,h2,h3,.display{
+    font-family:'Archivo', sans-serif;
+    font-weight:900;
+    text-transform:uppercase;
+    letter-spacing:-0.01em;
+    margin:0;
+  }
+  a{color:inherit;}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px;}
+
+  /* top bar */
+  header{
+    border-bottom:1.5px solid var(--line);
+    position:sticky;top:0;background:var(--paper);z-index:10;
+  }
+  .topbar{display:flex;justify-content:space-between;align-items:center;padding:16px 24px;max-width:1040px;margin:0 auto;}
+  .topbar .mark{font-family:'Archivo',sans-serif;font-weight:900;font-size:18px;letter-spacing:0.02em;}
+  .topbar nav{display:flex;gap:24px;font-size:13px;text-transform:uppercase;letter-spacing:0.06em;}
+  .topbar nav a{text-decoration:none;border-bottom:1.5px solid transparent;padding-bottom:2px;}
+  .topbar nav a:hover{border-color:var(--ink);}
+
+  /* hero — fiche d'élément, écho au tableau périodique */
+  .hero{padding:64px 24px 48px;}
+  .element-card{
+    border:2px solid var(--ink);
+    display:grid;
+    grid-template-columns:160px 1fr;
+    gap:0;
+  }
+  .element-symbol{
+    border-right:2px solid var(--ink);
+    padding:20px;
+    display:flex;flex-direction:column;justify-content:space-between;
+  }
+  .element-symbol .num{font-size:13px;}
+  .element-symbol .sym{font-family:'Archivo',sans-serif;font-weight:900;font-size:56px;line-height:1;margin:8px 0;}
+  .element-symbol .name{font-size:11px;text-transform:uppercase;letter-spacing:0.05em;}
+  .hero-copy{padding:24px 28px;}
+  .hero-copy .tagline{font-family:'Archivo',sans-serif;font-weight:900;font-size:clamp(28px,4vw,42px);text-transform:none;line-height:1.05;margin-bottom:16px;}
+  .hero-copy p.sub{font-size:14px;color:#413F3A;max-width:52ch;}
+
+  /* legend — les 3 formes */
+  .legend{padding:56px 24px;border-top:1.5px solid var(--line);}
+  .legend h2{font-size:22px;margin-bottom:8px;}
+  .legend .intro{font-size:13px;color:#413F3A;max-width:60ch;margin-bottom:32px;}
+  .shapes{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:1.5px solid var(--line);}
+  .shape-card{
+    border-right:1.5px solid var(--line);
+    border-bottom:1.5px solid var(--line);
+    padding:28px 20px;
+    text-decoration:none;
+    display:block;
+    transition:background .15s ease;
+  }
+  .shape-card:last-child{border-right:none;}
+  .shape-card:hover{background:rgba(22,21,19,0.04);}
+  .shape-glyph{width:44px;height:44px;margin-bottom:18px;}
+  .shape-card h3{font-size:16px;margin-bottom:6px;}
+  .shape-card p{font-size:12px;color:#413F3A;margin:0;}
+  .shape-card .letter{font-family:'Archivo',sans-serif;font-weight:900;font-size:12px;color:var(--accent);}
+
+  .c-red{--accent:var(--red);}
+  .c-blue{--accent:var(--blue);}
+  .c-yellow{--accent:var(--yellow);}
+  .c-green{--accent:var(--green);}
+  .shape-glyph{fill:var(--accent);}
+
+  /* about */
+  .about{padding:56px 24px;border-top:1.5px solid var(--line);display:grid;grid-template-columns:1fr 1.4fr;gap:40px;}
+  .about h2{font-size:22px;margin-bottom:16px;}
+  .about p{font-size:14px;color:#2A2926;max-width:56ch;margin:0 0 14px;}
+  .about .quote{font-family:'Archivo',sans-serif;font-weight:900;font-size:18px;text-transform:none;border-left:3px solid var(--ink);padding-left:16px;margin-top:20px;}
+
+  /* footer */
+  footer{border-top:1.5px solid var(--line);padding:28px 24px;font-size:12px;color:#413F3A;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;}
+  footer a{text-decoration:underline;}
+
+  @media (max-width:720px){
+    .element-card{grid-template-columns:1fr;}
+    .element-symbol{border-right:none;border-bottom:2px solid var(--ink);flex-direction:row;align-items:center;}
+    .element-symbol .sym{margin:0 16px;}
+    .shapes{grid-template-columns:1fr 1fr;}
+    .shape-card{border-right:1.5px solid var(--line);}
+    .shape-card:nth-child(2n){border-right:none;}
+    .about{grid-template-columns:1fr;}
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto;}
+    .shape-card{transition:none;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="topbar">
+    <div class="mark">E9 INERTION</div>
+    <nav>
+      <a href="#legend" data-i18n="nav.legend">Langage</a>
+      <a href="news.html">Breaking News</a>
+      <a href="serigraphies.html" data-i18n="nav.serigraphies">Sérigraphies</a>
+      <a href="spaceships.html" data-i18n="nav.spaceships">Space ships</a>
+      <a href="spacegun.html" data-i18n="nav.spacegun">Space gun</a>
+      <a href="#about" data-i18n="nav.about">À propos</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <select class="lang-select" data-lang-select aria-label="Language">
+      <option value="fr">FR</option>
+      <option value="en">EN</option>
+      <option value="de">DE</option>
+      <option value="es">ES</option>
+      <option value="it">IT</option>
+      <option value="ru">RU</option>
+      <option value="ja">JA</option>
+    </select>
+    <button class="cart-btn" data-cart-open type="button">
+      <span data-i18n="cart.button">Panier</span> <span class="cart-count" data-cart-count>0</span>
+    </button>
+  </div>
+</header>
+
+<section class="hero wrap">
+  <div class="element-card">
+    <div class="element-symbol">
+      <span class="num">N°9</span>
+      <span class="sym">E9</span>
+      <span class="name" data-i18n="hero.name">Étienne Frouin</span>
+    </div>
+    <div class="hero-copy">
+      <p class="tagline" data-i18n="hero.tagline">Fight against those who want to stop you dreaming.</p>
+      <p class="sub" data-i18n="hero.sub">Plasticien. Peinture, sculpture métal, art textile, pochoir — un langage physiologique où chaque forme et chaque couleur correspond à une lettre.</p>
+    </div>
+  </div>
+</section>
+
+<section class="legend wrap" id="legend">
+  <h2 data-i18n="legend.title">Le langage physiologique</h2>
+  <p class="intro" data-i18n="legend.intro">Trois formes, leurs couleurs primaires et secondaires : le code qui structure chaque série. Entrez par la forme, pas par un menu.</p>
+  <div class="shapes">
+    <a class="shape-card c-red" href="parallelepipede.html">
+      <svg class="shape-glyph" viewBox="0 0 44 44"><polygon points="9,4 35,4 44,40 0,40"/></svg>
+      <span class="letter" data-i18n="shape.para.letter">H · A · S</span>
+      <h3 data-i18n="shape.para.title">Parallélépipède</h3>
+      <p data-i18n="shape.para.desc">Série « L'ombre du HASARD » — laine tuftée, 2026</p>
+    </a>
+    <a class="shape-card c-yellow" href="pyramide.html">
+      <svg class="shape-glyph" viewBox="0 0 44 44"><polygon points="22,2 42,40 2,40"/></svg>
+      <span class="letter" data-i18n="shape.pyr.letter">1 → 93</span>
+      <h3 data-i18n="shape.pyr.title">Pyramide</h3>
+      <p data-i18n="shape.pyr.desc">Tableau périodique détourné — huile, bois, pochoir</p>
+    </a>
+    <a class="shape-card c-blue" href="disque.html">
+      <svg class="shape-glyph" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20"/></svg>
+      <span class="letter" data-i18n="shape.disque.letter">VIVRE</span>
+      <h3 data-i18n="shape.disque.title">Disque</h3>
+      <p data-i18n="shape.disque.desc">Sculptures & objets — Banane, Mobile, Langouste</p>
+    </a>
+    <a class="shape-card c-green" href="etoile.html">
+      <svg class="shape-glyph" viewBox="0 0 44 44"><polygon points="22,1 27,16 43,16 30,26 35,42 22,32 9,42 14,26 1,16 17,16"/></svg>
+      <span class="letter" data-i18n="shape.etoile.letter">hors code</span>
+      <h3 data-i18n="shape.etoile.title">Étoile</h3>
+      <p data-i18n="shape.etoile.desc">Œuvres figuratives — nus, dialogues avec Mucha, Wesselmann</p>
+    </a>
+  </div>
+</section>
+
+<section class="legend wrap" id="comete" style="border-top:1.5px solid var(--line);">
+  <h2 style="font-size:20px;" data-i18n="comete.title">Comète</h2>
+  <p class="intro" data-i18n="comete.intro">Une quatrième forme, hors du code à trois : le cercle et sa traînée, pour tout ce qui voyage — les tirages qui se multiplient, les vaisseaux qui s'éloignent.</p>
+  <div class="shapes" style="grid-template-columns:1fr 1fr 1fr;">
+    <a class="shape-card" href="serigraphies.html" style="--accent:#5B5850;">
+      <svg class="shape-glyph" viewBox="0 0 44 44"><circle cx="30" cy="14" r="8"/><path d="M24 20 L4 40 M27 24 L10 41 M20 16 L2 34" stroke="var(--accent)" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.55"/></svg>
+      <span class="letter" data-i18n="comete.serig.letter">Estampes</span>
+      <h3 data-i18n="comete.serig.title">Sérigraphies</h3>
+      <p data-i18n="comete.serig.desc">Tirages numérotés de l'atelier d'imprimerie — DEAD OR ALIVE, Amour, Villa Frouin</p>
+    </a>
+    <a class="shape-card" href="spaceships.html" style="--accent:#5B5850;">
+      <svg class="shape-glyph" viewBox="0 0 44 44"><circle cx="30" cy="14" r="8"/><path d="M24 20 L4 40 M27 24 L10 41 M20 16 L2 34" stroke="var(--accent)" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.55"/></svg>
+      <span class="letter" data-i18n="comete.ships.letter">Programme</span>
+      <h3 data-i18n="comete.ships.title">Space ships</h3>
+      <p data-i18n="comete.ships.desc">Le catalogue de photomontages glané au fil des voyages d'E9 Inertion</p>
+    </a>
+    <a class="shape-card" href="spacegun.html" style="--accent:#5B5850;">
+      <svg class="shape-glyph" viewBox="0 0 44 44"><circle cx="30" cy="14" r="8"/><path d="M24 20 L4 40 M27 24 L10 41 M20 16 L2 34" stroke="var(--accent)" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.55"/></svg>
+      <span class="letter" data-i18n="comete.gun.letter">Arsenal</span>
+      <h3 data-i18n="comete.gun.title">Space gun</h3>
+      <p data-i18n="comete.gun.desc">Plus de 45 sculptures-armes en fer soudé, depuis le premier Smith &amp; Frouin de 2014</p>
+    </a>
+  </div>
+</section>
+
+<section class="about wrap" id="about">
+  <div>
+    <h2 data-i18n="about.title">À propos</h2>
+  </div>
+  <div>
+    <p class="quote" data-i18n="about.quote1">My goal is not to represent, but to make one feel: the heartbeat, the breath, the cellular memory. This language is not meant to be read, but perceived.</p>
+    <p data-i18n="about.p1">Je travaille le souffle vital logé dans la matière. À travers des formes biomécaniques, je cherche à exprimer un langage physiologique — un alphabet organique fait de pulsations, de tensions et de silences. Chaque sculpture est une entité vivante, un fragment de corps en transformation, porteur d'un message universel : la fusion de l'humain, du vivant et de la machine. Je traite le métal comme une peau — une membrane sensible — où chaque pli, chaque soudure devient la syllabe d'une langue oubliée.</p>
+    <p data-i18n="about.p2">Ce langage est né d'une visite au musée Matisse de Cateau-Cambrésis, devant l'alphabet plastique d'Auguste Herbin. Il suit le rythme de la vie, le rythme cardiaque, en trois séquences éternelles : haut, bas, repos. Ces séquences sont doublement matérialisées, par une forme et une couleur — parallélépipède, pyramide, disque — répétées sur 13 cycles pour former l'alphabet complet et les dix chiffres, soit 36 symboles. Trois couleurs primaires portent les consonnes : rouge, jaune, bleu. Les voyelles empruntent les couleurs secondaires des lettres qui les entourent.</p>
+    <p data-i18n="about.p3">Né en 1967, je vis et travaille à la Villa Frouin, à Hyères, où j'expose aux côtés de Nadège Frouin, artiste tapissier.</p>
+    <p class="quote" data-i18n="about.quote2">Fight against those who want to stop you dreaming.</p>
+  </div>
+</section>
+
+<footer id="contact">
+  <span>© 2026 Étienne Frouin (E9 Inertion)</span>
+  <span><a href="mailto:contact@etiennefrouin.com">contact@etiennefrouin.com</a></span>
+  <span><a href="https://www.instagram.com/etiennefrouin/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/etienne.frouin.7" target="_blank" rel="noopener">Facebook</a></span>
+  <span><a href="cgv.html">CGV</a></span>
+</footer>
+
+
+<div class="cart-overlay" data-cart-overlay></div>
+<aside class="cart-panel" data-cart-panel>
+  <div class="cart-panel-head">
+    <h2 data-i18n="cart.title">Votre sélection</h2>
+    <button class="cart-panel-close" data-cart-close aria-label="Fermer">✕</button>
+  </div>
+  <div class="cart-panel-body">
+    <p class="cart-empty" data-cart-empty data-i18n="cart.empty">Votre sélection est vide pour l'instant.</p>
+    <div data-cart-list></div>
+  </div>
+  <div class="cart-panel-foot">
+    <label class="cart-dest-label" for="cart-dest" data-i18n="cart.dest_label">Livraison</label>
+    <select class="cart-dest-select" id="cart-dest" data-cart-dest>
+      <option value="fr" data-i18n="cart.dest_fr">France</option>
+      <option value="eu" data-i18n="cart.dest_eu">Europe</option>
+      <option value="intl" data-i18n="cart.dest_intl">International</option>
+    </select>
+    <div class="cart-total-row"><span data-i18n="cart.subtotal">Sous-total</span><span data-cart-subtotal>0 €</span></div>
+    <div class="cart-total-row"><span data-i18n="cart.shipping">Frais de port</span><span data-cart-shipping>0 €</span></div>
+    <div class="cart-total-row cart-total-row-final"><span data-i18n="cart.total">Total</span><span data-cart-total>0 €</span></div>
+    <button class="cart-paypal-btn" data-cart-paypal disabled data-i18n="cart.paypal">Payer avec PayPal</button>
+    <button class="cart-checkout-btn" data-cart-checkout disabled data-i18n="cart.email_btn">Envoyer le détail par email</button>
+    <p class="note" data-i18n="cart.note">Le paiement PayPal ouvre un nouvel onglet avec le montant total pré-rempli. Pensez aussi à envoyer le détail par email pour qu'Étienne sache quelles œuvres réserver.</p>
+  </div>
+</aside>
+<script src="assets/translations.js"></script>
+<script src="assets/i18n.js"></script>
+<script src="assets/cart.js" defer></script>
+</body>
+</html>

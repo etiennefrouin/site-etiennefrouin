@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Étoile — Œuvres figuratives | E9 INERTION</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/cart.css">
+
+<style>
+  :root{
+    --paper:#EDEAE1;
+    --ink:#161513;
+    --accent:#3B7A3E; /* vert — étoile */
+    --line:#161513;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:'Space Mono', monospace;line-height:1.6;}
+  h1,h2,h3,.display{font-family:'Archivo', sans-serif;font-weight:900;text-transform:uppercase;letter-spacing:-0.01em;margin:0;}
+  a{color:inherit;}
+  img{display:block;max-width:100%;}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px;}
+
+  header{border-bottom:1.5px solid var(--line);position:sticky;top:0;background:var(--paper);z-index:10;}
+  .topbar{display:flex;justify-content:space-between;align-items:center;padding:16px 24px;max-width:1040px;margin:0 auto;}
+  .topbar .mark{font-family:'Archivo',sans-serif;font-weight:900;font-size:18px;}
+  .topbar nav{display:flex;gap:24px;font-size:13px;text-transform:uppercase;letter-spacing:0.06em;}
+  .topbar nav a{text-decoration:none;border-bottom:1.5px solid transparent;padding-bottom:2px;}
+  .topbar nav a:hover,.topbar nav a.current{border-color:var(--ink);}
+
+  .series-hero{padding:56px 24px 40px;border-bottom:1.5px solid var(--line);}
+  .series-hero .eyebrow{display:flex;align-items:center;gap:10px;margin-bottom:14px;}
+  .glyph{width:34px;height:34px;fill:var(--accent);}
+  .series-hero .eyebrow span{font-size:12px;text-transform:uppercase;letter-spacing:0.08em;color:#413F3A;}
+  .series-hero h1{font-size:clamp(30px,4.5vw,48px);text-transform:none;line-height:1.05;max-width:18ch;}
+  .series-hero p{font-size:14px;color:#413F3A;max-width:58ch;margin-top:16px;}
+
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1.5px solid var(--line);}
+  .piece{border-right:1.5px solid var(--line);border-bottom:1.5px solid var(--line);}
+  .piece:nth-child(3n){border-right:none;}
+  .piece img{aspect-ratio:1/1;object-fit:cover;width:100%;background:#DAD6CA;}
+  .piece .cap{padding:16px 18px 20px;}
+  .piece h3{font-size:14px;margin-bottom:6px;}
+  .piece .meta{font-size:11px;color:#413F3A;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:8px;}
+  .piece p.desc{font-size:12.5px;color:#2A2926;margin:0;}
+
+  footer{border-top:1.5px solid var(--line);padding:28px 24px;font-size:12px;color:#413F3A;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;}
+  footer a{text-decoration:underline;}
+
+  @media (max-width:720px){
+    .grid{grid-template-columns:1fr;}
+    .piece{border-right:none;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="topbar">
+    <a class="mark" href="index.html">E9 INERTION</a>
+    <nav>
+      <a href="index.html#legend" data-i18n="nav.legend">Langage</a>
+      <a href="news.html">Breaking News</a>
+      <a href="#" class="current" data-i18n="nav.etoile">Étoile</a>
+      <a href="serigraphies.html" data-i18n="nav.serigraphies">Sérigraphies</a>
+      <a href="spaceships.html" data-i18n="nav.spaceships">Space ships</a>
+      <a href="spacegun.html" data-i18n="nav.spacegun">Space gun</a>
+      <a href="index.html#about" data-i18n="nav.about">À propos</a>
+      <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <select class="lang-select" data-lang-select aria-label="Language">
+      <option value="fr">FR</option>
+      <option value="en">EN</option>
+      <option value="de">DE</option>
+      <option value="es">ES</option>
+      <option value="it">IT</option>
+      <option value="ru">RU</option>
+      <option value="ja">JA</option>
+    </select>
+    <button class="cart-btn" data-cart-open type="button">
+      <span data-i18n="cart.button">Panier</span> <span class="cart-count" data-cart-count>0</span>
+    </button>
+  </div>
+</header>
+
+<section class="series-hero wrap">
+  <div class="eyebrow">
+    <svg class="glyph" viewBox="0 0 44 44"><polygon points="22,1 27,16 43,16 30,26 35,42 22,32 9,42 14,26 1,16 17,16"/></svg>
+    <span data-i18n="etoile.eyebrow">Étoile · hors code</span>
+  </div>
+  <h1 data-i18n="etoile.h1">Œuvres figuratives</h1>
+  <p data-i18n="etoile.intro">Pas de forme, pas de lettre, pas de couleur imposée : ici le langage physiologique se tait un instant. Ces pièces dialoguent librement avec d'autres artistes et remettent le corps, le nu, le portrait au centre — hors de tout code.</p>
+</section>
+
+<div class="grid">
+
+  <article class="piece">
+    <img src="https://lh3.googleusercontent.com/sitesv/AG8ngQULe1JVmU7hlslO03ozgZCXyCVBvichob8AHvqfB5JgMFv67XZQow2dPrJEKnHYXJoh8DTjpdj9k_HI8g_GxuCMPsnJEew9htmlObMhyj446dPEfdbcncje4xOdCmlel_LxDiL43smUPxnzcIEmBLBPK13PoBey1qQRF9yV1stMCLXnlN1bfNJ1WWnTToqVX5nzc5iRCrxFngZsIeBoiYzMXIUjLp2RYKCb0MpDZIc=w1280" alt="Dialogue avec Alfons Mucha">
+    <div class="cap">
+      <h3 data-i18n="etoile.p1.title">Dialogue avec Alfons Mucha</h3>
+      <p class="meta" data-i18n="etoile.p1.meta">Dessin au fusain, mise en volume — 180x70x25 cm</p>
+      <p class="desc" data-i18n="etoile.p1.desc">Reprise au fusain sur panneau de medium, puis mise en volume avec des barres de fer rond lisse, cintrées et soudées à l'arc.</p>
+      <div class="price-slot" data-price-id="mucha"></div>
+    </div>
+  </article>
+
+  <article class="piece">
+    <img src="https://lh3.googleusercontent.com/sitesv/AG8ngQXPSr4uyTRgn7txlcRyFTaMT6YGFBqPVju08Vzk4h4DQTh3TPCpK2wsAGuHPfOYq97zuzdkX8M4-FDZEZXiaBENI-MeJNzcDjaU2lQ1aTskStzUaXMW2wxD5HMfvdoaFjJPuQOWwsDH7dYZcq6SqL106B0Do653BhreNZF-xo4J-bVOFF6SlyBIkwHmYZ_XbtrjS-2mqdwEihhkXDp73p1KbyM1c7yQx-SqCV1g1Pc=w1280" alt="Dialogue avec Tom Wesselmann">
+    <div class="cap">
+      <h3 data-i18n="etoile.p2.title">Dialogue avec Tom Wesselmann</h3>
+      <p class="meta" data-i18n="etoile.p2.meta">Technique mixte, bois, métal, fusain — 80x100x20 cm</p>
+      <p class="desc" data-i18n="etoile.p2.desc">Découvert dans la galerie du futur de la TGB. Une figure allongée derrière sa fenêtre, rideau bleu tiré, cigarette à la main.</p>
+      <div class="price-slot" data-price-id="wesselmann"></div>
+    </div>
+  </article>
+
+  <article class="piece">
+    <img src="https://lh3.googleusercontent.com/sitesv/AG8ngQXkmL8Zw0uBfx3k84lDkI2feLU6nstTjzg-WxdOYTxv3Md_mXmXskNfdOk5Xv-e_MvuwkanWU91ua_qhDdsrgmH7wtfAmPynFdGnK0hpSxjrSwmaiGWG3kDoeC2MrMMjKTxPp0gZgRANgAgqqOmdQM-hMcB5zfwV6YhD2Zjn761O7wDTP0GZZLSyH_Rk9QfRA_x-8dJVVrxY5PZ5Dzz2NxMWzIzr7r_mLdjX0tGSug=w1280" alt="Bather in the garden">
+    <div class="cap">
+      <h3 data-i18n="etoile.p3.title">Bather in the garden</h3>
+      <p class="meta" data-i18n="etoile.p3.meta">Barre de fer 6mm, cintrée, soudée, peinte — 200x60x20 cm</p>
+      <p class="desc" data-i18n="etoile.p3.desc">Une série mettant en avant le corps de la femme, l'amour, la sensualité, la légèreté.</p>
+      <div class="price-slot" data-price-id="bather-garden"></div>
+    </div>
+  </article>
+
+  <article class="piece">
+    <img src="https://medias.artmajeur.com/hd/13273826_hommage-a-edouard-manet.jpg?v=1739267437" alt="Dialogue with Manet, 2018">
+    <div class="cap">
+      <h3 data-i18n="etoile.p4.title">Dialogue with Manet</h3>
+      <p class="meta" data-i18n="etoile.p4.meta">2018 — bois et métal, fusain rehaussé d'huile</p>
+      <p class="desc" data-i18n="etoile.p4.desc">Hommage à l'Olympia d'Édouard Manet, découverte lors d'un voyage imaginaire d'E9 Inertion dans la Galerie du Futur de la cité engloutie U3.</p>
+      <div class="price-slot" data-price-id="dialogue-manet" data-image="https://medias.artmajeur.com/hd/13273826_hommage-a-edouard-manet.jpg?v=1739267437" data-shipping="sculpture"></div>
+    </div>
+  </article>
+
+</div>
+
+<footer id="contact">
+  <span>© 2026 Étienne Frouin (E9 Inertion)</span>
+  <span><a href="mailto:contact@etiennefrouin.com">contact@etiennefrouin.com</a></span>
+  <span><a href="https://www.instagram.com/etiennefrouin/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/etienne.frouin.7" target="_blank" rel="noopener">Facebook</a></span>
+  <span><a href="cgv.html">CGV</a></span>
+</footer>
+
+
+<div class="cart-overlay" data-cart-overlay></div>
+<aside class="cart-panel" data-cart-panel>
+  <div class="cart-panel-head">
+    <h2 data-i18n="cart.title">Votre sélection</h2>
+    <button class="cart-panel-close" data-cart-close aria-label="Fermer">✕</button>
+  </div>
+  <div class="cart-panel-body">
+    <p class="cart-empty" data-cart-empty data-i18n="cart.empty">Votre sélection est vide pour l'instant.</p>
+    <div data-cart-list></div>
+  </div>
+  <div class="cart-panel-foot">
+    <label class="cart-dest-label" for="cart-dest" data-i18n="cart.dest_label">Livraison</label>
+    <select class="cart-dest-select" id="cart-dest" data-cart-dest>
+      <option value="fr" data-i18n="cart.dest_fr">France</option>
+      <option value="eu" data-i18n="cart.dest_eu">Europe</option>
+      <option value="intl" data-i18n="cart.dest_intl">International</option>
+    </select>
+    <div class="cart-total-row"><span data-i18n="cart.subtotal">Sous-total</span><span data-cart-subtotal>0 €</span></div>
+    <div class="cart-total-row"><span data-i18n="cart.shipping">Frais de port</span><span data-cart-shipping>0 €</span></div>
+    <div class="cart-total-row cart-total-row-final"><span data-i18n="cart.total">Total</span><span data-cart-total>0 €</span></div>
+    <button class="cart-paypal-btn" data-cart-paypal disabled data-i18n="cart.paypal">Payer avec PayPal</button>
+    <button class="cart-checkout-btn" data-cart-checkout disabled data-i18n="cart.email_btn">Envoyer le détail par email</button>
+    <p class="note" data-i18n="cart.note">Le paiement PayPal ouvre un nouvel onglet avec le montant total pré-rempli. Pensez aussi à envoyer le détail par email pour qu'Étienne sache quelles œuvres réserver.</p>
+  </div>
+</aside>
+<script src="assets/translations.js"></script>
+<script src="assets/i18n.js"></script>
+<script src="assets/prices.js"></script>
+<script src="assets/cart.js" defer></script>
+</body>
+</html>

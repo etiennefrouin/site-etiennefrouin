@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Breaking News | E9 INERTION</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/cart.css">
+<style>
+  :root{
+    --paper:#EDEAE1;
+    --ink:#161513;
+    --accent:#C23B22;
+    --line:#161513;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:'Space Mono', monospace;line-height:1.6;}
+  h1,h2,h3,.display{font-family:'Archivo', sans-serif;font-weight:900;text-transform:uppercase;letter-spacing:-0.01em;margin:0;}
+  a{color:inherit;}
+  img{display:block;max-width:100%;}
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px;}
+
+  header{border-bottom:1.5px solid var(--line);position:sticky;top:0;background:var(--paper);z-index:10;}
+  .topbar{display:flex;justify-content:space-between;align-items:center;padding:16px 24px;max-width:1040px;margin:0 auto;flex-wrap:wrap;gap:10px;}
+  .topbar .mark{font-family:'Archivo',sans-serif;font-weight:900;font-size:18px;}
+  .topbar nav{display:flex;gap:18px;font-size:12px;text-transform:uppercase;letter-spacing:0.06em;flex-wrap:wrap;}
+  .topbar nav a{text-decoration:none;border-bottom:1.5px solid transparent;padding-bottom:2px;}
+  .topbar nav a:hover,.topbar nav a.current{border-color:var(--ink);}
+
+  .page-hero{padding:56px 24px 40px;border-bottom:1.5px solid var(--line);}
+  .page-hero .eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:0.08em;color:#413F3A;margin-bottom:14px;display:flex;align-items:center;gap:8px;}
+  .page-hero .eyebrow .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);display:inline-block;animation:pulse 1.6s ease-in-out infinite;}
+  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.3;}}
+  .page-hero h1{font-size:clamp(28px,4.5vw,42px);text-transform:none;line-height:1.05;}
+  .page-hero p{font-size:14px;color:#413F3A;max-width:56ch;margin-top:14px;}
+
+  .feed{padding:16px 24px 64px;}
+  .entry{
+    border-top:1.5px solid var(--line);
+    padding:28px 0;
+    display:grid;
+    grid-template-columns:110px 1fr;
+    gap:20px;
+  }
+  .entry:last-child{border-bottom:1.5px solid var(--line);}
+  .entry .date{font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:var(--accent);font-family:'Archivo',sans-serif;font-weight:700;padding-top:2px;}
+  .entry h3{font-size:15px;margin-bottom:8px;text-transform:none;}
+  .entry p{font-size:13px;color:#2A2926;margin:0;}
+  .entry .tag{display:inline-block;font-size:10.5px;text-transform:uppercase;letter-spacing:0.05em;color:#413F3A;border:1px solid #413F3A;padding:2px 6px;margin-bottom:8px;}
+
+  @media (max-width:560px){
+    .entry{grid-template-columns:1fr;gap:6px;}
+  }
+
+  footer{border-top:1.5px solid var(--line);padding:28px 24px;font-size:12px;color:#413F3A;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;max-width:1040px;margin:0 auto;}
+  footer a{text-decoration:underline;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="topbar">
+    <a class="mark" href="index.html">E9 INERTION</a>
+    <nav>
+      <a href="index.html#legend">Langage</a>
+      <a href="news.html" class="current">Breaking News</a>
+      <a href="serigraphies.html">Sérigraphies</a>
+      <a href="spaceships.html">Space ships</a>
+      <a href="spacegun.html">Space gun</a>
+      <a href="index.html#about">À propos</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <button class="cart-btn" data-cart-open type="button">
+      Panier <span class="cart-count" data-cart-count>0</span>
+    </button>
+  </div>
+</header>
+
+<section class="page-hero wrap">
+  <p class="eyebrow"><span class="dot"></span> En direct de l'atelier</p>
+  <h1>Breaking News</h1>
+  <p>Nouvelles pièces, découvertes, coulisses d'atelier — ce qui se passe en ce moment chez E9 Inertion, au fil de l'eau.</p>
+</section>
+
+<div class="feed wrap" id="news-feed">
+  <p style="font-size:13px;color:#413F3A;">Chargement des actualités…</p>
+</div>
+
+<script>
+fetch('data/news.json')
+  .then(r => r.json())
+  .then(data => {
+    const items = data.items || [];
+    const feed = document.getElementById('news-feed');
+    feed.innerHTML = '';
+    items.forEach(item => {
+      const article = document.createElement('article');
+      article.className = 'entry';
+      article.innerHTML = `
+        <div class="date">${item.date}</div>
+        <div>
+          <span class="tag">${item.tag}</span>
+          <h3>${item.title}</h3>
+          <p>${item.text}</p>
+        </div>
+      `;
+      feed.appendChild(article);
+    });
+  })
+  .catch(() => {
+    document.getElementById('news-feed').innerHTML = '<p style="font-size:13px;color:#413F3A;">Impossible de charger les actualités pour le moment.</p>';
+  });
+</script>
+
+<footer id="contact">
+  <span>© 2026 Étienne Frouin (E9 Inertion)</span>
+  <span><a href="mailto:contact@etiennefrouin.com">contact@etiennefrouin.com</a></span>
+  <span><a href="https://www.instagram.com/etiennefrouin/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/etienne.frouin.7" target="_blank" rel="noopener">Facebook</a></span>
+  <span><a href="cgv.html">CGV</a></span>
+</footer>
+
+
+<div class="cart-overlay" data-cart-overlay></div>
+<aside class="cart-panel" data-cart-panel>
+  <div class="cart-panel-head">
+    <h2>Votre sélection</h2>
+    <button class="cart-panel-close" data-cart-close aria-label="Fermer">✕</button>
+  </div>
+  <div class="cart-panel-body">
+    <p class="cart-empty" data-cart-empty>Votre sélection est vide pour l'instant.</p>
+    <div data-cart-list></div>
+  </div>
+  <div class="cart-panel-foot">
+    <label class="cart-dest-label" for="cart-dest">Livraison</label>
+    <select class="cart-dest-select" id="cart-dest" data-cart-dest>
+      <option value="fr">France</option>
+      <option value="eu">Europe</option>
+      <option value="intl">International</option>
+    </select>
+    <div class="cart-total-row"><span>Sous-total</span><span data-cart-subtotal>0 €</span></div>
+    <div class="cart-total-row"><span>Frais de port</span><span data-cart-shipping>0 €</span></div>
+    <div class="cart-total-row cart-total-row-final"><span>Total</span><span data-cart-total>0 €</span></div>
+    <button class="cart-paypal-btn" data-cart-paypal disabled>Payer avec PayPal</button>
+    <button class="cart-checkout-btn" data-cart-checkout disabled>Envoyer le détail par email</button>
+    <p class="note">Le paiement PayPal ouvre un nouvel onglet avec le montant total pré-rempli. Pensez aussi à envoyer le détail par email pour qu'Étienne sache quelles œuvres réserver.</p>
+  </div>
+</aside>
+<script src="assets/translations.js"></script>
+<script src="assets/i18n.js"></script>
+<script src="assets/cart.js" defer></script>
+</body>
+</html>
