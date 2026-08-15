@@ -1,1100 +1,272 @@
-window.E9_TRANSLATIONS = {
- "en": {
-  "nav.legend": "Language",
-  "nav.etoile": "Star",
-  "nav.serigraphies": "Screen prints",
-  "nav.spaceships": "Space ships",
-  "nav.spacegun": "Space gun",
-  "nav.about": "About",
-  "nav.contact": "Contact",
-  "nav.pyr": "Pyramid",
-  "nav.para": "Rectangular prism",
-  "nav.disque": "Disc",
-  "cart.button": "Cart",
-  "cart.title": "Your selection",
-  "cart.empty": "Your selection is empty for now.",
-  "cart.dest_label": "Shipping",
-  "cart.dest_fr": "France",
-  "cart.dest_eu": "Europe",
-  "cart.dest_intl": "International",
-  "cart.subtotal": "Subtotal",
-  "cart.shipping": "Shipping",
-  "cart.total": "Total",
-  "cart.paypal": "Pay with PayPal",
-  "cart.email_btn": "Send details by email",
-  "cart.note": "PayPal payment opens a new tab with the total amount pre-filled. Please also send the details by email so Étienne knows which works to reserve.",
-  "piece.add_to_cart": "Add to cart",
-  "piece.on_request": "Price on request →",
-  "piece.large_note": "3m piece — shipping quoted on request",
-  "hero.name": "Étienne Frouin",
-  "hero.tagline": "Fight against those who want to stop you dreaming.",
-  "hero.sub": "Visual artist. Painting, metal sculpture, textile art, stencil — a physiological language where every shape and colour corresponds to a letter.",
-  "legend.title": "The physiological language",
-  "legend.intro": "Three shapes, their primary and secondary colours: the code that structures every series. Enter through the shape, not a menu.",
-  "shape.para.letter": "H · A · S",
-  "shape.para.title": "Rectangular prism",
-  "shape.para.desc": "\"L'ombre du HASARD\" series — tufted wool, 2026",
-  "shape.pyr.letter": "1 → 93",
-  "shape.pyr.title": "Pyramid",
-  "shape.pyr.desc": "The periodic table reimagined — oil, wood, stencil",
-  "shape.disque.letter": "VIVRE",
-  "shape.disque.title": "Disc",
-  "shape.disque.desc": "Sculptures & objects — Banane, Mobile, Langouste",
-  "shape.etoile.letter": "outside the code",
-  "shape.etoile.title": "Star",
-  "shape.etoile.desc": "Figurative works — nudes, dialogues with Mucha, Wesselmann",
-  "comete.eyebrow": "Comet · outside the code",
-  "comete.title": "Comet",
-  "comete.intro": "A fourth shape, outside the three-part code: the circle and its trail, for everything that travels — prints that multiply, ships that drift away.",
-  "comete.serig.letter": "Prints",
-  "comete.serig.title": "Screen prints",
-  "comete.serig.desc": "Numbered prints from the print workshop — DEAD OR ALIVE, Amour, Villa Frouin",
-  "comete.ships.letter": "Program",
-  "comete.ships.title": "Space ships",
-  "comete.ships.desc": "The catalogue of photomontages gathered throughout E9 Inertion's travels",
-  "comete.gun.letter": "Arsenal",
-  "comete.gun.title": "Space gun",
-  "comete.gun.desc": "More than 45 welded-iron weapon-sculptures, since the first Smith & Frouin in 2014",
-  "about.title": "About",
-  "about.quote1": "My goal is not to represent, but to make one feel: the heartbeat, the breath, the cellular memory. This language is not meant to be read, but perceived.",
-  "about.p1": "I work with the vital breath lodged within matter. Through biomechanical forms, I seek to express a physiological language — an organic alphabet made of pulses, tensions and silences. Each sculpture is a living entity, a fragment of a body in transformation, carrying a universal message: the fusion of the human, the living, and the machine. I treat metal like skin — a sensitive membrane — where every fold, every weld becomes the syllable of a forgotten language.",
-  "about.p2": "This language was born from a visit to the Matisse Museum in Le Cateau-Cambrésis, in front of Auguste Herbin's plastic alphabet. It follows the rhythm of life, the heartbeat, in three eternal sequences: up, down, rest. These sequences are doubly materialised, through a shape and a colour — rectangular prism, pyramid, disc — repeated over 13 cycles to form the complete alphabet and the ten digits, 36 symbols in all. Three primary colours carry the consonants: red, yellow, blue. The vowels borrow the secondary colours of the letters surrounding them.",
-  "about.p3": "Born in 1967, I live and work at the Villa Frouin, in Hyères, where I exhibit alongside Nadège Frouin, textile artist.",
-  "about.quote2": "Fight against those who want to stop you dreaming.",
-  "etoile.eyebrow": "Star · outside the code",
-  "etoile.h1": "Figurative works",
-  "etoile.intro": "No fixed shape, no letter, no imposed colour: here the physiological language falls silent for a moment. These pieces converse freely with other artists and place the body, the nude, the portrait back at the centre — outside any code.",
-  "etoile.p1.title": "Dialogue with Alfons Mucha",
-  "etoile.p1.meta": "Charcoal drawing, brought into volume — 180x70x25 cm",
-  "etoile.p1.desc": "Reworked in charcoal on MDF panel, then given volume with smooth round iron bars, bent and arc-welded.",
-  "etoile.p2.title": "Dialogue with Tom Wesselmann",
-  "etoile.p2.meta": "Mixed media, wood, metal, charcoal — 80x100x20 cm",
-  "etoile.p2.desc": "Discovered in the gallery of the future at the TGB. A reclining figure behind her window, blue curtain drawn, cigarette in hand.",
-  "etoile.p3.title": "Bather in the garden",
-  "etoile.p3.meta": "6mm iron bar, bent, welded, painted — 200x60x20 cm",
-  "etoile.p3.desc": "A series celebrating the woman's body, love, sensuality, lightness.",
-  "etoile.p4.title": "Dialogue with Manet",
-  "etoile.p4.meta": "2018 — wood and metal, charcoal enhanced with oil",
-  "etoile.p4.desc": "Homage to Édouard Manet's Olympia, discovered during an imaginary journey by E9 Inertion through the Gallery of the Future in the sunken city of U3.",
-  "disque.eyebrow": "Disc · letter of the physiological language",
-  "disque.h1": "Sculptures & objects",
-  "disque.intro": "Iron bar, perforated sheet metal, digital stencils — each piece translates a shape/colour pair from E9 Inertion's alphabet into volume or object. Made in the Villa Frouin workshop in Hyères, these sculptures draw their shapes from the local flora and fauna, right down to the villa's own garden.",
-  "disque.p1.title": "Banana (sculpture)",
-  "disque.p1.meta": "2025 — metal, 123 cm",
-  "disque.p1.desc": "Iron bar and perforated sheet metal, born from an inspiring return from Martinique. The year's first creation in the physiological language.",
-  "disque.p2.title": "Mango",
-  "disque.p2.meta": "2025 — metal, iron bar and perforated sheet metal",
-  "disque.p2.desc": "The first creation of 2025, also born from the return from Martinique, where the extraordinary flora and fauna feed the vocabulary of shapes.",
-  "disque.p3.title": "Mobile MOBILE",
-  "disque.p3.meta": "2025 — metal",
-  "disque.p3.desc": "\"It is written MOBILE\" — the first mobile of the physiological language, imagined as a playful meeting between Calder, Herbin and Magritte at a bar counter.",
-  "disque.p4.title": "Spiny lobster",
-  "disque.p4.meta": "2025 — metal",
-  "disque.p4.desc": "Third piece in the Martinique series. Iron bar and 1.5m perforated sheet metal. Private collection.",
-  "disque.p5.title": "Mobile",
-  "disque.p5.meta": "2025 — digital stencils",
-  "disque.p5.desc": "Balance, compensation, opposition, mastery of forces. Each shape/colour pair here corresponds to a letter of the alphabet.",
-  "disque.p6.title": "Ctenophore",
-  "disque.p6.meta": "2024 — Megaplanktos series, metal",
-  "disque.p6.desc": "One of the living creatures E9 Inertion encountered in the depths of the single ocean covering our planet. Bent, welded and painted iron bar.",
-  "disque.p7.title": "Cactusgun",
-  "disque.p7.meta": "Flower power guns series — iron, perforated sheet metal",
-  "disque.p7.desc": "Dedicated to the Villa Frouin garden: these floral weapons exist to spread happiness and life through pollination.",
-  "pyr.eyebrow": "Pyramid · 1 → 93",
-  "pyr.h1": "Periodic table",
-  "pyr.intro": "Element by element, E9 Inertion reworks Mendeleev's classification into a plastic alphabet. Each plate combines an atomic number, a background colour based on the chemical family, and a shape — all rendered as a digital stencil.",
-  "pyr.key1": "black shading = solid",
-  "pyr.key2": "pink background = actinide",
-  "pyr.key3": "beige background = alkaline earth metal",
-  "pyr.p1.title": "Gold",
-  "pyr.p1.meta": "2025 — digital art",
-  "pyr.p1.desc": "Black shading = solid, pink background = actinide. The element with atomic number 79, whose symbol Au comes from the Latin aurum.",
-  "pyr.p2.title": "Radium",
-  "pyr.p2.meta": "2026 — digital art",
-  "pyr.p2.desc": "Beige background = alkaline earth metal. White in its pure state, it blackens in open air — extremely radioactive, with a half-life of 1600 years.",
-  "pyr.p3.title": "Neptunium",
-  "pyr.p3.meta": "2026 — digital art",
-  "pyr.p3.desc": "Pink background = actinide. The first of the transuranium elements, discovered in 1940, named in echo of Neptune, which follows Uranus in the solar system.",
-  "pyr.p4.title": "Uranium",
-  "pyr.p4.meta": "2026 — digital art",
-  "pyr.p4.desc": "Pink background = actinide. Its radioactivity was discovered by Henri Becquerel in 1896, revealing a previously unknown phenomenon.",
-  "pyr.p5.title": "Bismuth",
-  "pyr.p5.meta": "2025 — digital art",
-  "pyr.p5.desc": "Grey background = post-transition metal. The fifth and last element of the pnictogen group.",
-  "pyr.p6.title": "Polonium",
-  "pyr.p6.meta": "2025 — digital art",
-  "pyr.p6.desc": "Grey background = post-transition metal. A radioactive metal, present in trace amounts in uranium ores.",
-  "para.eyebrow": "Rectangular prism · H · A · S · A · R · D",
-  "para.h1": "L'ombre du HASARD",
-  "para.intro": "Six panels, March 2026, tufted wool, max 120x70 cm each. Each panel translates a letter of the word HASARD into a shape/colour pair — rectangular prism, pyramid or disc — in the primary and secondary colours of E9 Inertion's physiological language.",
-  "para.subhead.h2": "The six panels",
-  "para.subhead.p": "H · A · S · A · R · D — each letter exists as an independent piece, meant to be read alone or recomposed into the full word.",
-  "para.p1.title": "H",
-  "para.p1.meta": "2026 — tufted wool, 120x70 cm",
-  "para.p1.desc": "The word's first panel. Shape/colour pair following the physiological language's code.",
-  "para.p2.title": "A (blue)",
-  "para.p2.meta": "2026 — tufted wool, 120x70 cm",
-  "para.p2.desc": "First occurrence of the vowel A, in blue — a primary colour of the language's consonants.",
-  "para.p3.title": "S",
-  "para.p3.meta": "2026 — tufted wool, 120x70 cm",
-  "para.p3.desc": "The word's third panel, same shape/colour code, hand-tufted.",
-  "para.p4.title": "A (green)",
-  "para.p4.meta": "2026 — tufted wool, 120x70 cm",
-  "para.p4.desc": "Second occurrence of the A, in green — a secondary colour that takes on the hue of neighbouring letters.",
-  "para.p5.title": "R",
-  "para.p5.meta": "2026 — tufted wool, 120x70 cm",
-  "para.p5.desc": "The penultimate panel, setting up the word's fall towards its final letter.",
-  "para.p6.title": "D",
-  "para.p6.meta": "2026 — tufted wool, 120x70 cm",
-  "para.p6.desc": "The last panel of the word HASARD, closing the series of six pieces.",
-  "para.tribute.title": "Francois JAUVION",
-  "para.tribute.meta": "2026 — tufted wool, 80x70 cm",
-  "para.tribute.p1": "A tufted rug outside the alphabet, given as a sign of friendship and support to a close friend going through illness. The sun sits alongside a few clouds, and a green sweater symbolises hope.",
-  "para.tribute.p2": "Made using the same medium as the HASARD series, this piece shows that the physiological language can also step aside to simply express affection.",
-  "serig.h1": "Screen prints",
-  "serig.intro": "E9 Inertion's print workshop publishes numbered, signed prints in small runs — a way of circulating the physiological language beyond one-off pieces.",
-  "serig.p1.meta": "2025 — screen print, 23 numbered and signed copies",
-  "serig.p1.title": "DEAD OR ALIVE series",
-  "serig.p1.desc": "A contemporary still life: a skull, a pointed-arch window echoing the Villa Frouin, and the geometric symbols of E9 Inertion's physiological language. The third screen print in the series.",
-  "serig.more.title": "Other prints from the workshop",
-  "serig.p2.tag": "Screen print",
-  "serig.p2.title": "Amour",
-  "serig.p2.desc": "A numbered print on paper, exploring the theme of love reinterpreted through the physiological language.",
-  "serig.p3.tag": "Screen print · 23 copies",
-  "serig.p3.title": "Villa Frouin",
-  "serig.p3.desc": "The print workshop's first series dedicated to the Villa Frouin in Hyères Costebelle. A3 format, 300g cardstock.",
-  "ships.h1": "Space ships",
-  "ships.intro": "E9 Inertion's space program, our space-time hero: weapon-sculptures in playful homage to Smith & Wesson, and a catalogue of photomontages gathered throughout his travels through buildings, homes and churches.",
-  "ships.p1.meta": "2026 — digital art, photomontage",
-  "ships.p1.title": "Space Ship Programme",
-  "ships.p1.desc": "The launch of an annual catalogue bringing together around a hundred photomontages made during E9 Inertion's travels, drawn from buildings, homes and churches spotted along the way.",
-  "ships.also.title": "See also",
-  "ships.also.p": "The space program's weapon-sculptures have their own gallery: <a href=\"spacegun.html\" style=\"text-decoration:underline;\">Space Gun</a>.",
-  "gun.eyebrow": "Comet · more than 45 pieces",
-  "gun.h1": "Space Gun",
-  "gun.intro": "Weapon-sculptures in welded, bent and painted round iron — an entire program of objects that exist only to carry a name, a silhouette, a wink. Since 2014, more than forty pieces make up this imaginary arsenal of the space-time hero E9 Inertion.",
-  "gun.p1.title": "X Space gun",
-  "gun.p1.meta": "2018 — metal, 300 cm of 6mm iron bar",
-  "gun.p1.desc": "Round iron bent, welded and painted over 300 centimetres. One of the major pieces of the space program, classified as \"outsider art\" by the platform hosting it.",
-  "gun.p2.title": "Robineuf",
-  "gun.p2.meta": "Metal — sculpture",
-  "gun.p2.desc": "Shown at the Salon d'Automne in Paris, this piece pays homage to André Robillard, an outsider art figure known for his own assembled rifles.",
-  "gun.origin.title": "Origins of the program",
-  "gun.origin.p": "It all began in 2014 with the first Smith & Frouin, a fierce and beautiful homage to the work of Smith & Wesson, made from smooth 6mm round iron and red metal paint. Then came the Kalach F, the Trompe de la mort, the Fire Cube Gun (FCG), The Old One, a collection of four mini Smith and Frouin, the Bazookaf, The Radiator, the Ozonateur, the JP Gun, the Air Radiation Gun, the Fish Gun, the Crocogun, the Revolver — and a series of numbered micro guns that now complete the space-time hero's full arsenal."
- },
- "de": {
-  "nav.legend": "Sprache",
-  "nav.etoile": "Stern",
-  "nav.serigraphies": "Siebdrucke",
-  "nav.spaceships": "Space ships",
-  "nav.spacegun": "Space gun",
-  "nav.about": "Über mich",
-  "nav.contact": "Kontakt",
-  "nav.pyr": "Pyramide",
-  "nav.para": "Quader",
-  "nav.disque": "Scheibe",
-  "cart.button": "Warenkorb",
-  "cart.title": "Ihre Auswahl",
-  "cart.empty": "Ihre Auswahl ist noch leer.",
-  "cart.dest_label": "Versand",
-  "cart.dest_fr": "Frankreich",
-  "cart.dest_eu": "Europa",
-  "cart.dest_intl": "International",
-  "cart.subtotal": "Zwischensumme",
-  "cart.shipping": "Versandkosten",
-  "cart.total": "Gesamt",
-  "cart.paypal": "Mit PayPal bezahlen",
-  "cart.email_btn": "Details per E-Mail senden",
-  "cart.note": "Die PayPal-Zahlung öffnet einen neuen Tab mit dem vorausgefüllten Gesamtbetrag. Bitte senden Sie die Details zusätzlich per E-Mail, damit Étienne weiß, welche Werke reserviert werden sollen.",
-  "piece.add_to_cart": "In den Warenkorb",
-  "piece.on_request": "Preis auf Anfrage →",
-  "piece.large_note": "3-m-Stück — Versandkosten auf Anfrage",
-  "hero.name": "Étienne Frouin",
-  "hero.tagline": "Kämpfe gegen alle, die dich am Träumen hindern wollen.",
-  "hero.sub": "Bildender Künstler. Malerei, Metallskulptur, Textilkunst, Schablonendruck — eine physiologische Sprache, in der jede Form und jede Farbe einem Buchstaben entspricht.",
-  "legend.title": "Die physiologische Sprache",
-  "legend.intro": "Drei Formen, ihre Primär- und Sekundärfarben: der Code, der jede Serie strukturiert. Betreten Sie über die Form, nicht über ein Menü.",
-  "shape.para.letter": "H · A · S",
-  "shape.para.title": "Quader",
-  "shape.para.desc": "Serie „L'ombre du HASARD\" — getuftete Wolle, 2026",
-  "shape.pyr.letter": "1 → 93",
-  "shape.pyr.title": "Pyramide",
-  "shape.pyr.desc": "Neu interpretiertes Periodensystem — Öl, Holz, Schablone",
-  "shape.disque.letter": "VIVRE",
-  "shape.disque.title": "Scheibe",
-  "shape.disque.desc": "Skulpturen & Objekte — Banane, Mobile, Langouste",
-  "shape.etoile.letter": "außerhalb des Codes",
-  "shape.etoile.title": "Stern",
-  "shape.etoile.desc": "Figurative Werke — Akte, Dialoge mit Mucha, Wesselmann",
-  "comete.eyebrow": "Komet · außerhalb des Codes",
-  "comete.title": "Komet",
-  "comete.intro": "Eine vierte Form, außerhalb des Drei-Formen-Codes: der Kreis und seine Spur, für alles, was reist — Drucke, die sich vervielfältigen, Schiffe, die sich entfernen.",
-  "comete.serig.letter": "Drucke",
-  "comete.serig.title": "Siebdrucke",
-  "comete.serig.desc": "Nummerierte Drucke aus der Druckwerkstatt — DEAD OR ALIVE, Amour, Villa Frouin",
-  "comete.ships.letter": "Programm",
-  "comete.ships.title": "Space ships",
-  "comete.ships.desc": "Der Katalog der Fotomontagen, gesammelt auf den Reisen von E9 Inertion",
-  "comete.gun.letter": "Arsenal",
-  "comete.gun.title": "Space gun",
-  "comete.gun.desc": "Mehr als 45 geschweißte Waffen-Skulpturen aus Eisen, seit dem ersten Smith & Frouin von 2014",
-  "about.title": "Über mich",
-  "about.quote1": "„Mein Ziel ist es nicht, darzustellen, sondern fühlbar zu machen: den Herzschlag, den Atem, die zelluläre Erinnerung. Diese Sprache soll nicht gelesen, sondern wahrgenommen werden.\"",
-  "about.p1": "Ich arbeite mit dem Lebensatem, der in der Materie steckt. Durch biomechanische Formen versuche ich, eine physiologische Sprache auszudrücken — ein organisches Alphabet aus Pulsationen, Spannungen und Stille. Jede Skulptur ist ein lebendiges Wesen, ein Körperfragment im Wandel, das eine universelle Botschaft trägt: die Verschmelzung von Mensch, Lebewesen und Maschine. Ich behandle Metall wie Haut — eine empfindliche Membran —, in der jede Falte, jede Schweißnaht zur Silbe einer vergessenen Sprache wird.",
-  "about.p2": "Diese Sprache entstand bei einem Besuch des Matisse-Museums in Le Cateau-Cambrésis, vor dem plastischen Alphabet von Auguste Herbin. Sie folgt dem Rhythmus des Lebens, dem Herzschlag, in drei ewigen Sequenzen: aufwärts, abwärts, Ruhe. Diese Sequenzen werden doppelt materialisiert, durch eine Form und eine Farbe — Quader, Pyramide, Scheibe — wiederholt über 13 Zyklen, um das vollständige Alphabet und die zehn Ziffern zu bilden, insgesamt 36 Symbole. Drei Primärfarben tragen die Konsonanten: Rot, Gelb, Blau. Die Vokale übernehmen die Sekundärfarben der sie umgebenden Buchstaben.",
-  "about.p3": "Geboren 1967, lebe und arbeite ich in der Villa Frouin in Hyères, wo ich zusammen mit der Textilkünstlerin Nadège Frouin ausstelle.",
-  "about.quote2": "Kämpfe gegen alle, die dich am Träumen hindern wollen.",
-  "etoile.eyebrow": "Stern · außerhalb des Codes",
-  "etoile.h1": "Figurative Werke",
-  "etoile.intro": "Keine feste Form, kein Buchstabe, keine vorgegebene Farbe: Hier schweigt die physiologische Sprache für einen Moment. Diese Werke treten in einen freien Dialog mit anderen Künstlern und rücken den Körper, den Akt, das Porträt wieder ins Zentrum — außerhalb jedes Codes.",
-  "etoile.p1.title": "Dialog mit Alfons Mucha",
-  "etoile.p1.meta": "Kohlezeichnung, in Volumen umgesetzt — 180x70x25 cm",
-  "etoile.p1.desc": "In Kohle auf MDF-Platte neu interpretiert, dann mit glatten runden Eisenstäben, gebogen und lichtbogengeschweißt, in Volumen umgesetzt.",
-  "etoile.p2.title": "Dialog mit Tom Wesselmann",
-  "etoile.p2.meta": "Mischtechnik, Holz, Metall, Kohle — 80x100x20 cm",
-  "etoile.p2.desc": "Entdeckt in der Zukunftsgalerie der TGB. Eine liegende Figur hinter ihrem Fenster, blauer Vorhang zugezogen, Zigarette in der Hand.",
-  "etoile.p3.title": "Bather in the garden",
-  "etoile.p3.meta": "6-mm-Eisenstab, gebogen, geschweißt, lackiert — 200x60x20 cm",
-  "etoile.p3.desc": "Eine Serie, die den weiblichen Körper, die Liebe, die Sinnlichkeit und die Leichtigkeit feiert.",
-  "etoile.p4.title": "Dialogue with Manet",
-  "etoile.p4.meta": "2018 — Holz und Metall, Kohle mit Ölakzenten",
-  "etoile.p4.desc": "Hommage an Édouard Manets Olympia, entdeckt auf einer imaginären Reise von E9 Inertion durch die Zukunftsgalerie der versunkenen Stadt U3.",
-  "disque.eyebrow": "Scheibe · Buchstabe der physiologischen Sprache",
-  "disque.h1": "Skulpturen & Objekte",
-  "disque.intro": "Eisenstab, gelochtes Blech, digitale Schablonen — jedes Stück übersetzt ein Form-Farb-Paar aus dem Alphabet von E9 Inertion in Volumen oder Objekt. In der Werkstatt der Villa Frouin in Hyères entstanden, schöpfen diese Skulpturen ihre Formen aus Fauna und Flora, bis hin zum Garten der Villa selbst.",
-  "disque.p1.title": "Banane (Skulptur)",
-  "disque.p1.meta": "2025 — Metall, 123 cm",
-  "disque.p1.desc": "Eisenstab und gelochtes Blech, entstanden nach einer inspirierenden Rückkehr aus Martinique. Die erste Schöpfung des Jahres in der physiologischen Sprache.",
-  "disque.p2.title": "Mango",
-  "disque.p2.meta": "2025 — Metall, Eisenstab und gelochtes Blech",
-  "disque.p2.desc": "Die erste Schöpfung des Jahres 2025, ebenfalls entstanden nach der Rückkehr aus Martinique, wo die außergewöhnliche Fauna und Flora das Formenvokabular nähren.",
-  "disque.p3.title": "Mobile MOBILE",
-  "disque.p3.meta": "2025 — Metall",
-  "disque.p3.desc": "„Es steht MOBILE geschrieben\" — das erste Mobile der physiologischen Sprache, erdacht als scherzhaftes Treffen von Calder, Herbin und Magritte an einer Bartheke.",
-  "disque.p4.title": "Languste",
-  "disque.p4.meta": "2025 — Metall",
-  "disque.p4.desc": "Drittes Werk der Martinique-Serie. Eisenstab und 1,5 m gelochtes Blech. Privatsammlung.",
-  "disque.p5.title": "Mobile",
-  "disque.p5.meta": "2025 — digitale Schablonen",
-  "disque.p5.desc": "Gleichgewicht, Ausgleich, Gegensatz, Beherrschung der Kräfte. Jedes Form-Farb-Paar entspricht hier einem Buchstaben des Alphabets.",
-  "disque.p6.title": "Rippenqualle",
-  "disque.p6.meta": "2024 — Serie Megaplanktos, Metall",
-  "disque.p6.desc": "Eines der Lebewesen, denen E9 Inertion in den Tiefen des einzigen Ozeans begegnete, der unseren Planeten bedeckt. Gebogener, geschweißter und lackierter Eisenstab.",
-  "disque.p7.title": "Cactusgun",
-  "disque.p7.meta": "Serie Flower Power Guns — Eisen, gelochtes Blech",
-  "disque.p7.desc": "Dem Garten der Villa Frouin gewidmet: Diese floralen Waffen sollen durch Bestäubung Glück und Leben verbreiten.",
-  "pyr.eyebrow": "Pyramide · 1 → 93",
-  "pyr.h1": "Periodensystem",
-  "pyr.intro": "Element für Element formt E9 Inertion die Klassifikation von Mendelejew in ein plastisches Alphabet um. Jede Tafel verbindet eine Ordnungszahl, eine Hintergrundfarbe je nach chemischer Familie und eine Form — alles als digitale Schablone umgesetzt.",
-  "pyr.key1": "schwarze Schattierung = fest",
-  "pyr.key2": "rosa Hintergrund = Aktinoid",
-  "pyr.key3": "beiger Hintergrund = Erdalkalimetall",
-  "pyr.p1.title": "Gold",
-  "pyr.p1.meta": "2025 — digitale Kunst",
-  "pyr.p1.desc": "Schwarze Schattierung = fest, rosa Hintergrund = Aktinoid. Das Element mit der Ordnungszahl 79, dessen Symbol Au vom lateinischen aurum stammt.",
-  "pyr.p2.title": "Radium",
-  "pyr.p2.meta": "2026 — digitale Kunst",
-  "pyr.p2.desc": "Beiger Hintergrund = Erdalkalimetall. In reinem Zustand weiß, schwärzt es sich an der Luft — extrem radioaktiv, Halbwertszeit von 1600 Jahren.",
-  "pyr.p3.title": "Neptunium",
-  "pyr.p3.meta": "2026 — digitale Kunst",
-  "pyr.p3.desc": "Rosa Hintergrund = Aktinoid. Das erste der Transurane, entdeckt 1940, benannt in Anlehnung an Neptun, der im Sonnensystem auf Uranus folgt.",
-  "pyr.p4.title": "Uran",
-  "pyr.p4.meta": "2026 — digitale Kunst",
-  "pyr.p4.desc": "Rosa Hintergrund = Aktinoid. Seine Radioaktivität wurde 1896 von Henri Becquerel entdeckt und enthüllte ein bis dahin unbekanntes Phänomen.",
-  "pyr.p5.title": "Bismut",
-  "pyr.p5.meta": "2025 — digitale Kunst",
-  "pyr.p5.desc": "Grauer Hintergrund = Metall der Kohlenstoffgruppe. Fünftes und letztes Element der Pentelgruppe.",
-  "pyr.p6.title": "Polonium",
-  "pyr.p6.meta": "2025 — digitale Kunst",
-  "pyr.p6.desc": "Grauer Hintergrund = Metall der Kohlenstoffgruppe. Ein radioaktives Metall, das in Spuren in Uranerzen vorkommt.",
-  "para.eyebrow": "Quader · H · A · S · A · R · D",
-  "para.h1": "L'ombre du HASARD",
-  "para.intro": "Sechs Tafeln, März 2026, getuftete Wolle, je max. 120x70 cm. Jede Tafel übersetzt einen Buchstaben des Wortes HASARD in ein Form-Farb-Paar — Quader, Pyramide oder Scheibe — in den Primär- und Sekundärfarben der physiologischen Sprache von E9 Inertion.",
-  "para.subhead.h2": "Die sechs Tafeln",
-  "para.subhead.p": "H · A · S · A · R · D — jeder Buchstabe existiert als eigenständiges Werk, gedacht zum alleinigen Lesen oder zur Neuzusammensetzung des ganzen Wortes.",
-  "para.p1.title": "H",
-  "para.p1.meta": "2026 — getuftete Wolle, 120x70 cm",
-  "para.p1.desc": "Die erste Tafel des Wortes. Form-Farb-Paar nach dem Code der physiologischen Sprache.",
-  "para.p2.title": "A (blau)",
-  "para.p2.meta": "2026 — getuftete Wolle, 120x70 cm",
-  "para.p2.desc": "Erstes Vorkommen des Vokals A, in Blau — einer Primärfarbe der Konsonanten der Sprache.",
-  "para.p3.title": "S",
-  "para.p3.meta": "2026 — getuftete Wolle, 120x70 cm",
-  "para.p3.desc": "Die dritte Tafel des Wortes, gleicher Form-Farb-Code, handgetuftet.",
-  "para.p4.title": "A (grün)",
-  "para.p4.meta": "2026 — getuftete Wolle, 120x70 cm",
-  "para.p4.desc": "Zweites Vorkommen des A, in Grün — eine Sekundärfarbe, die den Farbton der benachbarten Buchstaben annimmt.",
-  "para.p5.title": "R",
-  "para.p5.meta": "2026 — getuftete Wolle, 120x70 cm",
-  "para.p5.desc": "Die vorletzte Tafel, die den Fall des Wortes zum letzten Buchstaben hin vorbereitet.",
-  "para.p6.title": "D",
-  "para.p6.meta": "2026 — getuftete Wolle, 120x70 cm",
-  "para.p6.desc": "Die letzte Tafel des Wortes HASARD, die die Serie der sechs Werke abschließt.",
-  "para.tribute.title": "Francois JAUVION",
-  "para.tribute.meta": "2026 — getuftete Wolle, 80x70 cm",
-  "para.tribute.p1": "Ein getufteter Teppich außerhalb des Alphabets, geschenkt als Zeichen der Freundschaft und Unterstützung für einen nahestehenden Menschen, der eine Krankheit durchmacht. Die Sonne steht neben ein paar Wolken, und ein grüner Pullover symbolisiert Hoffnung.",
-  "para.tribute.p2": "In demselben Medium wie die HASARD-Serie gefertigt, zeigt dieses Werk, dass die physiologische Sprache auch zurücktreten kann, um einfach Zuneigung auszudrücken.",
-  "serig.h1": "Siebdrucke",
-  "serig.intro": "Die Druckwerkstatt von E9 Inertion veröffentlicht nummerierte, signierte Drucke in kleinen Auflagen — eine Möglichkeit, die physiologische Sprache über Unikate hinaus zu verbreiten.",
-  "serig.p1.meta": "2025 — Siebdruck, 23 nummerierte und signierte Exemplare",
-  "serig.p1.title": "Serie DEAD OR ALIVE",
-  "serig.p1.desc": "Ein zeitgenössisches Stillleben: ein Schädel, ein Spitzbogenfenster als Anspielung auf die Villa Frouin, und die geometrischen Symbole der physiologischen Sprache von E9 Inertion. Der dritte Siebdruck der Serie.",
-  "serig.more.title": "Weitere Drucke der Werkstatt",
-  "serig.p2.tag": "Siebdruck",
-  "serig.p2.title": "Amour",
-  "serig.p2.desc": "Ein nummerierter Druck auf Papier, der das Thema Liebe neu interpretiert durch die physiologische Sprache.",
-  "serig.p3.tag": "Siebdruck · 23 Exemplare",
-  "serig.p3.title": "Villa Frouin",
-  "serig.p3.desc": "Die erste Serie der Druckwerkstatt, die der Villa Frouin in Hyères Costebelle gewidmet ist. Format A3, 300g Karton.",
-  "ships.h1": "Space ships",
-  "ships.intro": "Das Weltraumprogramm von E9 Inertion, unserem Raum-Zeit-Helden: Waffen-Skulpturen als spielerische Hommage an Smith & Wesson, und ein Katalog von Fotomontagen, gesammelt auf seinen Reisen durch Gebäude, Anwesen und Kirchen.",
-  "ships.p1.meta": "2026 — digitale Kunst, Fotomontage",
-  "ships.p1.title": "Space Ship Programme",
-  "ships.p1.desc": "Der Start eines Jahreskatalogs mit rund hundert Fotomontagen, die auf den Reisen von E9 Inertion entstanden sind, aus Gebäuden, Anwesen und Kirchen, die unterwegs entdeckt wurden.",
-  "ships.also.title": "Siehe auch",
-  "ships.also.p": "Die Waffen-Skulpturen des Weltraumprogramms haben eine eigene Galerie: <a href=\"spacegun.html\" style=\"text-decoration:underline;\">Space Gun</a>.",
-  "gun.eyebrow": "Komet · mehr als 45 Werke",
-  "gun.h1": "Space Gun",
-  "gun.intro": "Waffen-Skulpturen aus geschweißtem, gebogenem und lackiertem Rundeisen — ein ganzes Programm von Objekten, die nur existieren, um einen Namen, eine Silhouette, ein Augenzwinkern zu tragen. Seit 2014 bilden mehr als vierzig Werke dieses imaginäre Arsenal des Raum-Zeit-Helden E9 Inertion.",
-  "gun.p1.title": "X Space gun",
-  "gun.p1.meta": "2018 — Metall, 300 cm Eisenstab 6 mm",
-  "gun.p1.desc": "Rundeisen, gebogen, geschweißt und lackiert, 300 Zentimeter lang. Eines der Hauptwerke des Weltraumprogramms, von der Plattform, die es hostet, als „Outsider Art\" eingestuft.",
-  "gun.p2.title": "Robineuf",
-  "gun.p2.meta": "Metall — Skulptur",
-  "gun.p2.desc": "Gezeigt auf dem Salon d'Automne in Paris, würdigt dieses Werk André Robillard, eine Figur der Art brut, bekannt für seine eigenen zusammengebauten Gewehre.",
-  "gun.origin.title": "Entstehung des Programms",
-  "gun.origin.p": "Alles begann 2014 mit dem ersten Smith & Frouin, einer kraftvollen und schönen Hommage an die Arbeit von Smith & Wesson, gefertigt aus glattem 6-mm-Rundeisen und roter Metalllackierung. Es folgten die Kalach F, die Trompe de la mort, die Fire Cube Gun (FCG), The Old One, eine Sammlung von vier Mini-Smith-and-Frouin, der Bazookaf, The Radiator, der Ozonateur, die JP Gun, die Air Radiation Gun, die Fish Gun, die Crocogun, der Revolver — sowie eine Serie nummerierter Micro Guns, die heute das vollständige Arsenal des Raum-Zeit-Helden vervollständigen."
- },
- "es": {
-  "nav.legend": "Lenguaje",
-  "nav.etoile": "Estrella",
-  "nav.serigraphies": "Serigrafías",
-  "nav.spaceships": "Space ships",
-  "nav.spacegun": "Space gun",
-  "nav.about": "Sobre mí",
-  "nav.contact": "Contacto",
-  "nav.pyr": "Pirámide",
-  "nav.para": "Paralelepípedo",
-  "nav.disque": "Disco",
-  "cart.button": "Carrito",
-  "cart.title": "Tu selección",
-  "cart.empty": "Tu selección está vacía por ahora.",
-  "cart.dest_label": "Envío",
-  "cart.dest_fr": "Francia",
-  "cart.dest_eu": "Europa",
-  "cart.dest_intl": "Internacional",
-  "cart.subtotal": "Subtotal",
-  "cart.shipping": "Gastos de envío",
-  "cart.total": "Total",
-  "cart.paypal": "Pagar con PayPal",
-  "cart.email_btn": "Enviar detalle por email",
-  "cart.note": "El pago con PayPal abre una nueva pestaña con el importe total ya rellenado. Envía también el detalle por email para que Étienne sepa qué obras reservar.",
-  "piece.add_to_cart": "Añadir al carrito",
-  "piece.on_request": "Precio bajo petición →",
-  "piece.large_note": "Pieza de 3m — gastos de envío bajo petición",
-  "hero.name": "Étienne Frouin",
-  "hero.tagline": "Lucha contra quienes quieren impedirte soñar.",
-  "hero.sub": "Artista plástico. Pintura, escultura en metal, arte textil, estarcido — un lenguaje fisiológico en el que cada forma y cada color corresponde a una letra.",
-  "legend.title": "El lenguaje fisiológico",
-  "legend.intro": "Tres formas, sus colores primarios y secundarios: el código que estructura cada serie. Entra por la forma, no por un menú.",
-  "shape.para.letter": "H · A · S",
-  "shape.para.title": "Paralelepípedo",
-  "shape.para.desc": "Serie «L'ombre du HASARD» — lana tufted, 2026",
-  "shape.pyr.letter": "1 → 93",
-  "shape.pyr.title": "Pirámide",
-  "shape.pyr.desc": "La tabla periódica reinventada — óleo, madera, esténcil",
-  "shape.disque.letter": "VIVRE",
-  "shape.disque.title": "Disco",
-  "shape.disque.desc": "Esculturas y objetos — Banane, Mobile, Langouste",
-  "shape.etoile.letter": "fuera del código",
-  "shape.etoile.title": "Estrella",
-  "shape.etoile.desc": "Obras figurativas — desnudos, diálogos con Mucha, Wesselmann",
-  "comete.eyebrow": "Cometa · fuera del código",
-  "comete.title": "Cometa",
-  "comete.intro": "Una cuarta forma, fuera del código de tres: el círculo y su estela, para todo lo que viaja — las estampas que se multiplican, las naves que se alejan.",
-  "comete.serig.letter": "Estampas",
-  "comete.serig.title": "Serigrafías",
-  "comete.serig.desc": "Estampas numeradas del taller de impresión — DEAD OR ALIVE, Amour, Villa Frouin",
-  "comete.ships.letter": "Programa",
-  "comete.ships.title": "Space ships",
-  "comete.ships.desc": "El catálogo de fotomontajes recopilado a lo largo de los viajes de E9 Inertion",
-  "comete.gun.letter": "Arsenal",
-  "comete.gun.title": "Space gun",
-  "comete.gun.desc": "Más de 45 esculturas-armas de hierro soldado, desde el primer Smith & Frouin de 2014",
-  "about.title": "Sobre mí",
-  "about.quote1": "«Mi objetivo no es representar, sino hacer sentir: el latido, la respiración, la memoria celular. Este lenguaje no está hecho para leerse, sino para percibirse.»",
-  "about.p1": "Trabajo el aliento vital alojado en la materia. A través de formas biomecánicas, busco expresar un lenguaje fisiológico — un alfabeto orgánico hecho de pulsaciones, tensiones y silencios. Cada escultura es una entidad viva, un fragmento de cuerpo en transformación, portador de un mensaje universal: la fusión de lo humano, lo vivo y la máquina. Trato el metal como piel — una membrana sensible — donde cada pliegue, cada soldadura se convierte en la sílaba de una lengua olvidada.",
-  "about.p2": "Este lenguaje nació de una visita al museo Matisse de Cateau-Cambrésis, ante el alfabeto plástico de Auguste Herbin. Sigue el ritmo de la vida, el ritmo cardíaco, en tres secuencias eternas: arriba, abajo, reposo. Estas secuencias se materializan doblemente, mediante una forma y un color — paralelepípedo, pirámide, disco — repetidos en 13 ciclos para formar el alfabeto completo y las diez cifras, es decir, 36 símbolos. Tres colores primarios llevan las consonantes: rojo, amarillo, azul. Las vocales toman los colores secundarios de las letras que las rodean.",
-  "about.p3": "Nacido en 1967, vivo y trabajo en la Villa Frouin, en Hyères, donde expongo junto a Nadège Frouin, artista textil.",
-  "about.quote2": "Lucha contra quienes quieren impedirte soñar.",
-  "etoile.eyebrow": "Estrella · fuera del código",
-  "etoile.h1": "Obras figurativas",
-  "etoile.intro": "Ninguna forma fija, ninguna letra, ningún color impuesto: aquí el lenguaje fisiológico calla por un instante. Estas piezas dialogan libremente con otros artistas y devuelven el cuerpo, el desnudo, el retrato al centro — fuera de todo código.",
-  "etoile.p1.title": "Diálogo con Alfons Mucha",
-  "etoile.p1.meta": "Dibujo al carboncillo, llevado a volumen — 180x70x25 cm",
-  "etoile.p1.desc": "Reinterpretado al carboncillo sobre panel de MDF, y luego llevado a volumen con barras de hierro redondo liso, curvadas y soldadas al arco.",
-  "etoile.p2.title": "Diálogo con Tom Wesselmann",
-  "etoile.p2.meta": "Técnica mixta, madera, metal, carboncillo — 80x100x20 cm",
-  "etoile.p2.desc": "Descubierta en la galería del futuro de la TGB. Una figura reclinada tras su ventana, con la cortina azul corrida, cigarrillo en mano.",
-  "etoile.p3.title": "Bather in the garden",
-  "etoile.p3.meta": "Barra de hierro de 6mm, curvada, soldada, pintada — 200x60x20 cm",
-  "etoile.p3.desc": "Una serie que exalta el cuerpo de la mujer, el amor, la sensualidad, la ligereza.",
-  "etoile.p4.title": "Dialogue with Manet",
-  "etoile.p4.meta": "2018 — madera y metal, carboncillo realzado con óleo",
-  "etoile.p4.desc": "Homenaje a la Olympia de Édouard Manet, descubierta durante un viaje imaginario de E9 Inertion por la Galería del Futuro de la ciudad sumergida U3.",
-  "disque.eyebrow": "Disco · letra del lenguaje fisiológico",
-  "disque.h1": "Esculturas y objetos",
-  "disque.intro": "Barra de hierro, chapa perforada, esténciles digitales — cada pieza traduce un par forma/color del alfabeto de E9 Inertion en volumen u objeto. Creadas en el taller de la Villa Frouin en Hyères, estas esculturas toman sus formas de la fauna y la flora, hasta el propio jardín de la villa.",
-  "disque.p1.title": "Plátano (escultura)",
-  "disque.p1.meta": "2025 — metal, 123 cm",
-  "disque.p1.desc": "Barra de hierro y chapa perforada, nacida de un inspirador regreso de Martinica. Primera creación del año según el lenguaje fisiológico.",
-  "disque.p2.title": "Mango",
-  "disque.p2.meta": "2025 — metal, barra de hierro y chapa perforada",
-  "disque.p2.desc": "Primera creación de 2025, nacida también del regreso de Martinica, donde la fauna y la flora fuera de lo común alimentan el vocabulario de formas.",
-  "disque.p3.title": "Mobile MOBILE",
-  "disque.p3.meta": "2025 — metal",
-  "disque.p3.desc": "«Está escrito MOBILE» — el primer móvil del lenguaje fisiológico, imaginado como el encuentro travieso de Calder, Herbin y Magritte en la barra de un bar.",
-  "disque.p4.title": "Langosta",
-  "disque.p4.meta": "2025 — metal",
-  "disque.p4.desc": "Tercera pieza de la serie de Martinica. Barra de hierro y chapa perforada de 1,5 m. Colección particular.",
-  "disque.p5.title": "Móvil",
-  "disque.p5.meta": "2025 — esténciles digitales",
-  "disque.p5.desc": "Equilibrio, compensación, oposición, dominio de las fuerzas. Cada par forma/color corresponde aquí a una letra del alfabeto.",
-  "disque.p6.title": "Ctenóforo",
-  "disque.p6.meta": "2024 — serie Megaplanktos, metal",
-  "disque.p6.desc": "Uno de los seres vivos que E9 Inertion encontró en las profundidades del único océano que cubre nuestro planeta. Barra de hierro curvada, soldada y pintada.",
-  "disque.p7.title": "Cactusgun",
-  "disque.p7.meta": "Serie flower power guns — hierro, chapa perforada",
-  "disque.p7.desc": "Dedicada al jardín de la Villa Frouin: estas armas florales tienen como misión repartir felicidad y vida mediante la polinización.",
-  "pyr.eyebrow": "Pirámide · 1 → 93",
-  "pyr.h1": "Tabla periódica",
-  "pyr.intro": "Elemento tras elemento, E9 Inertion reinterpreta la clasificación de Mendeléiev en un alfabeto plástico. Cada lámina asocia un número atómico, un color de fondo según la familia química y una forma — todo ello traducido en esténcil digital.",
-  "pyr.key1": "sombra negra = sólido",
-  "pyr.key2": "fondo rosa = actínido",
-  "pyr.key3": "fondo beige = alcalinotérreo",
-  "pyr.p1.title": "Oro",
-  "pyr.p1.meta": "2025 — arte digital",
-  "pyr.p1.desc": "Sombra negra = sólido, fondo rosa = actínido. El elemento de número atómico 79, cuyo símbolo Au proviene del latín aurum.",
-  "pyr.p2.title": "Radio",
-  "pyr.p2.meta": "2026 — arte digital",
-  "pyr.p2.desc": "Fondo beige = alcalinotérreo. Blanco en estado puro, se ennegrece al aire libre — extremadamente radiactivo, con una semivida de 1600 años.",
-  "pyr.p3.title": "Neptunio",
-  "pyr.p3.meta": "2026 — arte digital",
-  "pyr.p3.desc": "Fondo rosa = actínido. El primero de los transuránidos, descubierto en 1940, bautizado en eco a Neptuno, que sigue a Urano en el sistema solar.",
-  "pyr.p4.title": "Uranio",
-  "pyr.p4.meta": "2026 — arte digital",
-  "pyr.p4.desc": "Fondo rosa = actínido. Su radiactividad fue descubierta por Henri Becquerel en 1896, revelando un fenómeno hasta entonces desconocido.",
-  "pyr.p5.title": "Bismuto",
-  "pyr.p5.meta": "2025 — arte digital",
-  "pyr.p5.desc": "Fondo gris = metal pobre. Quinto y último elemento del grupo de los pnictógenos.",
-  "pyr.p6.title": "Polonio",
-  "pyr.p6.meta": "2025 — arte digital",
-  "pyr.p6.desc": "Fondo gris = metal pobre. Metal radiactivo, presente en cantidades traza en los minerales de uranio.",
-  "para.eyebrow": "Paralelepípedo · H · A · S · A · R · D",
-  "para.h1": "L'ombre du HASARD",
-  "para.intro": "Seis paneles, marzo de 2026, lana tufted, máx. 120x70 cm cada uno. Cada panel traduce una letra de la palabra HASARD en un par forma/color — paralelepípedo, pirámide o disco — en los colores primarios y secundarios del lenguaje fisiológico de E9 Inertion.",
-  "para.subhead.h2": "Los seis paneles",
-  "para.subhead.p": "H · A · S · A · R · D — cada letra existe como pieza independiente, pensada para leerse sola o recomponerse en la palabra completa.",
-  "para.p1.title": "H",
-  "para.p1.meta": "2026 — lana tufted, 120x70 cm",
-  "para.p1.desc": "Primer panel de la palabra. Par forma/color según el código del lenguaje fisiológico.",
-  "para.p2.title": "A (azul)",
-  "para.p2.meta": "2026 — lana tufted, 120x70 cm",
-  "para.p2.desc": "Primera aparición de la vocal A, en azul — color primario de las consonantes del lenguaje.",
-  "para.p3.title": "S",
-  "para.p3.meta": "2026 — lana tufted, 120x70 cm",
-  "para.p3.desc": "Tercer panel de la palabra, mismo código forma/color, tufado a mano.",
-  "para.p4.title": "A (verde)",
-  "para.p4.meta": "2026 — lana tufted, 120x70 cm",
-  "para.p4.desc": "Segunda aparición de la A, en verde — color secundario que toma el matiz de las letras vecinas.",
-  "para.p5.title": "R",
-  "para.p5.meta": "2026 — lana tufted, 120x70 cm",
-  "para.p5.desc": "Penúltimo panel, que prepara la caída de la palabra hacia la letra final.",
-  "para.p6.title": "D",
-  "para.p6.meta": "2026 — lana tufted, 120x70 cm",
-  "para.p6.desc": "Último panel de la palabra HASARD, que cierra la serie de las seis piezas.",
-  "para.tribute.title": "Francois JAUVION",
-  "para.tribute.meta": "2026 — lana tufted, 80x70 cm",
-  "para.tribute.p1": "Una alfombra tufted fuera del alfabeto, regalada como muestra de amistad y apoyo a un ser querido que atraviesa una enfermedad. El sol convive con algunas nubes, y un jersey verde simboliza la esperanza.",
-  "para.tribute.p2": "Realizada con el mismo medio que la serie HASARD, esta pieza muestra que el lenguaje fisiológico también sabe apartarse para expresar, simplemente, el cariño.",
-  "serig.h1": "Serigrafías",
-  "serig.intro": "El taller de impresión de E9 Inertion edita estampas numeradas y firmadas, en tiradas pequeñas — una forma de hacer circular el lenguaje fisiológico más allá de las piezas únicas.",
-  "serig.p1.meta": "2025 — serigrafía, 23 ejemplares numerados y firmados",
-  "serig.p1.title": "Serie DEAD OR ALIVE",
-  "serig.p1.desc": "Una naturaleza muerta contemporánea: una calavera, una ventana ojival en eco a la Villa Frouin, y los símbolos geométricos del lenguaje fisiológico de E9 Inertion. Tercera serigrafía de la serie.",
-  "serig.more.title": "Otras estampas del taller",
-  "serig.p2.tag": "Serigrafía",
-  "serig.p2.title": "Amour",
-  "serig.p2.desc": "Estampa numerada sobre papel, en torno al tema del amor reinterpretado por el lenguaje fisiológico.",
-  "serig.p3.tag": "Serigrafía · 23 ejemplares",
-  "serig.p3.title": "Villa Frouin",
-  "serig.p3.desc": "Primera serie del taller de impresión dedicada a la Villa Frouin en Hyères Costebelle. Formato A3, papel cartulina de 300g.",
-  "ships.h1": "Space ships",
-  "ships.intro": "El programa espacial de E9 Inertion, nuestro héroe espacio-temporal: esculturas-armas en homenaje travieso a Smith & Wesson, y un catálogo de fotomontajes recopilado a lo largo de sus viajes por edificios, mansiones e iglesias.",
-  "ships.p1.meta": "2026 — arte digital, fotomontaje",
-  "ships.p1.title": "Space Ship Programme",
-  "ships.p1.desc": "El lanzamiento de un catálogo anual que reúne un centenar de fotomontajes realizados durante los viajes de E9 Inertion, a partir de edificios, mansiones e iglesias avistados en el camino.",
-  "ships.also.title": "Ver también",
-  "ships.also.p": "Las esculturas-armas del programa espacial tienen su propia galería: <a href=\"spacegun.html\" style=\"text-decoration:underline;\">Space Gun</a>.",
-  "gun.eyebrow": "Cometa · más de 45 piezas",
-  "gun.h1": "Space Gun",
-  "gun.intro": "Esculturas-armas de hierro redondo soldado, curvado y pintado — todo un programa de objetos que existen solo para llevar un nombre, una silueta, un guiño. Desde 2014, más de cuarenta piezas componen este arsenal imaginario del héroe espacio-temporal E9 Inertion.",
-  "gun.p1.title": "X Space gun",
-  "gun.p1.meta": "2018 — metal, 300 cm de barra de hierro de 6mm",
-  "gun.p1.desc": "Hierro redondo curvado, soldado y pintado a lo largo de 300 centímetros. Una de las piezas principales del programa espacial, clasificada como \"arte marginal\" (outsider art) por la plataforma que la aloja.",
-  "gun.p2.title": "Robineuf",
-  "gun.p2.meta": "Metal — escultura",
-  "gun.p2.desc": "Presentada en el Salon d'Automne de París, esta pieza rinde homenaje a André Robillard, figura del art brut conocida por sus propios fusiles ensamblados.",
-  "gun.origin.title": "Génesis del programa",
-  "gun.origin.p": "Todo comienza en 2014 con el primer Smith & Frouin, un homenaje crudo y hermoso al trabajo de Smith & Wesson, realizado en hierro redondo liso de 6mm y pintura metálica roja. Le siguen la Kalach F, la Trompe de la mort, la Fire Cube Gun (FCG), The Old One, una colección de cuatro mini Smith and Frouin, el Bazookaf, The Radiator, el Ozonateur, la JP Gun, la Air Radiation Gun, la Fish Gun, la Crocogun, el Revolver — y una serie de micro guns numeradas que completan hoy el arsenal completo del héroe espacio-temporal."
- },
- "it": {
-  "nav.legend": "Linguaggio",
-  "nav.etoile": "Stella",
-  "nav.serigraphies": "Serigrafie",
-  "nav.spaceships": "Space ships",
-  "nav.spacegun": "Space gun",
-  "nav.about": "Chi sono",
-  "nav.contact": "Contatti",
-  "nav.pyr": "Piramide",
-  "nav.para": "Parallelepipedo",
-  "nav.disque": "Disco",
-  "cart.button": "Carrello",
-  "cart.title": "La tua selezione",
-  "cart.empty": "La tua selezione è vuota per ora.",
-  "cart.dest_label": "Spedizione",
-  "cart.dest_fr": "Francia",
-  "cart.dest_eu": "Europa",
-  "cart.dest_intl": "Internazionale",
-  "cart.subtotal": "Subtotale",
-  "cart.shipping": "Spese di spedizione",
-  "cart.total": "Totale",
-  "cart.paypal": "Paga con PayPal",
-  "cart.email_btn": "Invia il dettaglio via email",
-  "cart.note": "Il pagamento PayPal apre una nuova scheda con l'importo totale precompilato. Invia anche il dettaglio via email così Étienne sa quali opere riservare.",
-  "piece.add_to_cart": "Aggiungi al carrello",
-  "piece.on_request": "Prezzo su richiesta →",
-  "piece.large_note": "Pezzo da 3m — spese di spedizione su richiesta",
-  "hero.name": "Étienne Frouin",
-  "hero.tagline": "Combatti contro chi vuole impedirti di sognare.",
-  "hero.sub": "Artista visivo. Pittura, scultura in metallo, arte tessile, stencil — un linguaggio fisiologico in cui ogni forma e ogni colore corrisponde a una lettera.",
-  "legend.title": "Il linguaggio fisiologico",
-  "legend.intro": "Tre forme, i loro colori primari e secondari: il codice che struttura ogni serie. Entra dalla forma, non da un menu.",
-  "shape.para.letter": "H · A · S",
-  "shape.para.title": "Parallelepipedo",
-  "shape.para.desc": "Serie «L'ombre du HASARD» — lana tufted, 2026",
-  "shape.pyr.letter": "1 → 93",
-  "shape.pyr.title": "Piramide",
-  "shape.pyr.desc": "La tavola periodica reinterpretata — olio, legno, stencil",
-  "shape.disque.letter": "VIVRE",
-  "shape.disque.title": "Disco",
-  "shape.disque.desc": "Sculture e oggetti — Banane, Mobile, Langouste",
-  "shape.etoile.letter": "fuori dal codice",
-  "shape.etoile.title": "Stella",
-  "shape.etoile.desc": "Opere figurative — nudi, dialoghi con Mucha, Wesselmann",
-  "comete.eyebrow": "Cometa · fuori dal codice",
-  "comete.title": "Cometa",
-  "comete.intro": "Una quarta forma, fuori dal codice a tre: il cerchio e la sua scia, per tutto ciò che viaggia — le stampe che si moltiplicano, le navi che si allontanano.",
-  "comete.serig.letter": "Stampe",
-  "comete.serig.title": "Serigrafie",
-  "comete.serig.desc": "Stampe numerate del laboratorio di stampa — DEAD OR ALIVE, Amour, Villa Frouin",
-  "comete.ships.letter": "Programma",
-  "comete.ships.title": "Space ships",
-  "comete.ships.desc": "Il catalogo di fotomontaggi raccolto durante i viaggi di E9 Inertion",
-  "comete.gun.letter": "Arsenale",
-  "comete.gun.title": "Space gun",
-  "comete.gun.desc": "Oltre 45 sculture-arma in ferro saldato, dal primo Smith & Frouin del 2014",
-  "about.title": "Chi sono",
-  "about.quote1": "«Il mio obiettivo non è rappresentare, ma far sentire: il battito cardiaco, il respiro, la memoria cellulare. Questo linguaggio non è fatto per essere letto, ma percepito.»",
-  "about.p1": "Lavoro il respiro vitale racchiuso nella materia. Attraverso forme biomeccaniche, cerco di esprimere un linguaggio fisiologico — un alfabeto organico fatto di pulsazioni, tensioni e silenzi. Ogni scultura è un'entità vivente, un frammento di corpo in trasformazione, portatore di un messaggio universale: la fusione dell'umano, del vivente e della macchina. Tratto il metallo come una pelle — una membrana sensibile — dove ogni piega, ogni saldatura diventa la sillaba di una lingua dimenticata.",
-  "about.p2": "Questo linguaggio è nato da una visita al museo Matisse di Cateau-Cambrésis, davanti all'alfabeto plastico di Auguste Herbin. Segue il ritmo della vita, il battito cardiaco, in tre sequenze eterne: su, giù, riposo. Queste sequenze si materializzano doppiamente, tramite una forma e un colore — parallelepipedo, piramide, disco — ripetute su 13 cicli per formare l'alfabeto completo e le dieci cifre, cioè 36 simboli. Tre colori primari portano le consonanti: rosso, giallo, blu. Le vocali prendono i colori secondari delle lettere che le circondano.",
-  "about.p3": "Nato nel 1967, vivo e lavoro alla Villa Frouin, a Hyères, dove espongo accanto a Nadège Frouin, artista tessile.",
-  "about.quote2": "Combatti contro chi vuole impedirti di sognare.",
-  "etoile.eyebrow": "Stella · fuori dal codice",
-  "etoile.h1": "Opere figurative",
-  "etoile.intro": "Nessuna forma fissa, nessuna lettera, nessun colore imposto: qui il linguaggio fisiologico tace per un istante. Queste opere dialogano liberamente con altri artisti e rimettono il corpo, il nudo, il ritratto al centro — fuori da ogni codice.",
-  "etoile.p1.title": "Dialogo con Alfons Mucha",
-  "etoile.p1.meta": "Disegno a carboncino, trasformato in volume — 180x70x25 cm",
-  "etoile.p1.desc": "Ripreso a carboncino su pannello di MDF, poi trasformato in volume con barre di ferro tondo liscio, piegate e saldate ad arco.",
-  "etoile.p2.title": "Dialogo con Tom Wesselmann",
-  "etoile.p2.meta": "Tecnica mista, legno, metallo, carboncino — 80x100x20 cm",
-  "etoile.p2.desc": "Scoperta nella galleria del futuro della TGB. Una figura sdraiata dietro la sua finestra, tenda blu tirata, sigaretta in mano.",
-  "etoile.p3.title": "Bather in the garden",
-  "etoile.p3.meta": "Barra di ferro da 6mm, piegata, saldata, verniciata — 200x60x20 cm",
-  "etoile.p3.desc": "Una serie che celebra il corpo della donna, l'amore, la sensualità, la leggerezza.",
-  "etoile.p4.title": "Dialogue with Manet",
-  "etoile.p4.meta": "2018 — legno e metallo, carboncino rialzato a olio",
-  "etoile.p4.desc": "Omaggio all'Olympia di Édouard Manet, scoperta durante un viaggio immaginario di E9 Inertion nella Galleria del Futuro della città sommersa U3.",
-  "disque.eyebrow": "Disco · lettera del linguaggio fisiologico",
-  "disque.h1": "Sculture e oggetti",
-  "disque.intro": "Barra di ferro, lamiera forata, stencil digitali — ogni pezzo traduce una coppia forma/colore dell'alfabeto di E9 Inertion in volume o oggetto. Realizzate nel laboratorio della Villa Frouin a Hyères, queste sculture traggono le loro forme dalla fauna e dalla flora, fino al giardino stesso della villa.",
-  "disque.p1.title": "Banana (scultura)",
-  "disque.p1.meta": "2025 — metallo, 123 cm",
-  "disque.p1.desc": "Barra di ferro e lamiera forata, nata da un ispirante ritorno dalla Martinica. Prima creazione dell'anno secondo il linguaggio fisiologico.",
-  "disque.p2.title": "Mango",
-  "disque.p2.meta": "2025 — metallo, barra di ferro e lamiera forata",
-  "disque.p2.desc": "Prima creazione del 2025, nata anch'essa dal ritorno dalla Martinica, dove la fauna e la flora fuori dal comune alimentano il vocabolario di forme.",
-  "disque.p3.title": "Mobile MOBILE",
-  "disque.p3.meta": "2025 — metallo",
-  "disque.p3.desc": "«È scritto MOBILE» — il primo mobile del linguaggio fisiologico, immaginato come l'incontro scherzoso tra Calder, Herbin e Magritte al bancone di un bar.",
-  "disque.p4.title": "Aragosta",
-  "disque.p4.meta": "2025 — metallo",
-  "disque.p4.desc": "Terzo pezzo della serie martinicana. Barra di ferro e lamiera forata di 1,5 m. Collezione privata.",
-  "disque.p5.title": "Mobile",
-  "disque.p5.meta": "2025 — stencil digitali",
-  "disque.p5.desc": "Equilibrio, compensazione, opposizione, padronanza delle forze. Ogni coppia forma/colore corrisponde qui a una lettera dell'alfabeto.",
-  "disque.p6.title": "Ctenoforo",
-  "disque.p6.meta": "2024 — serie Megaplanktos, metallo",
-  "disque.p6.desc": "Uno degli esseri viventi che E9 Inertion incontrò negli abissi dell'unico oceano che ricopre il nostro pianeta. Barra di ferro piegata, saldata e verniciata.",
-  "disque.p7.title": "Cactusgun",
-  "disque.p7.meta": "Serie flower power guns — ferro, lamiera forata",
-  "disque.p7.desc": "Dedicata al giardino della Villa Frouin: queste armi floreali sono destinate a diffondere felicità e vita tramite l'impollinazione.",
-  "pyr.eyebrow": "Piramide · 1 → 93",
-  "pyr.h1": "Tavola periodica",
-  "pyr.intro": "Elemento dopo elemento, E9 Inertion reinterpreta la classificazione di Mendeleev in un alfabeto plastico. Ogni tavola associa un numero atomico, un colore di sfondo secondo la famiglia chimica e una forma — il tutto tradotto in stencil digitale.",
-  "pyr.key1": "ombra nera = solido",
-  "pyr.key2": "sfondo rosa = attinide",
-  "pyr.key3": "sfondo beige = metallo alcalino-terroso",
-  "pyr.p1.title": "Oro",
-  "pyr.p1.meta": "2025 — arte digitale",
-  "pyr.p1.desc": "Ombra nera = solido, sfondo rosa = attinide. L'elemento di numero atomico 79, il cui simbolo Au deriva dal latino aurum.",
-  "pyr.p2.title": "Radio",
-  "pyr.p2.meta": "2026 — arte digitale",
-  "pyr.p2.desc": "Sfondo beige = metallo alcalino-terroso. Bianco allo stato puro, annerisce all'aria aperta — estremamente radioattivo, con un'emivita di 1600 anni.",
-  "pyr.p3.title": "Nettunio",
-  "pyr.p3.meta": "2026 — arte digitale",
-  "pyr.p3.desc": "Sfondo rosa = attinide. Il primo dei transuranici, scoperto nel 1940, battezzato in eco a Nettuno, che segue Urano nel sistema solare.",
-  "pyr.p4.title": "Uranio",
-  "pyr.p4.meta": "2026 — arte digitale",
-  "pyr.p4.desc": "Sfondo rosa = attinide. La sua radioattività fu scoperta da Henri Becquerel nel 1896, rivelando un fenomeno fino ad allora sconosciuto.",
-  "pyr.p5.title": "Bismuto",
-  "pyr.p5.meta": "2025 — arte digitale",
-  "pyr.p5.desc": "Sfondo grigio = metallo povero. Quinto e ultimo elemento del gruppo degli pnictogeni.",
-  "pyr.p6.title": "Polonio",
-  "pyr.p6.meta": "2025 — arte digitale",
-  "pyr.p6.desc": "Sfondo grigio = metallo povero. Metallo radioattivo, presente in tracce nei minerali di uranio.",
-  "para.eyebrow": "Parallelepipedo · H · A · S · A · R · D",
-  "para.h1": "L'ombre du HASARD",
-  "para.intro": "Sei pannelli, marzo 2026, lana tufted, max 120x70 cm ciascuno. Ogni pannello traduce una lettera della parola HASARD in una coppia forma/colore — parallelepipedo, piramide o disco — nei colori primari e secondari del linguaggio fisiologico di E9 Inertion.",
-  "para.subhead.h2": "I sei pannelli",
-  "para.subhead.p": "H · A · S · A · R · D — ogni lettera esiste come opera indipendente, pensata per essere letta da sola o ricomposta nella parola completa.",
-  "para.p1.title": "H",
-  "para.p1.meta": "2026 — lana tufted, 120x70 cm",
-  "para.p1.desc": "Primo pannello della parola. Coppia forma/colore secondo il codice del linguaggio fisiologico.",
-  "para.p2.title": "A (blu)",
-  "para.p2.meta": "2026 — lana tufted, 120x70 cm",
-  "para.p2.desc": "Prima occorrenza della vocale A, in blu — colore primario delle consonanti del linguaggio.",
-  "para.p3.title": "S",
-  "para.p3.meta": "2026 — lana tufted, 120x70 cm",
-  "para.p3.desc": "Terzo pannello della parola, stesso codice forma/colore, tufting a mano.",
-  "para.p4.title": "A (verde)",
-  "para.p4.meta": "2026 — lana tufted, 120x70 cm",
-  "para.p4.desc": "Seconda occorrenza della A, in verde — colore secondario che assume la tonalità delle lettere vicine.",
-  "para.p5.title": "R",
-  "para.p5.meta": "2026 — lana tufted, 120x70 cm",
-  "para.p5.desc": "Penultimo pannello, che prepara la caduta della parola verso la lettera finale.",
-  "para.p6.title": "D",
-  "para.p6.meta": "2026 — lana tufted, 120x70 cm",
-  "para.p6.desc": "Ultimo pannello della parola HASARD, che chiude la serie delle sei opere.",
-  "para.tribute.title": "Francois JAUVION",
-  "para.tribute.meta": "2026 — lana tufted, 80x70 cm",
-  "para.tribute.p1": "Un tappeto tufted fuori dall'alfabeto, regalato come segno di amicizia e sostegno a una persona cara che affronta la malattia. Il sole convive con qualche nuvola, e un maglione verde simboleggia la speranza.",
-  "para.tribute.p2": "Realizzata con lo stesso medium della serie HASARD, quest'opera mostra che il linguaggio fisiologico sa anche farsi da parte per dire, semplicemente, l'affetto.",
-  "serig.h1": "Serigrafie",
-  "serig.intro": "Il laboratorio di stampa di E9 Inertion pubblica stampe numerate e firmate, in piccole tirature — un modo per far circolare il linguaggio fisiologico oltre i pezzi unici.",
-  "serig.p1.meta": "2025 — serigrafia, 23 esemplari numerati e firmati",
-  "serig.p1.title": "Serie DEAD OR ALIVE",
-  "serig.p1.desc": "Una natura morta contemporanea: un teschio, una finestra ogivale che richiama la Villa Frouin, e i simboli geometrici del linguaggio fisiologico di E9 Inertion. Terza serigrafia della serie.",
-  "serig.more.title": "Altre stampe del laboratorio",
-  "serig.p2.tag": "Serigrafia",
-  "serig.p2.title": "Amour",
-  "serig.p2.desc": "Stampa numerata su carta, sul tema dell'amore reinterpretato attraverso il linguaggio fisiologico.",
-  "serig.p3.tag": "Serigrafia · 23 esemplari",
-  "serig.p3.title": "Villa Frouin",
-  "serig.p3.desc": "Prima serie del laboratorio di stampa dedicata alla Villa Frouin a Hyères Costebelle. Formato A3, cartoncino 300g.",
-  "ships.h1": "Space ships",
-  "ships.intro": "Il programma spaziale di E9 Inertion, il nostro eroe spazio-temporale: sculture-arma in omaggio scherzoso a Smith & Wesson, e un catalogo di fotomontaggi raccolto durante i suoi viaggi tra edifici, dimore e chiese.",
-  "ships.p1.meta": "2026 — arte digitale, fotomontaggio",
-  "ships.p1.title": "Space Ship Programme",
-  "ships.p1.desc": "Il lancio di un catalogo annuale che raccoglie un centinaio di fotomontaggi realizzati durante i viaggi di E9 Inertion, tratti da edifici, dimore e chiese incontrati lungo il cammino.",
-  "ships.also.title": "Vedi anche",
-  "ships.also.p": "Le sculture-arma del programma spaziale hanno una propria galleria: <a href=\"spacegun.html\" style=\"text-decoration:underline;\">Space Gun</a>.",
-  "gun.eyebrow": "Cometa · oltre 45 opere",
-  "gun.h1": "Space Gun",
-  "gun.intro": "Sculture-arma in ferro tondo saldato, piegato e verniciato — un intero programma di oggetti che esistono solo per portare un nome, una silhouette, una strizzata d'occhio. Dal 2014, oltre quaranta opere compongono questo arsenale immaginario dell'eroe spazio-temporale E9 Inertion.",
-  "gun.p1.title": "X Space gun",
-  "gun.p1.meta": "2018 — metallo, 300 cm di barra di ferro da 6mm",
-  "gun.p1.desc": "Ferro tondo piegato, saldato e verniciato per 300 centimetri. Una delle opere principali del programma spaziale, classificata come \"outsider art\" dalla piattaforma che la ospita.",
-  "gun.p2.title": "Robineuf",
-  "gun.p2.meta": "Metallo — scultura",
-  "gun.p2.desc": "Presentata al Salon d'Automne di Parigi, quest'opera rende omaggio ad André Robillard, figura dell'art brut nota per i suoi fucili assemblati.",
-  "gun.origin.title": "Genesi del programma",
-  "gun.origin.p": "Tutto inizia nel 2014 con il primo Smith & Frouin, un omaggio crudo e bello al lavoro di Smith & Wesson, realizzato in ferro tondo liscio da 6mm e vernice metallizzata rossa. Seguono la Kalach F, la Trompe de la mort, la Fire Cube Gun (FCG), The Old One, una collezione di quattro mini Smith and Frouin, il Bazookaf, The Radiator, l'Ozonateur, la JP Gun, l'Air Radiation Gun, la Fish Gun, la Crocogun, il Revolver — e una serie di micro gun numerate che oggi completano l'arsenale completo dell'eroe spazio-temporale."
- },
- "ru": {
-  "nav.legend": "Язык",
-  "nav.etoile": "Звезда",
-  "nav.serigraphies": "Шелкография",
-  "nav.spaceships": "Space ships",
-  "nav.spacegun": "Space gun",
-  "nav.about": "Об авторе",
-  "nav.contact": "Контакты",
-  "nav.pyr": "Пирамида",
-  "nav.para": "Параллелепипед",
-  "nav.disque": "Диск",
-  "cart.button": "Корзина",
-  "cart.title": "Ваш выбор",
-  "cart.empty": "Пока ваша корзина пуста.",
-  "cart.dest_label": "Доставка",
-  "cart.dest_fr": "Франция",
-  "cart.dest_eu": "Европа",
-  "cart.dest_intl": "Международная",
-  "cart.subtotal": "Промежуточный итог",
-  "cart.shipping": "Стоимость доставки",
-  "cart.total": "Итого",
-  "cart.paypal": "Оплатить через PayPal",
-  "cart.email_btn": "Отправить детали по email",
-  "cart.note": "Оплата через PayPal откроет новую вкладку с уже заполненной итоговой суммой. Также отправьте детали заказа по email, чтобы Этьен знал, какие работы нужно зарезервировать.",
-  "piece.add_to_cart": "Добавить в корзину",
-  "piece.on_request": "Цена по запросу →",
-  "piece.large_note": "Работа 3 м — стоимость доставки по запросу",
-  "hero.name": "Этьен Фруэн",
-  "hero.tagline": "Борись с теми, кто хочет лишить тебя мечты.",
-  "hero.sub": "Художник-пластик. Живопись, металлическая скульптура, текстильное искусство, трафарет — физиологический язык, в котором каждая форма и каждый цвет соответствуют букве.",
-  "legend.title": "Физиологический язык",
-  "legend.intro": "Три формы, их основные и дополнительные цвета — код, который структурирует каждую серию. Входите через форму, а не через меню.",
-  "shape.para.letter": "H · A · S",
-  "shape.para.title": "Параллелепипед",
-  "shape.para.desc": "Серия «L'ombre du HASARD» — тафтинговая шерсть, 2026",
-  "shape.pyr.letter": "1 → 93",
-  "shape.pyr.title": "Пирамида",
-  "shape.pyr.desc": "Переосмысленная периодическая таблица — масло, дерево, трафарет",
-  "shape.disque.letter": "VIVRE",
-  "shape.disque.title": "Диск",
-  "shape.disque.desc": "Скульптуры и объекты — Banane, Mobile, Langouste",
-  "shape.etoile.letter": "вне кода",
-  "shape.etoile.title": "Звезда",
-  "shape.etoile.desc": "Фигуративные работы — ню, диалоги с Мухой и Уэссельманом",
-  "comete.eyebrow": "Комета · вне кода",
-  "comete.title": "Комета",
-  "comete.intro": "Четвёртая форма, вне троичного кода: круг и его след — для всего, что путешествует: тиражи, которые множатся, корабли, что удаляются.",
-  "comete.serig.letter": "Тиражи",
-  "comete.serig.title": "Шелкография",
-  "comete.serig.desc": "Нумерованные тиражи из печатной мастерской — DEAD OR ALIVE, Amour, Villa Frouin",
-  "comete.ships.letter": "Программа",
-  "comete.ships.title": "Space ships",
-  "comete.ships.desc": "Каталог фотоколлажей, собранных во время путешествий E9 Inertion",
-  "comete.gun.letter": "Арсенал",
-  "comete.gun.title": "Space gun",
-  "comete.gun.desc": "Более 45 скульптур-оружия из сварного железа, начиная с первого Smith & Frouin 2014 года",
-  "about.title": "Об авторе",
-  "about.quote1": "«Моя цель — не изображать, а дать почувствовать: биение сердца, дыхание, клеточную память. Этот язык создан не для чтения, а для восприятия».",
-  "about.p1": "Я работаю с жизненным дыханием, заключённым в материи. Через биомеханические формы я стремлюсь выразить физиологический язык — органический алфавит из пульсаций, напряжений и тишины. Каждая скульптура — живое существо, фрагмент трансформирующегося тела, несущий универсальное послание: слияние человеческого, живого и машинного. Я обращаюсь с металлом как с кожей — чувствительной мембраной, — где каждая складка, каждый сварной шов становится слогом забытого языка.",
-  "about.p2": "Этот язык родился во время визита в музей Матисса в Като-Камбрези, перед пластическим алфавитом Огюста Эрбена. Он следует ритму жизни, сердечному ритму, в трёх вечных последовательностях: вверх, вниз, покой. Эти последовательности материализуются дважды — формой и цветом (параллелепипед, пирамида, диск), повторяясь на протяжении 13 циклов, образуя полный алфавит и десять цифр — всего 36 символов. Три основных цвета несут согласные: красный, жёлтый, синий. Гласные заимствуют дополнительные цвета соседних букв.",
-  "about.p3": "Родился в 1967 году, живу и работаю на вилле Фруэн в Йере, где выставляюсь вместе с текстильной художницей Надеж Фруэн.",
-  "about.quote2": "Борись с теми, кто хочет лишить тебя мечты.",
-  "etoile.eyebrow": "Звезда · вне кода",
-  "etoile.h1": "Фигуративные работы",
-  "etoile.intro": "Ни фиксированной формы, ни буквы, ни заданного цвета: здесь физиологический язык на мгновение умолкает. Эти работы свободно вступают в диалог с другими художниками и снова ставят в центр тело, ню, портрет — вне какого-либо кода.",
-  "etoile.p1.title": "Диалог с Альфонсом Мухой",
-  "etoile.p1.meta": "Рисунок углём, переведённый в объём — 180x70x25 см",
-  "etoile.p1.desc": "Переработано углём на панели МДФ, затем переведено в объём с помощью гладких круглых железных прутьев, изогнутых и сваренных дуговой сваркой.",
-  "etoile.p2.title": "Диалог с Томом Уэссельманом",
-  "etoile.p2.meta": "Смешанная техника, дерево, металл, уголь — 80x100x20 см",
-  "etoile.p2.desc": "Обнаружено в галерее будущего TGB. Лежащая фигура за окном, синяя занавеска задёрнута, сигарета в руке.",
-  "etoile.p3.title": "Bather in the garden",
-  "etoile.p3.meta": "Железный прут 6 мм, изогнутый, сваренный, окрашенный — 200x60x20 см",
-  "etoile.p3.desc": "Серия, воспевающая женское тело, любовь, чувственность, лёгкость.",
-  "etoile.p4.title": "Dialogue with Manet",
-  "etoile.p4.meta": "2018 — дерево и металл, уголь с масляными акцентами",
-  "etoile.p4.desc": "Дань уважения «Олимпии» Эдуарда Мане, обнаруженной во время воображаемого путешествия E9 Inertion по Галерее будущего затонувшего города U3.",
-  "disque.eyebrow": "Диск · буква физиологического языка",
-  "disque.h1": "Скульптуры и объекты",
-  "disque.intro": "Железный прут, перфорированный лист металла, цифровые трафареты — каждая работа переводит пару форма/цвет из алфавита E9 Inertion в объём или объект. Созданные в мастерской виллы Фруэн в Йере, эти скульптуры черпают свои формы из фауны и флоры, вплоть до сада самой виллы.",
-  "disque.p1.title": "Банан (скульптура)",
-  "disque.p1.meta": "2025 — металл, 123 см",
-  "disque.p1.desc": "Железный прут и перфорированный лист металла, рождённые после вдохновляющего возвращения с Мартиники. Первая работа года в физиологическом языке.",
-  "disque.p2.title": "Манго",
-  "disque.p2.meta": "2025 — металл, железный прут и перфорированный лист металла",
-  "disque.p2.desc": "Первая работа 2025 года, также рождённая после возвращения с Мартиники, где необычная фауна и флора питают словарь форм.",
-  "disque.p3.title": "Mobile MOBILE",
-  "disque.p3.meta": "2025 — металл",
-  "disque.p3.desc": "«Написано MOBILE» — первый мобиль физиологического языка, задуманный как шутливая встреча Колдера, Эрбена и Магритта за барной стойкой.",
-  "disque.p4.title": "Лангуст",
-  "disque.p4.meta": "2025 — металл",
-  "disque.p4.desc": "Третья работа мартиникской серии. Железный прут и перфорированный лист металла 1,5 м. Частная коллекция.",
-  "disque.p5.title": "Мобиль",
-  "disque.p5.meta": "2025 — цифровые трафареты",
-  "disque.p5.desc": "Равновесие, компенсация, противостояние, управление силами. Каждая пара форма/цвет здесь соответствует букве алфавита.",
-  "disque.p6.title": "Гребневик",
-  "disque.p6.meta": "2024 — серия Megaplanktos, металл",
-  "disque.p6.desc": "Одно из живых существ, которых E9 Inertion встретил в глубинах единственного океана, покрывающего нашу планету. Изогнутый, сваренный и окрашенный железный прут.",
-  "disque.p7.title": "Cactusgun",
-  "disque.p7.meta": "Серия flower power guns — железо, перфорированный лист металла",
-  "disque.p7.desc": "Посвящена саду виллы Фруэн: эти цветочные «оружия» призваны нести счастье и жизнь через опыление.",
-  "pyr.eyebrow": "Пирамида · 1 → 93",
-  "pyr.h1": "Периодическая таблица",
-  "pyr.intro": "Элемент за элементом E9 Inertion переосмысливает классификацию Менделеева в пластический алфавит. Каждая пластина сочетает атомный номер, цвет фона в зависимости от химического семейства и форму — всё это переведено в цифровой трафарет.",
-  "pyr.key1": "чёрная тень = твёрдое состояние",
-  "pyr.key2": "розовый фон = актиноид",
-  "pyr.key3": "бежевый фон = щёлочноземельный металл",
-  "pyr.p1.title": "Золото",
-  "pyr.p1.meta": "2025 — цифровое искусство",
-  "pyr.p1.desc": "Чёрная тень = твёрдое состояние, розовый фон = актиноид. Элемент с атомным номером 79, символ которого Au происходит от латинского aurum.",
-  "pyr.p2.title": "Радий",
-  "pyr.p2.meta": "2026 — цифровое искусство",
-  "pyr.p2.desc": "Бежевый фон = щёлочноземельный металл. Белый в чистом виде, темнеет на воздухе — чрезвычайно радиоактивен, период полураспада 1600 лет.",
-  "pyr.p3.title": "Нептуний",
-  "pyr.p3.meta": "2026 — цифровое искусство",
-  "pyr.p3.desc": "Розовый фон = актиноид. Первый из трансурановых элементов, открыт в 1940 году, назван в честь Нептуна, который следует за Ураном в Солнечной системе.",
-  "pyr.p4.title": "Уран",
-  "pyr.p4.meta": "2026 — цифровое искусство",
-  "pyr.p4.desc": "Розовый фон = актиноид. Его радиоактивность была открыта Анри Беккерелем в 1896 году, что раскрыло ранее неизвестное явление.",
-  "pyr.p5.title": "Висмут",
-  "pyr.p5.meta": "2025 — цифровое искусство",
-  "pyr.p5.desc": "Серый фон = постпереходный металл. Пятый и последний элемент группы пниктогенов.",
-  "pyr.p6.title": "Полоний",
-  "pyr.p6.meta": "2025 — цифровое искусство",
-  "pyr.p6.desc": "Серый фон = постпереходный металл. Радиоактивный металл, присутствующий в следовых количествах в урановых рудах.",
-  "para.eyebrow": "Параллелепипед · H · A · S · A · R · D",
-  "para.h1": "L'ombre du HASARD",
-  "para.intro": "Шесть панелей, март 2026, тафтинговая шерсть, макс. 120x70 см каждая. Каждая панель переводит букву слова HASARD в пару форма/цвет — параллелепипед, пирамида или диск — в основных и дополнительных цветах физиологического языка E9 Inertion.",
-  "para.subhead.h2": "Шесть панелей",
-  "para.subhead.p": "H · A · S · A · R · D — каждая буква существует как самостоятельная работа, задуманная для прочтения отдельно или для сборки в полное слово.",
-  "para.p1.title": "H",
-  "para.p1.meta": "2026 — тафтинговая шерсть, 120x70 см",
-  "para.p1.desc": "Первая панель слова. Пара форма/цвет согласно коду физиологического языка.",
-  "para.p2.title": "A (синий)",
-  "para.p2.meta": "2026 — тафтинговая шерсть, 120x70 см",
-  "para.p2.desc": "Первое появление гласной A, синим цветом — основным цветом согласных этого языка.",
-  "para.p3.title": "S",
-  "para.p3.meta": "2026 — тафтинговая шерсть, 120x70 см",
-  "para.p3.desc": "Третья панель слова, тот же код форма/цвет, ручной тафтинг.",
-  "para.p4.title": "A (зелёный)",
-  "para.p4.meta": "2026 — тафтинговая шерсть, 120x70 см",
-  "para.p4.desc": "Второе появление A, зелёным цветом — дополнительным цветом, заимствующим оттенок соседних букв.",
-  "para.p5.title": "R",
-  "para.p5.meta": "2026 — тафтинговая шерсть, 120x70 см",
-  "para.p5.desc": "Предпоследняя панель, подготавливающая завершение слова на последней букве.",
-  "para.p6.title": "D",
-  "para.p6.meta": "2026 — тафтинговая шерсть, 120x70 см",
-  "para.p6.desc": "Последняя панель слова HASARD, завершающая серию из шести работ.",
-  "para.tribute.title": "Francois JAUVION",
-  "para.tribute.meta": "2026 — тафтинговая шерсть, 80x70 см",
-  "para.tribute.p1": "Тафтинговый ковёр вне алфавита, подаренный в знак дружбы и поддержки близкому человеку, переживающему болезнь. Солнце соседствует с несколькими облаками, а зелёный свитер символизирует надежду.",
-  "para.tribute.p2": "Выполненная в той же технике, что и серия HASARD, эта работа показывает, что физиологический язык умеет отступить в сторону, чтобы просто выразить нежность.",
-  "serig.h1": "Шелкография",
-  "serig.intro": "Печатная мастерская E9 Inertion выпускает нумерованные и подписанные тиражи небольшими сериями — способ распространить физиологический язык за пределы уникальных работ.",
-  "serig.p1.meta": "2025 — шелкография, 23 нумерованных и подписанных экземпляра",
-  "serig.p1.title": "Серия DEAD OR ALIVE",
-  "serig.p1.desc": "Современный натюрморт: череп, стрельчатое окно, перекликающееся с виллой Фруэн, и геометрические символы физиологического языка E9 Inertion. Третья работа серии.",
-  "serig.more.title": "Другие тиражи мастерской",
-  "serig.p2.tag": "Шелкография",
-  "serig.p2.title": "Amour",
-  "serig.p2.desc": "Нумерованный оттиск на бумаге, посвящённый теме любви, переосмысленной через физиологический язык.",
-  "serig.p3.tag": "Шелкография · 23 экземпляра",
-  "serig.p3.title": "Villa Frouin",
-  "serig.p3.desc": "Первая серия печатной мастерской, посвящённая вилле Фруэн в Йер-Костбель. Формат А3, картон 300 г.",
-  "ships.h1": "Space ships",
-  "ships.intro": "Космическая программа E9 Inertion, нашего пространственно-временного героя: скульптуры-оружия — игривая дань уважения Smith & Wesson, и каталог фотоколлажей, собранных во время его путешествий по зданиям, особнякам и церквям.",
-  "ships.p1.meta": "2026 — цифровое искусство, фотоколлаж",
-  "ships.p1.title": "Space Ship Programme",
-  "ships.p1.desc": "Запуск ежегодного каталога, объединяющего около сотни фотоколлажей, созданных во время путешествий E9 Inertion, — по мотивам зданий, особняков и церквей, замеченных в пути.",
-  "ships.also.title": "Смотрите также",
-  "ships.also.p": "У скульптур-оружия космической программы есть отдельная галерея: <a href=\"spacegun.html\" style=\"text-decoration:underline;\">Space Gun</a>.",
-  "gun.eyebrow": "Комета · более 45 работ",
-  "gun.h1": "Space Gun",
-  "gun.intro": "Скульптуры-оружия из сварного, изогнутого и окрашенного круглого железа — целая программа объектов, существующих лишь для того, чтобы носить имя, силуэт, подмигивание. С 2014 года более сорока работ составляют этот воображаемый арсенал пространственно-временного героя E9 Inertion.",
-  "gun.p1.title": "X Space gun",
-  "gun.p1.meta": "2018 — металл, 300 см железного прута 6 мм",
-  "gun.p1.desc": "Круглое железо, изогнутое, сваренное и окрашенное на протяжении 300 сантиметров. Одна из главных работ космической программы, отнесённая платформой-хостом к категории «outsider art».",
-  "gun.p2.title": "Robineuf",
-  "gun.p2.meta": "Металл — скульптура",
-  "gun.p2.desc": "Представленная на Осеннем салоне в Париже, эта работа отдаёт дань уважения Андре Робийяру — фигуре ар брют, известной своими собранными вручную ружьями.",
-  "gun.origin.title": "Истоки программы",
-  "gun.origin.p": "Всё началось в 2014 году с первого Smith & Frouin — жёсткой и прекрасной дани уважения работе Smith & Wesson, выполненной из гладкого круглого железа 6 мм и красной металлической краски. Затем последовали Kalach F, Trompe de la mort, Fire Cube Gun (FCG), The Old One, коллекция из четырёх мини Smith and Frouin, Bazookaf, The Radiator, Ozonateur, JP Gun, Air Radiation Gun, Fish Gun, Crocogun, Revolver — и серия нумерованных micro guns, которые сегодня дополняют полный арсенал пространственно-временного героя."
- },
- "ja": {
-  "nav.legend": "言語",
-  "nav.etoile": "星",
-  "nav.serigraphies": "シルクスクリーン",
-  "nav.spaceships": "Space ships",
-  "nav.spacegun": "Space gun",
-  "nav.about": "アバウト",
-  "nav.contact": "お問い合わせ",
-  "nav.pyr": "ピラミッド",
-  "nav.para": "直方体",
-  "nav.disque": "円盤",
-  "cart.button": "カート",
-  "cart.title": "選択中の作品",
-  "cart.empty": "カートはまだ空です。",
-  "cart.dest_label": "配送先",
-  "cart.dest_fr": "フランス",
-  "cart.dest_eu": "ヨーロッパ",
-  "cart.dest_intl": "海外",
-  "cart.subtotal": "小計",
-  "cart.shipping": "送料",
-  "cart.total": "合計",
-  "cart.paypal": "PayPalで支払う",
-  "cart.email_btn": "メールで詳細を送る",
-  "cart.note": "PayPalでのお支払いは、合計金額が入力された新しいタブが開きます。エティエンヌがどの作品を確保すればよいか分かるよう、メールでも詳細をお送りください。",
-  "piece.add_to_cart": "カートに追加",
-  "piece.on_request": "価格はお問い合わせください →",
-  "piece.large_note": "全長3mの作品 — 送料は都度見積もり",
-  "hero.name": "エティエンヌ・フルーアン",
-  "hero.tagline": "あなたの夢を止めようとする者と闘え。",
-  "hero.sub": "造形作家。絵画、金属彫刻、テキスタイルアート、ステンシル — それぞれの形と色が一つの文字に対応する、生理学的な言語。",
-  "legend.title": "生理学的言語",
-  "legend.intro": "メニューではなく、形から入ってください。それぞれのシリーズを構成するのは、3つの形とその一次色・二次色によるコードです。",
-  "shape.para.letter": "H · A · S",
-  "shape.para.title": "直方体",
-  "shape.para.desc": "「L'ombre du HASARD」シリーズ — タフテッドウール、2026年",
-  "shape.pyr.letter": "1 → 93",
-  "shape.pyr.title": "ピラミッド",
-  "shape.pyr.desc": "独自に解釈された周期表 — 油彩、木材、ステンシル",
-  "shape.disque.letter": "VIVRE",
-  "shape.disque.title": "円盤",
-  "shape.disque.desc": "彫刻とオブジェ — Banane、Mobile、Langouste",
-  "shape.etoile.letter": "コード外",
-  "shape.etoile.title": "星",
-  "shape.etoile.desc": "具象作品 — ヌード、ミュシャやウェッセルマンとの対話",
-  "comete.eyebrow": "彗星・コード外",
-  "comete.title": "彗星",
-  "comete.intro": "3つのコードの外にある4番目の形 — 円とその軌跡。増え続ける版画、遠ざかっていく船など、旅するすべてのものを表します。",
-  "comete.serig.letter": "版画",
-  "comete.serig.title": "シルクスクリーン",
-  "comete.serig.desc": "版画工房によるナンバリング版画 — DEAD OR ALIVE、Amour、Villa Frouin",
-  "comete.ships.letter": "プログラム",
-  "comete.ships.title": "Space ships",
-  "comete.ships.desc": "E9インナーションの旅の中で集められたフォトモンタージュのカタログ",
-  "comete.gun.letter": "武器庫",
-  "comete.gun.title": "Space gun",
-  "comete.gun.desc": "2014年の最初の「Smith & Frouin」以来、45点を超える溶接鉄の武器彫刻群",
-  "about.title": "アバウト",
-  "about.quote1": "「私の目標は表現することではなく、感じさせることです — 鼓動、呼吸、細胞の記憶を。この言語は読むためのものではなく、感じ取るためのものです。」",
-  "about.p1": "私は物質に宿る生命の息吹を扱っています。バイオメカニカルな形を通して、生理学的な言語 — 鼓動と緊張と沈黙からなる有機的なアルファベット — を表現しようとしています。それぞれの彫刻は生きた存在であり、変容する身体の断片であり、人間・生命・機械の融合という普遍的なメッセージを運んでいます。私は金属を皮膚のように — 繊細な膜のように — 扱い、そのひとつひとつの折り目、溶接の跡が、忘れられた言語の音節となります。",
-  "about.p2": "この言語は、ル・カトー=カンブレジのマティス美術館で、オーギュスト・エルバンの造形アルファベットを目にしたことから生まれました。それは生命のリズム、鼓動に従い、「上昇・下降・静止」という3つの永遠のシークエンスをたどります。これらのシークエンスは形と色によって二重に具現化されます — 直方体、ピラミッド、円盤 — これが13サイクル繰り返され、完全なアルファベットと10個の数字、合計36の記号を形作ります。3つの一次色が子音を担います:赤、黄、青。母音はそれを取り囲む文字の二次色を借ります。",
-  "about.p3": "1967年生まれ。イエールのヴィラ・フルーアンを拠点に、テキスタイル作家ナデージュ・フルーアンとともに作品を発表しています。",
-  "about.quote2": "あなたの夢を止めようとする者と闘え。",
-  "etoile.eyebrow": "星・コード外",
-  "etoile.h1": "具象作品",
-  "etoile.intro": "決まった形も、文字も、指定された色もない — ここでは生理学的言語がしばし沈黙します。これらの作品は他の芸術家たちと自由に対話し、身体・ヌード・肖像を再び中心に据えます — あらゆるコードの外側で。",
-  "etoile.p1.title": "アルフォンス・ミュシャとの対話",
-  "etoile.p1.meta": "木炭画を立体化 — 180x70x25 cm",
-  "etoile.p1.desc": "MDFパネルに木炭で描き直し、丸い滑らかな鉄棒を曲げてアーク溶接することで立体化した作品。",
-  "etoile.p2.title": "トム・ウェッセルマンとの対話",
-  "etoile.p2.meta": "ミクストメディア(木材、金属、木炭) — 80x100x20 cm",
-  "etoile.p2.desc": "TGBの未来のギャラリーで発見された作品。窓の向こうに横たわる人物、引かれた青いカーテン、手にした一本の煙草。",
-  "etoile.p3.title": "Bather in the garden",
-  "etoile.p3.meta": "6mm鉄棒、曲げ・溶接・塗装 — 200x60x20 cm",
-  "etoile.p3.desc": "女性の身体、愛、官能、そして軽やかさを称えるシリーズ。",
-  "etoile.p4.title": "Dialogue with Manet",
-  "etoile.p4.meta": "2018年 — 木材と金属、油彩を効かせた木炭画",
-  "etoile.p4.desc": "エドゥアール・マネの『オランピア』へのオマージュ。E9インナーションが水没都市U3の「未来のギャラリー」を巡る空想の旅の中で見出した作品。",
-  "disque.eyebrow": "円盤・生理学的言語の文字",
-  "disque.h1": "彫刻とオブジェ",
-  "disque.intro": "鉄棒、パンチング加工された金属板、デジタルステンシル — それぞれの作品は、E9インナーションのアルファベットにおける「形と色のペア」を立体やオブジェへと翻訳したものです。イエールのヴィラ・フルーアンの工房で制作され、動植物、さらにはヴィラの庭そのものから形を得ています。",
-  "disque.p1.title": "バナナ(彫刻)",
-  "disque.p1.meta": "2025年 — 金属、123 cm",
-  "disque.p1.desc": "マルティニーク島からの感動的な帰国をきっかけに生まれた、鉄棒とパンチング加工された金属板による作品。生理学的言語によるその年最初の創作。",
-  "disque.p2.title": "マンゴー",
-  "disque.p2.meta": "2025年 — 金属、鉄棒とパンチング加工された金属板",
-  "disque.p2.desc": "2025年最初の作品もまた、マルティニークからの帰国をきっかけに生まれたもの。並外れた動植物が、形の語彙を育んでいます。",
-  "disque.p3.title": "Mobile MOBILE",
-  "disque.p3.meta": "2025年 — 金属",
-  "disque.p3.desc": "「MOBILEと書かれている」 — 生理学的言語による最初のモビール。カルダー、エルバン、マグリットがバーのカウンターで出会うという、ユーモラスな発想から生まれた作品。",
-  "disque.p4.title": "イセエビ",
-  "disque.p4.meta": "2025年 — 金属",
-  "disque.p4.desc": "マルティニークシリーズの3作目。鉄棒と1.5mのパンチング加工金属板を使用。個人蔵。",
-  "disque.p5.title": "モビール",
-  "disque.p5.meta": "2025年 — デジタルステンシル",
-  "disque.p5.desc": "バランス、補償、対立、力の制御。ここではそれぞれの「形と色のペア」がアルファベットの文字に対応しています。",
-  "disque.p6.title": "クシクラゲ",
-  "disque.p6.meta": "2024年 — Megaplanktosシリーズ、金属",
-  "disque.p6.desc": "この惑星を覆うただひとつの海の深淵で、E9インナーションが出会った生物のひとつ。曲げ加工・溶接・塗装された鉄棒による作品。",
-  "disque.p7.title": "Cactusgun",
-  "disque.p7.meta": "flower power gunsシリーズ — 鉄、パンチング加工金属板",
-  "disque.p7.desc": "ヴィラ・フルーアンの庭に捧げられた作品:これらの花の武器は、受粉を通じて幸福と生命を届けることを目的としています。",
-  "pyr.eyebrow": "ピラミッド・1 → 93",
-  "pyr.h1": "周期表",
-  "pyr.intro": "E9インナーションは元素をひとつずつ取り上げ、メンデレーエフの分類を造形的なアルファベットへと作り替えていきます。それぞれのプレートには原子番号、化学族に応じた背景色、そして形が組み合わされ、すべてデジタルステンシルとして表現されています。",
-  "pyr.key1": "黒い陰影 = 固体",
-  "pyr.key2": "ピンクの背景 = アクチノイド",
-  "pyr.key3": "ベージュの背景 = アルカリ土類金属",
-  "pyr.p1.title": "金",
-  "pyr.p1.meta": "2025年 — デジタルアート",
-  "pyr.p1.desc": "黒い陰影は固体、ピンクの背景はアクチノイドを表す。原子番号79の元素で、元素記号Auはラテン語のaurum(金)に由来する。",
-  "pyr.p2.title": "ラジウム",
-  "pyr.p2.meta": "2026年 — デジタルアート",
-  "pyr.p2.desc": "ベージュの背景はアルカリ土類金属を表す。純粋な状態では白色だが、空気中で黒く変色する — 半減期1600年という極めて高い放射性を持つ元素。",
-  "pyr.p3.title": "ネプツニウム",
-  "pyr.p3.meta": "2026年 — デジタルアート",
-  "pyr.p3.desc": "ピンクの背景はアクチノイドを表す。1940年に発見された最初の超ウラン元素で、太陽系においてウラノス(天王星)の次に位置するネプチューン(海王星)にちなんで命名された。",
-  "pyr.p4.title": "ウラン",
-  "pyr.p4.meta": "2026年 — デジタルアート",
-  "pyr.p4.desc": "ピンクの背景はアクチノイドを表す。1896年、アンリ・ベクレルによってその放射能が発見され、それまで知られていなかった現象が明らかになった。",
-  "pyr.p5.title": "ビスマス",
-  "pyr.p5.meta": "2025年 — デジタルアート",
-  "pyr.p5.desc": "グレーの背景はポスト遷移金属を表す。窒素族(プニクトゲン)元素の5番目にして最後の元素。",
-  "pyr.p6.title": "ポロニウム",
-  "pyr.p6.meta": "2025年 — デジタルアート",
-  "pyr.p6.desc": "グレーの背景はポスト遷移金属を表す。ウラン鉱石中に微量に存在する放射性金属。",
-  "para.eyebrow": "直方体・H · A · S · A · R · D",
-  "para.h1": "L'ombre du HASARD",
-  "para.intro": "6枚のパネル、2026年3月、タフテッドウール、各最大120x70cm。それぞれのパネルは「HASARD」という単語の1文字を、E9インナーションの生理学的言語における一次色・二次色を用いた「形と色のペア」(直方体、ピラミッド、または円盤)へと翻訳しています。",
-  "para.subhead.h2": "6枚のパネル",
-  "para.subhead.p": "H · A · S · A · R · D — それぞれの文字は独立した作品として存在し、単独で読まれることも、組み合わさって単語全体になることも意図されています。",
-  "para.p1.title": "H",
-  "para.p1.meta": "2026年 — タフテッドウール、120x70cm",
-  "para.p1.desc": "単語の最初のパネル。生理学的言語のコードに基づく形と色のペア。",
-  "para.p2.title": "A(青)",
-  "para.p2.meta": "2026年 — タフテッドウール、120x70cm",
-  "para.p2.desc": "母音Aの最初の出現、青色 — この言語における子音の一次色。",
-  "para.p3.title": "S",
-  "para.p3.meta": "2026年 — タフテッドウール、120x70cm",
-  "para.p3.desc": "単語の3番目のパネル。同じ形と色のコードによる、手作業でのタフティング。",
-  "para.p4.title": "A(緑)",
-  "para.p4.meta": "2026年 — タフテッドウール、120x70cm",
-  "para.p4.desc": "Aの2回目の出現、緑色 — 隣接する文字の色合いを取り入れた二次色。",
-  "para.p5.title": "R",
-  "para.p5.meta": "2026年 — タフテッドウール、120x70cm",
-  "para.p5.desc": "最後から2番目のパネル。単語が最後の文字へと落ち着いていく流れを準備する。",
-  "para.p6.title": "D",
-  "para.p6.meta": "2026年 — タフテッドウール、120x70cm",
-  "para.p6.desc": "「HASARD」という単語の最後のパネル。全6作品からなるシリーズを締めくくる。",
-  "para.tribute.title": "Francois JAUVION",
-  "para.tribute.meta": "2026年 — タフテッドウール、80x70cm",
-  "para.tribute.p1": "アルファベットの外にあるタフテッドラグ。病と向き合う親しい人への友情と支えの印として贈られた作品。太陽といくつかの雲が並び、緑色のセーターが希望を象徴している。",
-  "para.tribute.p2": "HASARDシリーズと同じ技法で制作されたこの作品は、生理学的言語もまた、ただ素直に愛情を伝えるために一歩身を引くことができることを示しています。",
-  "serig.h1": "シルクスクリーン",
-  "serig.intro": "E9インナーションの版画工房は、少部数でナンバリング・サイン入りの版画を制作しています — 一点物を超えて生理学的言語を広めるための手段です。",
-  "serig.p1.meta": "2025年 — シルクスクリーン、23部限定・ナンバリング・サイン入り",
-  "serig.p1.title": "DEAD OR ALIVEシリーズ",
-  "serig.p1.desc": "現代的な静物画 — 頭蓋骨、ヴィラ・フルーアンを思わせる尖頭アーチの窓、そしてE9インナーションの生理学的言語による幾何学的シンボル。このシリーズ3作目のシルクスクリーン。",
-  "serig.more.title": "工房のその他の版画",
-  "serig.p2.tag": "シルクスクリーン",
-  "serig.p2.title": "Amour",
-  "serig.p2.desc": "紙にプリントされたナンバリング版画。生理学的言語を通して再解釈された「愛」をテーマとする作品。",
-  "serig.p3.tag": "シルクスクリーン・23部",
-  "serig.p3.title": "Villa Frouin",
-  "serig.p3.desc": "イエール・コストベルにあるヴィラ・フルーアンをテーマにした、版画工房初のシリーズ。A3サイズ、300g厚紙使用。",
-  "ships.h1": "Space ships",
-  "ships.intro": "私たちの時空を超えたヒーロー、E9インナーションの宇宙計画 — スミス&ウェッソンへのユーモラスなオマージュとしての武器彫刻群、そして建物、邸宅、教会を巡る旅の中で集められたフォトモンタージュのカタログ。",
-  "ships.p1.meta": "2026年 — デジタルアート、フォトモンタージュ",
-  "ships.p1.title": "Space Ship Programme",
-  "ships.p1.desc": "E9インナーションの旅の途中で目にした建物、邸宅、教会をもとに制作された、約100点のフォトモンタージュをまとめた年刊カタログの創刊。",
-  "ships.also.title": "こちらもご覧ください",
-  "ships.also.p": "アルファベットの外にある宇宙計画の武器彫刻群には専用のギャラリーがあります: <a href=\"spacegun.html\" style=\"text-decoration:underline;\">Space Gun</a>。",
-  "gun.eyebrow": "彗星・45点以上",
-  "gun.h1": "Space Gun",
-  "gun.intro": "溶接・曲げ加工・塗装された丸鉄による武器彫刻群 — 名前とシルエット、そしてウィットを持たせるためだけに存在するオブジェクト群による、ひとつのプログラム。2014年以来、40点を超える作品が、時空を超えたヒーローE9インナーションのこの空想の武器庫を構成している。",
-  "gun.p1.title": "X Space gun",
-  "gun.p1.meta": "2018年 — 金属、6mm鉄棒300cm使用",
-  "gun.p1.desc": "丸鉄を曲げ加工・溶接・塗装した全長300cmの作品。宇宙計画を代表する作品のひとつで、掲載先のプラットフォームでは「アウトサイダー・アート」に分類されている。",
-  "gun.p2.title": "Robineuf",
-  "gun.p2.meta": "金属 — 彫刻",
-  "gun.p2.desc": "パリのサロン・ドートンヌで展示されたこの作品は、自ら組み立てた銃で知られるアール・ブリュットの作家、アンドレ・ロビヤールへのオマージュ。",
-  "gun.origin.title": "プログラムの起源",
-  "gun.origin.p": "すべては2014年、最初の「Smith & Frouin」から始まった — スミス&ウェッソンの仕事への、荒々しくも美しいオマージュであり、滑らかな6mm丸鉄と赤い金属塗装で作られている。その後、Kalach F、Trompe de la mort、Fire Cube Gun(FCG)、The Old One、4点からなるミニSmith and Frouinのコレクション、Bazookaf、The Radiator、Ozonateur、JP Gun、Air Radiation Gun、Fish Gun、Crocogun、Revolver、そしてナンバリングされたマイクロガンのシリーズが続き、現在この時空を超えたヒーローの武器庫を完成させている。"
- }
-};
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E9 INERTION — Étienne Frouin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/cart.css">
+
+<style>
+  :root{
+    --paper:#EDEAE1;
+    --ink:#161513;
+    --red:#C23B22;    /* parallélépipède — HASARD */
+    --blue:#1D4E89;   /* disque — sculptures */
+    --yellow:#D9A404; /* pyramide — tableau périodique */
+    --green:#3B7A3E;  /* étoile — figuratif, hors code */
+    --line:#161513;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Space Mono', monospace;
+    line-height:1.6;
+  }
+  h1,h2,h3,.display{
+    font-family:'Archivo', sans-serif;
+    font-weight:900;
+    text-transform:uppercase;
+    letter-spacing:-0.01em;
+    margin:0;
+  }
+  a{color:inherit;}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px;}
+
+  /* top bar */
+  header{
+    border-bottom:1.5px solid var(--line);
+    position:sticky;top:0;background:var(--paper);z-index:10;
+  }
+  .topbar{display:flex;justify-content:space-between;align-items:center;padding:16px 24px;max-width:1040px;margin:0 auto;}
+  .topbar .mark{font-family:'Archivo',sans-serif;font-weight:900;font-size:18px;letter-spacing:0.02em;}
+  .topbar nav{display:flex;gap:24px;font-size:13px;text-transform:uppercase;letter-spacing:0.06em;}
+  .topbar nav a{text-decoration:none;border-bottom:1.5px solid transparent;padding-bottom:2px;}
+  .topbar nav a:hover{border-color:var(--ink);}
+
+  /* hero — fiche d'élément, écho au tableau périodique */
+  .hero{padding:64px 24px 48px;}
+  .element-card{
+    border:2px solid var(--ink);
+    display:grid;
+    grid-template-columns:160px 1fr;
+    gap:0;
+  }
+  .element-symbol{
+    border-right:2px solid var(--ink);
+    padding:20px;
+    display:flex;flex-direction:column;justify-content:space-between;
+  }
+  .element-symbol .num{font-size:13px;}
+  .element-symbol .sym{font-family:'Archivo',sans-serif;font-weight:900;font-size:56px;line-height:1;margin:8px 0;}
+  .element-symbol .name{font-size:11px;text-transform:uppercase;letter-spacing:0.05em;}
+  .hero-copy{padding:24px 28px;}
+  .hero-copy .tagline{font-family:'Archivo',sans-serif;font-weight:900;font-size:clamp(28px,4vw,42px);text-transform:none;line-height:1.05;margin-bottom:16px;}
+  .hero-copy p.sub{font-size:14px;color:#413F3A;max-width:52ch;}
+
+  /* legend — les 3 formes */
+  .legend{padding:56px 24px;border-top:1.5px solid var(--line);}
+  .legend h2{font-size:22px;margin-bottom:8px;}
+  .legend .intro{font-size:13px;color:#413F3A;max-width:60ch;margin-bottom:32px;}
+  .shapes{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:1.5px solid var(--line);}
+  .shape-card{
+    border-right:1.5px solid var(--line);
+    border-bottom:1.5px solid var(--line);
+    padding:28px 20px;
+    text-decoration:none;
+    display:block;
+    transition:background .15s ease;
+  }
+  .shape-card:last-child{border-right:none;}
+  .shape-card:hover{background:rgba(22,21,19,0.04);}
+  .shape-glyph{width:44px;height:44px;margin-bottom:18px;}
+  .shape-card h3{font-size:16px;margin-bottom:6px;}
+  .shape-card p{font-size:12px;color:#413F3A;margin:0;}
+  .shape-card .letter{font-family:'Archivo',sans-serif;font-weight:900;font-size:12px;color:var(--accent);}
+
+  .c-red{--accent:var(--red);}
+  .c-blue{--accent:var(--blue);}
+  .c-yellow{--accent:var(--yellow);}
+  .c-green{--accent:var(--green);}
+  .shape-glyph{fill:var(--accent);}
+
+  /* about */
+  .about{padding:56px 24px;border-top:1.5px solid var(--line);display:grid;grid-template-columns:1fr 1.4fr;gap:40px;}
+  .about h2{font-size:22px;margin-bottom:16px;}
+  .about p{font-size:14px;color:#2A2926;max-width:56ch;margin:0 0 14px;}
+  .about .quote{font-family:'Archivo',sans-serif;font-weight:900;font-size:18px;text-transform:none;border-left:3px solid var(--ink);padding-left:16px;margin-top:20px;}
+
+  /* footer */
+  footer{border-top:1.5px solid var(--line);padding:28px 24px;font-size:12px;color:#413F3A;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;}
+  footer a{text-decoration:underline;}
+
+  @media (max-width:720px){
+    .element-card{grid-template-columns:1fr;}
+    .element-symbol{border-right:none;border-bottom:2px solid var(--ink);flex-direction:row;align-items:center;}
+    .element-symbol .sym{margin:0 16px;}
+    .shapes{grid-template-columns:1fr 1fr;}
+    .shape-card{border-right:1.5px solid var(--line);}
+    .shape-card:nth-child(2n){border-right:none;}
+    .about{grid-template-columns:1fr;}
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto;}
+    .shape-card{transition:none;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="topbar">
+    <div class="mark">E9 INERTION</div>
+    <nav>
+      <a href="#legend" data-i18n="nav.legend">Langage</a>
+      <a href="news.html">Breaking News</a>
+      <a href="serigraphies.html" data-i18n="nav.serigraphies">Sérigraphies</a>
+      <a href="spaceships.html" data-i18n="nav.spaceships">Space ships</a>
+      <a href="spacegun.html" data-i18n="nav.spacegun">Space gun</a>
+      <a href="#about" data-i18n="nav.about">À propos</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <select class="lang-select" data-lang-select aria-label="Language">
+      <option value="fr">FR</option>
+      <option value="en">EN</option>
+      <option value="de">DE</option>
+      <option value="es">ES</option>
+      <option value="it">IT</option>
+      <option value="ru">RU</option>
+      <option value="ja">JA</option>
+    </select>
+    <button class="cart-btn" data-cart-open type="button">
+      <span data-i18n="cart.button">Panier</span> <span class="cart-count" data-cart-count>0</span>
+    </button>
+  </div>
+</header>
+
+<section class="hero wrap">
+  <div class="element-card">
+    <div class="element-symbol">
+      <span class="num">N°9</span>
+      <span class="sym">E9</span>
+      <span class="name" data-i18n="hero.name">Étienne Frouin</span>
+    </div>
+    <div class="hero-copy">
+      <p class="tagline" data-i18n="hero.tagline">Fight against those who want to stop you dreaming.</p>
+      <p class="sub" data-i18n="hero.sub">Plasticien. Peinture, sculpture métal, art textile, pochoir — un langage physiologique où chaque forme et chaque couleur correspond à une lettre.</p>
+    </div>
+  </div>
+</section>
+
+<section class="legend wrap" id="legend">
+  <h2 data-i18n="legend.title">Le langage physiologique</h2>
+  <p class="intro" data-i18n="legend.intro">Trois formes, leurs couleurs primaires et secondaires : le code qui structure chaque série. Entrez par la forme, pas par un menu.</p>
+  <div class="shapes">
+    <a class="shape-card c-red" href="parallelepipede.html">
+      <svg class="shape-glyph" viewBox="0 0 44 44"><polygon points="9,4 35,4 44,40 0,40"/></svg>
+      <span class="letter" data-i18n="shape.para.letter">H · A · S</span>
+      <h3 data-i18n="shape.para.title">Parallélépipède</h3>
+      <p data-i18n="shape.para.desc">Toutes les œuvres en tufting — série « L'ombre du HASARD » et pièces hors alphabet</p>
+    </a>
+    <a class="shape-card c-yellow" href="pyramide.html">
+      <svg class="shape-glyph" viewBox="0 0 44 44"><polygon points="22,2 42,40 2,40"/></svg>
+      <span class="letter" data-i18n="shape.pyr.letter">1 → 93</span>
+      <h3 data-i18n="shape.pyr.title">Pyramide</h3>
+      <p data-i18n="shape.pyr.desc">Tableau périodique détourné — huile, bois, pochoir</p>
+    </a>
+    <a class="shape-card c-blue" href="disque.html">
+      <svg class="shape-glyph" viewBox="0 0 44 44"><circle cx="22" cy="22" r="20"/></svg>
+      <span class="letter" data-i18n="shape.disque.letter">VIVRE</span>
+      <h3 data-i18n="shape.disque.title">Disque</h3>
+      <p data-i18n="shape.disque.desc">Sculptures & objets — Banane, Mobile, Langouste</p>
+    </a>
+    <a class="shape-card c-green" href="etoile.html">
+      <svg class="shape-glyph" viewBox="0 0 44 44"><polygon points="22,1 27,16 43,16 30,26 35,42 22,32 9,42 14,26 1,16 17,16"/></svg>
+      <span class="letter" data-i18n="shape.etoile.letter">hors code</span>
+      <h3 data-i18n="shape.etoile.title">Étoile</h3>
+      <p data-i18n="shape.etoile.desc">Œuvres figuratives — nus, dialogues avec Mucha, Wesselmann</p>
+    </a>
+  </div>
+</section>
+
+<section class="legend wrap" id="comete" style="border-top:1.5px solid var(--line);">
+  <h2 style="font-size:20px;" data-i18n="comete.title">Comète</h2>
+  <p class="intro" data-i18n="comete.intro">Une quatrième forme, hors du code à trois : le cercle et sa traînée, pour tout ce qui voyage — les tirages qui se multiplient, les vaisseaux qui s'éloignent.</p>
+  <div class="shapes" style="grid-template-columns:1fr 1fr 1fr;">
+    <a class="shape-card" href="serigraphies.html" style="--accent:#5B5850;">
+      <svg class="shape-glyph" viewBox="0 0 44 44"><circle cx="30" cy="14" r="8"/><path d="M24 20 L4 40 M27 24 L10 41 M20 16 L2 34" stroke="var(--accent)" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.55"/></svg>
+      <span class="letter" data-i18n="comete.serig.letter">Estampes</span>
+      <h3 data-i18n="comete.serig.title">Sérigraphies</h3>
+      <p data-i18n="comete.serig.desc">Tirages numérotés de l'atelier d'imprimerie — DEAD OR ALIVE, Amour, Villa Frouin</p>
+    </a>
+    <a class="shape-card" href="spaceships.html" style="--accent:#5B5850;">
+      <svg class="shape-glyph" viewBox="0 0 44 44"><circle cx="30" cy="14" r="8"/><path d="M24 20 L4 40 M27 24 L10 41 M20 16 L2 34" stroke="var(--accent)" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.55"/></svg>
+      <span class="letter" data-i18n="comete.ships.letter">Programme</span>
+      <h3 data-i18n="comete.ships.title">Space ships</h3>
+      <p data-i18n="comete.ships.desc">Le catalogue de photomontages glané au fil des voyages d'E9 Inertion</p>
+    </a>
+    <a class="shape-card" href="spacegun.html" style="--accent:#5B5850;">
+      <svg class="shape-glyph" viewBox="0 0 44 44"><circle cx="30" cy="14" r="8"/><path d="M24 20 L4 40 M27 24 L10 41 M20 16 L2 34" stroke="var(--accent)" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.55"/></svg>
+      <span class="letter" data-i18n="comete.gun.letter">Arsenal</span>
+      <h3 data-i18n="comete.gun.title">Space gun</h3>
+      <p data-i18n="comete.gun.desc">Plus de 45 sculptures-armes en fer soudé, depuis le premier Smith &amp; Frouin de 2014</p>
+    </a>
+  </div>
+</section>
+
+<section class="about wrap" id="about">
+  <div>
+    <h2 data-i18n="about.title">À propos</h2>
+  </div>
+  <div>
+    <p class="quote" data-i18n="about.quote1">My goal is not to represent, but to make one feel: the heartbeat, the breath, the cellular memory. This language is not meant to be read, but perceived.</p>
+    <p data-i18n="about.p1">Je travaille le souffle vital logé dans la matière. À travers des formes biomécaniques, je cherche à exprimer un langage physiologique — un alphabet organique fait de pulsations, de tensions et de silences. Chaque sculpture est une entité vivante, un fragment de corps en transformation, porteur d'un message universel : la fusion de l'humain, du vivant et de la machine. Je traite le métal comme une peau — une membrane sensible — où chaque pli, chaque soudure devient la syllabe d'une langue oubliée.</p>
+    <p data-i18n="about.p2">Ce langage est né d'une visite au musée Matisse de Cateau-Cambrésis, devant l'alphabet plastique d'Auguste Herbin. Il suit le rythme de la vie, le rythme cardiaque, en trois séquences éternelles : haut, bas, repos. Ces séquences sont doublement matérialisées, par une forme et une couleur — parallélépipède, pyramide, disque — répétées sur 13 cycles pour former l'alphabet complet et les dix chiffres, soit 36 symboles. Trois couleurs primaires portent les consonnes : rouge, jaune, bleu. Les voyelles empruntent les couleurs secondaires des lettres qui les entourent.</p>
+    <p data-i18n="about.p3">Né en 1967, je vis et travaille à la Villa Frouin, à Hyères, où j'expose aux côtés de Nadège Frouin, artiste tapissier.</p>
+    <p class="quote" data-i18n="about.quote2">Fight against those who want to stop you dreaming.</p>
+  </div>
+</section>
+
+<footer id="contact">
+  <span>© 2026 Étienne Frouin (E9 Inertion)</span>
+  <span><a href="mailto:contact@etiennefrouin.com">contact@etiennefrouin.com</a></span>
+  <span><a href="https://www.instagram.com/etiennefrouin/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/etienne.frouin.7" target="_blank" rel="noopener">Facebook</a></span>
+  <span><a href="cgv.html">CGV</a></span>
+</footer>
+
+
+<div class="cart-overlay" data-cart-overlay></div>
+<aside class="cart-panel" data-cart-panel>
+  <div class="cart-panel-head">
+    <h2 data-i18n="cart.title">Votre sélection</h2>
+    <button class="cart-panel-close" data-cart-close aria-label="Fermer">✕</button>
+  </div>
+  <div class="cart-panel-body">
+    <p class="cart-empty" data-cart-empty data-i18n="cart.empty">Votre sélection est vide pour l'instant.</p>
+    <div data-cart-list></div>
+  </div>
+  <div class="cart-panel-foot">
+    <label class="cart-dest-label" for="cart-dest" data-i18n="cart.dest_label">Livraison</label>
+    <select class="cart-dest-select" id="cart-dest" data-cart-dest>
+      <option value="fr" data-i18n="cart.dest_fr">France</option>
+      <option value="eu" data-i18n="cart.dest_eu">Europe</option>
+      <option value="intl" data-i18n="cart.dest_intl">International</option>
+    </select>
+    <div class="cart-total-row"><span data-i18n="cart.subtotal">Sous-total</span><span data-cart-subtotal>0 €</span></div>
+    <div class="cart-total-row"><span data-i18n="cart.shipping">Frais de port</span><span data-cart-shipping>0 €</span></div>
+    <div class="cart-total-row cart-total-row-final"><span data-i18n="cart.total">Total</span><span data-cart-total>0 €</span></div>
+    <button class="cart-paypal-btn" data-cart-paypal disabled data-i18n="cart.paypal">Payer avec PayPal</button>
+    <button class="cart-checkout-btn" data-cart-checkout disabled data-i18n="cart.email_btn">Envoyer le détail par email</button>
+    <p class="note" data-i18n="cart.note">Le paiement PayPal ouvre un nouvel onglet avec le montant total pré-rempli. Pensez aussi à envoyer le détail par email pour qu'Étienne sache quelles œuvres réserver.</p>
+  </div>
+</aside>
+<script src="assets/translations.js"></script>
+<script src="assets/i18n.js"></script>
+<script src="assets/cart.js" defer></script>
+</body>
+</html>
