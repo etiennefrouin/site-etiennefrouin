@@ -202,7 +202,8 @@ window.E9_TRANSLATIONS = {
   "villafrouin.teaser.eyebrow": "The venue",
   "villafrouin.teaser.title": "International Art Centre — Villa Frouin",
   "villafrouin.teaser.desc": "An English cottage from 1884, in Hyères Costebelle, now a workshop, gallery and meeting place for artists — where Étienne and Nadège Frouin create and exhibit throughout the year.",
-  "villafrouin.teaser.cta": "Discover the venue →"
+  "villafrouin.teaser.cta": "Discover the venue →",
+  "villafrouin.teaser.official": "Villa's official site →"
  },
  "de": {
   "nav.legend": "Sprache",
@@ -407,7 +408,8 @@ window.E9_TRANSLATIONS = {
   "villafrouin.teaser.eyebrow": "Der Ort",
   "villafrouin.teaser.title": "Internationales Kunstzentrum — Villa Frouin",
   "villafrouin.teaser.desc": "Ein englisches Cottage von 1884 in Hyères Costebelle, heute Atelier, Galerie und Treffpunkt für Künstler — wo Étienne und Nadège Frouin das ganze Jahr über schaffen und ausstellen.",
-  "villafrouin.teaser.cta": "Den Ort entdecken →"
+  "villafrouin.teaser.cta": "Den Ort entdecken →",
+  "villafrouin.teaser.official": "Offizielle Seite der Villa →"
  },
  "es": {
   "nav.legend": "Lenguaje",
@@ -612,7 +614,8 @@ window.E9_TRANSLATIONS = {
   "villafrouin.teaser.eyebrow": "El lugar",
   "villafrouin.teaser.title": "Centro de Arte Internacional — Villa Frouin",
   "villafrouin.teaser.desc": "Una casa de campo inglesa de 1884, en Hyères Costebelle, convertida en taller, galería y lugar de encuentro artístico — donde Étienne y Nadège Frouin crean y exponen a lo largo del año.",
-  "villafrouin.teaser.cta": "Descubrir el lugar →"
+  "villafrouin.teaser.cta": "Descubrir el lugar →",
+  "villafrouin.teaser.official": "Sitio oficial de la villa →"
  },
  "it": {
   "nav.legend": "Linguaggio",
@@ -817,7 +820,8 @@ window.E9_TRANSLATIONS = {
   "villafrouin.teaser.eyebrow": "Il luogo",
   "villafrouin.teaser.title": "Centro d'Arte Internazionale — Villa Frouin",
   "villafrouin.teaser.desc": "Un cottage inglese del 1884, a Hyères Costebelle, diventato atelier, galleria e luogo d'incontro artistico — dove Étienne e Nadège Frouin creano ed espongono durante tutto l'anno.",
-  "villafrouin.teaser.cta": "Scoprire il luogo →"
+  "villafrouin.teaser.cta": "Scoprire il luogo →",
+  "villafrouin.teaser.official": "Sito ufficiale della villa →"
  },
  "ru": {
   "nav.legend": "Язык",
@@ -1022,7 +1026,8 @@ window.E9_TRANSLATIONS = {
   "villafrouin.teaser.eyebrow": "Место",
   "villafrouin.teaser.title": "Международный центр искусств — Villa Frouin",
   "villafrouin.teaser.desc": "Английский коттедж 1884 года в Йер-Костбель, ныне мастерская, галерея и место встреч художников — где Этьен и Надеж Фруэн создают и выставляют работы круглый год.",
-  "villafrouin.teaser.cta": "Узнать больше о месте →"
+  "villafrouin.teaser.cta": "Узнать больше о месте →",
+  "villafrouin.teaser.official": "Официальный сайт виллы →"
  },
  "ja": {
   "nav.legend": "言語",
@@ -1227,6 +1232,7 @@ window.E9_TRANSLATIONS = {
   "villafrouin.teaser.eyebrow": "この場所",
   "villafrouin.teaser.title": "国際アートセンター — ヴィラ・フルーアン",
   "villafrouin.teaser.desc": "1884年に建てられたイエール・コストベルの英国風コテージ。現在はアトリエ、ギャラリー、そして芸術家たちの交流の場となっており、エティエンヌとナデージュ・フルーアンが一年を通して制作と展示を行っています。",
-  "villafrouin.teaser.cta": "この場所を見る →"
+  "villafrouin.teaser.cta": "この場所を見る →",
+  "villafrouin.teaser.official": "ヴィラの公式サイト →"
  }
 };
