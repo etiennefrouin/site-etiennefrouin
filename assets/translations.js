@@ -197,7 +197,12 @@ window.E9_TRANSLATIONS = {
   "pyr.p10.desc": "Red background = alkali metal. The second rarest element in the periodic table — only around thirty grams exist across the entire Earth's crust.",
   "pyr.p11.title": "Astatine",
   "pyr.p11.meta": "2025 — digital art",
-  "pyr.p11.desc": "Grey-brown background = metalloid. The rarest naturally occurring element in the Earth's crust outside the transuranium elements, produced by radioactive decay."
+  "pyr.p11.desc": "Grey-brown background = metalloid. The rarest naturally occurring element in the Earth's crust outside the transuranium elements, produced by radioactive decay.",
+  "nav.villafrouin": "Villa Frouin",
+  "villafrouin.teaser.eyebrow": "The venue",
+  "villafrouin.teaser.title": "International Art Centre — Villa Frouin",
+  "villafrouin.teaser.desc": "An English cottage from 1884, in Hyères Costebelle, now a workshop, gallery and meeting place for artists — where Étienne and Nadège Frouin create and exhibit throughout the year.",
+  "villafrouin.teaser.cta": "Discover the venue →"
  },
  "de": {
   "nav.legend": "Sprache",
@@ -397,7 +402,12 @@ window.E9_TRANSLATIONS = {
   "pyr.p10.desc": "Roter Hintergrund = Alkalimetall. Das zweitseltenste Element im Periodensystem — nur rund dreißig Gramm existieren in der gesamten Erdkruste.",
   "pyr.p11.title": "Astat",
   "pyr.p11.meta": "2025 — digitale Kunst",
-  "pyr.p11.desc": "Graubrauner Hintergrund = Halbmetall. Das seltenste natürlich vorkommende Element der Erdkruste außerhalb der Transurane, entstanden durch radioaktiven Zerfall."
+  "pyr.p11.desc": "Graubrauner Hintergrund = Halbmetall. Das seltenste natürlich vorkommende Element der Erdkruste außerhalb der Transurane, entstanden durch radioaktiven Zerfall.",
+  "nav.villafrouin": "Villa Frouin",
+  "villafrouin.teaser.eyebrow": "Der Ort",
+  "villafrouin.teaser.title": "Internationales Kunstzentrum — Villa Frouin",
+  "villafrouin.teaser.desc": "Ein englisches Cottage von 1884 in Hyères Costebelle, heute Atelier, Galerie und Treffpunkt für Künstler — wo Étienne und Nadège Frouin das ganze Jahr über schaffen und ausstellen.",
+  "villafrouin.teaser.cta": "Den Ort entdecken →"
  },
  "es": {
   "nav.legend": "Lenguaje",
@@ -597,7 +607,12 @@ window.E9_TRANSLATIONS = {
   "pyr.p10.desc": "Fondo rojo = alcalino. El segundo elemento más raro de la tabla periódica: solo existen unos treinta gramos en toda la corteza terrestre.",
   "pyr.p11.title": "Ástato",
   "pyr.p11.meta": "2025 — arte digital",
-  "pyr.p11.desc": "Fondo marrón grisáceo = metaloide. El elemento natural más raro de la corteza terrestre fuera de los transuránidos, producido por desintegración radiactiva."
+  "pyr.p11.desc": "Fondo marrón grisáceo = metaloide. El elemento natural más raro de la corteza terrestre fuera de los transuránidos, producido por desintegración radiactiva.",
+  "nav.villafrouin": "Villa Frouin",
+  "villafrouin.teaser.eyebrow": "El lugar",
+  "villafrouin.teaser.title": "Centro de Arte Internacional — Villa Frouin",
+  "villafrouin.teaser.desc": "Una casa de campo inglesa de 1884, en Hyères Costebelle, convertida en taller, galería y lugar de encuentro artístico — donde Étienne y Nadège Frouin crean y exponen a lo largo del año.",
+  "villafrouin.teaser.cta": "Descubrir el lugar →"
  },
  "it": {
   "nav.legend": "Linguaggio",
@@ -797,7 +812,12 @@ window.E9_TRANSLATIONS = {
   "pyr.p10.desc": "Sfondo rosso = alcalino. Il secondo elemento più raro della tavola periodica — solo una trentina di grammi esistono in tutta la crosta terrestre.",
   "pyr.p11.title": "Astato",
   "pyr.p11.meta": "2025 — arte digitale",
-  "pyr.p11.desc": "Sfondo marrone grigiastro = metalloide. L'elemento naturale più raro della crosta terrestre al di fuori dei transuranici, prodotto dal decadimento radioattivo."
+  "pyr.p11.desc": "Sfondo marrone grigiastro = metalloide. L'elemento naturale più raro della crosta terrestre al di fuori dei transuranici, prodotto dal decadimento radioattivo.",
+  "nav.villafrouin": "Villa Frouin",
+  "villafrouin.teaser.eyebrow": "Il luogo",
+  "villafrouin.teaser.title": "Centro d'Arte Internazionale — Villa Frouin",
+  "villafrouin.teaser.desc": "Un cottage inglese del 1884, a Hyères Costebelle, diventato atelier, galleria e luogo d'incontro artistico — dove Étienne e Nadège Frouin creano ed espongono durante tutto l'anno.",
+  "villafrouin.teaser.cta": "Scoprire il luogo →"
  },
  "ru": {
   "nav.legend": "Язык",
@@ -997,7 +1017,12 @@ window.E9_TRANSLATIONS = {
   "pyr.p10.desc": "Красный фон = щелочной металл. Второй самый редкий элемент периодической таблицы — во всей земной коре существует лишь около тридцати граммов.",
   "pyr.p11.title": "Астат",
   "pyr.p11.meta": "2025 — цифровое искусство",
-  "pyr.p11.desc": "Серо-коричневый фон = металлоид. Самый редкий природный элемент земной коры (не считая трансурановых), образующийся в результате радиоактивного распада."
+  "pyr.p11.desc": "Серо-коричневый фон = металлоид. Самый редкий природный элемент земной коры (не считая трансурановых), образующийся в результате радиоактивного распада.",
+  "nav.villafrouin": "Villa Frouin",
+  "villafrouin.teaser.eyebrow": "Место",
+  "villafrouin.teaser.title": "Международный центр искусств — Villa Frouin",
+  "villafrouin.teaser.desc": "Английский коттедж 1884 года в Йер-Костбель, ныне мастерская, галерея и место встреч художников — где Этьен и Надеж Фруэн создают и выставляют работы круглый год.",
+  "villafrouin.teaser.cta": "Узнать больше о месте →"
  },
  "ja": {
   "nav.legend": "言語",
@@ -1197,6 +1222,11 @@ window.E9_TRANSLATIONS = {
   "pyr.p10.desc": "赤い背景はアルカリ金属を表す。周期表の中で2番目に希少な元素 — 地殻全体にわずか30グラムほどしか存在しない。",
   "pyr.p11.title": "アスタチン",
   "pyr.p11.meta": "2025年 — デジタルアート",
-  "pyr.p11.desc": "灰褐色の背景は半金属を表す。超ウラン元素を除き、地殻に天然に存在する元素の中で最も希少なもので、放射性崩壊によって生成される。"
+  "pyr.p11.desc": "灰褐色の背景は半金属を表す。超ウラン元素を除き、地殻に天然に存在する元素の中で最も希少なもので、放射性崩壊によって生成される。",
+  "nav.villafrouin": "Villa Frouin",
+  "villafrouin.teaser.eyebrow": "この場所",
+  "villafrouin.teaser.title": "国際アートセンター — ヴィラ・フルーアン",
+  "villafrouin.teaser.desc": "1884年に建てられたイエール・コストベルの英国風コテージ。現在はアトリエ、ギャラリー、そして芸術家たちの交流の場となっており、エティエンヌとナデージュ・フルーアンが一年を通して制作と展示を行っています。",
+  "villafrouin.teaser.cta": "この場所を見る →"
  }
 };

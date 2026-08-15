@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centre d'art International — Villa Frouin | E9 INERTION</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/cart.css">
+<style>
+  :root{
+    --paper:#EDEAE1;
+    --ink:#161513;
+    --accent:#7A5C3E; /* brun villa/miel — spécifique à ce lieu */
+    --line:#161513;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:'Space Mono', monospace;line-height:1.65;}
+  h1,h2,h3,.display{font-family:'Archivo', sans-serif;font-weight:900;text-transform:uppercase;letter-spacing:-0.01em;margin:0;}
+  a{color:inherit;}
+  img{display:block;max-width:100%;}
+  .wrap{max-width:900px;margin:0 auto;padding:0 24px;}
+
+  header{border-bottom:1.5px solid var(--line);position:sticky;top:0;background:var(--paper);z-index:10;}
+  .topbar{display:flex;justify-content:space-between;align-items:center;padding:16px 24px;max-width:1040px;margin:0 auto;flex-wrap:wrap;gap:10px;}
+  .topbar .mark{font-family:'Archivo',sans-serif;font-weight:900;font-size:18px;}
+  .topbar nav{display:flex;gap:16px;font-size:11.5px;text-transform:uppercase;letter-spacing:0.05em;flex-wrap:wrap;}
+  .topbar nav a{text-decoration:none;border-bottom:1.5px solid transparent;padding-bottom:2px;}
+  .topbar nav a:hover,.topbar nav a.current{border-color:var(--ink);}
+
+  .hero{padding:64px 24px 40px;border-bottom:1.5px solid var(--line);}
+  .hero .eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:0.1em;color:var(--accent);margin-bottom:14px;font-weight:700;}
+  .hero h1{font-size:clamp(28px,4.5vw,46px);text-transform:none;line-height:1.05;max-width:16ch;}
+  .hero .subtitle{font-family:'Archivo',sans-serif;font-weight:700;font-size:14px;text-transform:uppercase;color:#413F3A;margin-top:10px;letter-spacing:0.04em;}
+  .hero p{font-size:14px;color:#413F3A;max-width:60ch;margin-top:18px;}
+  .hero-img{width:100%;aspect-ratio:16/9;object-fit:cover;border:1.5px solid var(--line);margin-top:28px;}
+
+  section.block{padding:40px 24px;border-bottom:1.5px solid var(--line);}
+  section.block h2{font-size:16px;margin-bottom:16px;}
+  section.block p{font-size:13.5px;color:#2A2926;max-width:66ch;margin:0 0 12px;}
+
+  .people{display:grid;grid-template-columns:1fr 1fr;gap:28px;}
+  .people .person h3{font-size:14px;margin-bottom:6px;}
+  .people .person p.role{font-size:11px;color:var(--accent);text-transform:uppercase;letter-spacing:0.04em;margin-bottom:8px;font-weight:700;}
+  .people .person p{font-size:13px;}
+
+  .events{display:grid;grid-template-columns:repeat(2,1fr);border-top:1.5px solid var(--line);}
+  .event{border-right:1.5px solid var(--line);border-bottom:1.5px solid var(--line);padding:20px 22px;}
+  .event:nth-child(2n){border-right:none;}
+  .event h3{font-size:13.5px;margin-bottom:6px;text-transform:none;font-family:'Archivo',sans-serif;font-weight:700;}
+  .event p{font-size:12.5px;color:#413F3A;margin:0;}
+
+  .visit{background:rgba(122,92,62,0.08);padding:28px 24px;border-top:1.5px solid var(--line);border-bottom:1.5px solid var(--line);}
+  .visit .wrap{display:grid;grid-template-columns:1fr 1fr;gap:24px;}
+  .visit h3{font-size:13px;margin-bottom:8px;}
+  .visit p{font-size:13px;margin:0 0 4px;}
+  .visit a{text-decoration:underline;}
+
+  footer{border-top:1.5px solid var(--line);padding:28px 24px;font-size:12px;color:#413F3A;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;max-width:1040px;margin:0 auto;}
+  footer a{text-decoration:underline;}
+
+  @media (max-width:720px){
+    .people{grid-template-columns:1fr;}
+    .events{grid-template-columns:1fr;}
+    .event{border-right:none;}
+    .visit .wrap{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="topbar">
+    <a class="mark" href="index.html">E9 INERTION</a>
+    <nav>
+      <a href="index.html#legend">Langage</a>
+      <a href="news.html">Breaking News</a>
+      <a href="serigraphies.html">Sérigraphies</a>
+      <a href="spaceships.html">Space ships</a>
+      <a href="spacegun.html">Space gun</a>
+      <a href="villafrouin.html" class="current">Villa Frouin</a>
+      <a href="index.html#about">À propos</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <button class="cart-btn" data-cart-open type="button">
+      Panier <span class="cart-count" data-cart-count>0</span>
+    </button>
+  </div>
+</header>
+
+<section class="hero wrap">
+  <p class="eyebrow">Le lieu</p>
+  <h1>Centre d'art International</h1>
+  <p class="subtitle">Villa Frouin — Hyères Costebelle</p>
+  <p>Un cottage anglais de 1884 devenu atelier, galerie et lieu de rencontres artistiques. C'est ici, à la Villa Frouin, qu'Étienne et Nadège Frouin créent, exposent et accueillent des artistes du monde entier.</p>
+  <img class="hero-img" src="https://lh3.googleusercontent.com/sitesv/AG8ngQU26-ojWgp3EHlJhYH6tbe1FJK7zcd1ll1eKamfjDjTHQMyhshxJELHVeyMhF3hQyCUYtrORYahZQDmdVK5tunYayHmOkXzmjl3wvcgEPz0LS_qR8sY_12atKD4Ib4WMcUEOJTiMxExsp6W1VBHjrXukcqGjmsb08jgKuKGBDqn3VG0svUB-vr6X7fmMO8Ck2DJg2cAAm45lGUFAcCYD7-VJlKyEN1-6Yjyju6E3I8=w1280" alt="La Villa Frouin, Hyères Costebelle">
+</section>
+
+<section class="block wrap">
+  <h2>Une histoire depuis 1884</h2>
+  <p>Le 18 mars 1884, Elizabeth Douglas Irvine achète un terrain à proximité des grands hôtels de Costebelle et y fait construire ce cottage anglais néogothique — un exemple architectural unique à Hyères, avec ses encadrements de fenêtres moulurés et sa bordure de rive en bois festonnée. Elle y vivra jusqu'à sa mort en 1914.</p>
+  <p>La propriété passe ensuite entre plusieurs mains. En 1948, les époux Duchaine rebaptisent la villa Cigala en « Villa Avé Maria » et y construisent une miellerie — un bâtiment de 250 m² qui deviendra, bien plus tard, le cœur artistique du lieu.</p>
+  <p>En 2021, Nadège et Étienne Frouin achètent la propriété. L'ancienne miellerie devient leurs deux ateliers et leur show-room galerie ; le jardin, replanté à l'anglaise avec des essences méditerranéennes, retrouve tout son éclat.</p>
+</section>
+
+<section class="block wrap">
+  <h2>Les Frouin</h2>
+  <div class="people">
+    <div class="person">
+      <p class="role">Sculpteur métal</p>
+      <h3>Étienne Frouin — E9 Inertion</h3>
+      <p>Peintre et sculpteur, il développe ici le langage physiologique qui structure toute son œuvre — des sculptures en métal aux pièces tuftées, en passant par le tableau périodique détourné.</p>
+    </div>
+    <div class="person">
+      <p class="role">Artiste tapissier</p>
+      <h3>Nadège Frouin</h3>
+      <p>Tapissier garnisseur de formation, elle métamorphose sièges et mobiliers en pièces uniques, sculptées dans les matières traditionnelles — crin végétal, crin animal, toile de lin.</p>
+    </div>
+  </div>
+</section>
+
+<div class="events">
+  <div class="event">
+    <h3>Journées Européennes des Métiers d'Art</h3>
+    <p>Ouverture des ateliers au public, démonstrations de tuftage et de garniture de sièges, rencontres avec les artistes.</p>
+  </div>
+  <div class="event">
+    <h3>Journées Européennes du Patrimoine</h3>
+    <p>Visite libre des jardins remarquables, des ateliers et de la galerie — l'occasion de découvrir l'architecture victorienne du cottage.</p>
+  </div>
+  <div class="event">
+    <h3>Festival de la Céramique</h3>
+    <p>La Villa Frouin ouvre ses jardins et ses salons à des céramistes invités, le temps d'un week-end.</p>
+  </div>
+  <div class="event">
+    <h3>Salon du petit format</h3>
+    <p>Une cinquantaine d'artistes sélectionnés présentent chacun plusieurs petits formats à prix unique, entièrement reversé aux artistes.</p>
+  </div>
+</div>
+
+<section class="visit">
+  <div class="wrap">
+    <div>
+      <h3>Adresse</h3>
+      <p>129 chemin des Villas</p>
+      <p>83400 Hyères Costebelle, France</p>
+    </div>
+    <div>
+      <h3>Visiter</h3>
+      <p>Galerie ouverte lors des portes ouvertes ou sur rendez-vous.</p>
+      <p><a href="mailto:contact@etiennefrouin.com">Nous écrire pour organiser une visite</a></p>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <span>© 2026 Étienne Frouin (E9 Inertion)</span>
+  <span><a href="mailto:contact@etiennefrouin.com">contact@etiennefrouin.com</a></span>
+  <span><a href="https://www.instagram.com/etiennefrouin/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/etienne.frouin.7" target="_blank" rel="noopener">Facebook</a></span>
+  <span><a href="cgv.html">CGV</a></span>
+</footer>
+
+
+<div class="cart-overlay" data-cart-overlay></div>
+<aside class="cart-panel" data-cart-panel>
+  <div class="cart-panel-head">
+    <h2>Votre sélection</h2>
+    <button class="cart-panel-close" data-cart-close aria-label="Fermer">✕</button>
+  </div>
+  <div class="cart-panel-body">
+    <p class="cart-empty" data-cart-empty>Votre sélection est vide pour l'instant.</p>
+    <div data-cart-list></div>
+  </div>
+  <div class="cart-panel-foot">
+    <label class="cart-dest-label" for="cart-dest">Livraison</label>
+    <select class="cart-dest-select" id="cart-dest" data-cart-dest>
+      <option value="fr">France</option>
+      <option value="eu">Europe</option>
+      <option value="intl">International</option>
+    </select>
+    <div class="cart-total-row"><span>Sous-total</span><span data-cart-subtotal>0 €</span></div>
+    <div class="cart-total-row"><span>Frais de port</span><span data-cart-shipping>0 €</span></div>
+    <div class="cart-total-row cart-total-row-final"><span>Total</span><span data-cart-total>0 €</span></div>
+    <button class="cart-paypal-btn" data-cart-paypal disabled>Payer avec PayPal</button>
+    <button class="cart-checkout-btn" data-cart-checkout disabled>Envoyer le détail par email</button>
+    <p class="note">Le paiement PayPal ouvre un nouvel onglet avec le montant total pré-rempli. Pensez aussi à envoyer le détail par email pour qu'Étienne sache quelles œuvres réserver.</p>
+  </div>
+</aside>
+<script src="assets/translations.js"></script>
+<script src="assets/i18n.js"></script>
+<script src="assets/cart.js" defer></script>
+</body>
+</html>
