@@ -1,1 +1,572 @@
-
+{
+ "items": [
+  {
+   "title": "Or",
+   "num": "N° 79 — Au",
+   "meta": "2025 — arts numériques",
+   "desc": "Ombre noire = solide, fond rose = actinide. L'élément de numéro atomique 79, dont le symbole Au vient du latin aurum.",
+   "image": "https://medias.artmajeur.com/hd/18721369_79-or.jpg?v=1742277331",
+   "onRequest": true
+  },
+  {
+   "title": "Radium",
+   "num": "N° 88 — Ra",
+   "meta": "2026 — arts numériques",
+   "desc": "Fond beige = alcalino-terreux. Blanc à l'état pur, il noircit à l'air libre — extrêmement radioactif, demi-vie de 1600 ans.",
+   "image": "https://medias.artmajeur.com/hd/19970911_88-radium.jpg?v=1780650005",
+   "onRequest": true
+  },
+  {
+   "title": "Neptunium",
+   "num": "N° 93 — Np",
+   "meta": "2026 — arts numériques",
+   "desc": "Fond rose = actinide. Premier des transuraniens, découvert en 1940, baptisé en écho à Neptune qui suit Uranus dans le système solaire.",
+   "image": "https://medias.artmajeur.com/hd/20159602_93-neptunium.jpg?v=1783920529",
+   "onRequest": true
+  },
+  {
+   "title": "Uranium",
+   "num": "N° 92 — U",
+   "meta": "2026 — arts numériques",
+   "desc": "Fond rose = actinide. Sa radioactivité fut découverte par Henri Becquerel en 1896, révélant un phénomène jusque-là inconnu.",
+   "image": "https://medias.artmajeur.com/hd/20013574_92-uranium.jpg?v=1779781957",
+   "onRequest": true
+  },
+  {
+   "title": "Bismuth",
+   "num": "N° 83 — Bi",
+   "meta": "2025 — arts numériques",
+   "desc": "Fond gris = métaux pauvres. Cinquième et dernier élément du groupe des pnictogènes.",
+   "image": "https://medias.artmajeur.com/hd/18851098_83-bismuth-pub.jpg?v=1746076937",
+   "onRequest": true
+  },
+  {
+   "title": "Polonium",
+   "num": "N° 84 — Po",
+   "meta": "2025 — arts numériques",
+   "desc": "Fond gris = métaux pauvres. Métal radioactif, présent à l'état de traces dans les minerais d'uranium.",
+   "image": "https://medias.artmajeur.com/hd/18876544_84-polonium.jpg?v=1746835413",
+   "onRequest": true
+  },
+  {
+   "title": "Actinium",
+   "num": "N° 89 — Ac",
+   "meta": "2026 — arts numériques",
+   "desc": "Fond rose = actinide. Métal radioactif blanc-argenté qui brille dans le noir d'une lueur bleu pâle, l'air environnant étant ionisé par les particules qu'il émet.",
+   "image": "https://medias.artmajeur.com/hd/19987357_89-actinium.jpg?v=1778220439",
+   "onRequest": true
+  },
+  {
+   "title": "Protactinium",
+   "num": "N° 91 — Pa",
+   "meta": "2026 — arts numériques",
+   "desc": "Fond rose = actinide. Son nom vient du grec « premier » et d'« actinium », qu'il précède dans la chaîne de désintégration radioactive de l'uranium 235.",
+   "image": "https://medias.artmajeur.com/hd/20005519_91-protactinium-insta.jpg?v=1780505374",
+   "onRequest": true
+  },
+  {
+   "title": "Thorium",
+   "num": "N° 90 — Th",
+   "meta": "2026 — arts numériques",
+   "desc": "Fond rose = actinide. Découvert en 1829 par le chimiste suédois Jöns Jacob Berzelius, nommé d'après Thor, dieu nordique du tonnerre.",
+   "image": "https://medias.artmajeur.com/hd/20002309_90-thorium.jpg?v=1780523231",
+   "onRequest": true
+  },
+  {
+   "title": "Francium",
+   "num": "N° 87 — Fr",
+   "meta": "2026 — arts numériques",
+   "desc": "Fond rouge = alcalins. Second élément le plus rare de la classification périodique — une trentaine de grammes seulement dans toute la croûte terrestre.",
+   "image": "https://medias.artmajeur.com/hd/19957618_87-francium.jpg?v=1777274426",
+   "onRequest": true
+  },
+  {
+   "title": "Astate",
+   "num": "N° 85 — At",
+   "meta": "2025 — arts numériques",
+   "desc": "Fond marron gris = métalloïde. Le plus rare des éléments naturels de la croûte terrestre, hors transuraniens, produit par désintégration radioactive.",
+   "image": "https://medias.artmajeur.com/hd/18882115_85-astate.jpg?v=1746957435",
+   "onRequest": true
+  },
+  {
+   "title": "HASARD",
+   "num": "",
+   "meta": "2025 — Arts numériques",
+   "desc": "Version numérique du mot HASARD, pochoir source de la série tuftée.",
+   "image": "https://medias.artmajeur.com/hd/19826038_hasard-6.jpg?v=1773745498",
+   "onRequest": true
+  },
+  {
+   "title": "Mobile",
+   "num": "",
+   "meta": "2025 — Arts numériques",
+   "desc": "Balance, compensation, opposition — la version numérique du mobile physiologique.",
+   "image": "https://medias.artmajeur.com/hd/18861367_mobile.jpg?v=1746342978",
+   "onRequest": true
+  },
+  {
+   "title": "82 Plomb",
+   "num": "",
+   "meta": "2025 — Arts numériques",
+   "desc": "Élément du tableau périodique détourné, numéro atomique 82.",
+   "image": "https://medias.artmajeur.com/hd/18757042_82-plomb.jpg?v=1763152914",
+   "onRequest": true
+  },
+  {
+   "title": "Banane",
+   "num": "",
+   "meta": "2025 — Arts numériques",
+   "desc": "Version numérique de la banane écrite dans l'alphabet physiologique.",
+   "image": "https://medias.artmajeur.com/hd/18706405_banane.jpg?v=1741847979",
+   "onRequest": true
+  },
+  {
+   "title": "Bernard Buffet",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Un hommage graphique au peintre Bernard Buffet.",
+   "image": "https://medias.artmajeur.com/hd/18481561_bernard-buffet.jpg?v=1740743246",
+   "onRequest": true
+  },
+  {
+   "title": "Proton",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Le langage physiologique appliqué au vocabulaire de la physique des particules.",
+   "image": "https://medias.artmajeur.com/hd/18470503_proton.jpg?v=1741026025",
+   "onRequest": true
+  },
+  {
+   "title": "Cténophore digital",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Version numérique de la créature des abysses de la série Megaplanktos.",
+   "image": "https://medias.artmajeur.com/hd/18430414_ctenophore.jpg?v=1741030001",
+   "onRequest": true
+  },
+  {
+   "title": "Don Quichotte",
+   "num": "",
+   "meta": "2025 — Arts numériques",
+   "desc": "Un clin d'œil à Cervantès traduit dans l'alphabet d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/18973309_don-quichotte.jpg?v=1748501984",
+   "onRequest": true
+  },
+  {
+   "title": "Équilibre",
+   "num": "",
+   "meta": "2025 — Arts numériques",
+   "desc": "Balance et compensation des forces, en pochoir numérique.",
+   "image": "https://medias.artmajeur.com/hd/18858343_equilibre.jpg?v=1746258712",
+   "onRequest": true
+  },
+  {
+   "title": "81 Thallium",
+   "num": "",
+   "meta": "2025 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 81.",
+   "image": "https://medias.artmajeur.com/hd/18754309_81-thallium.jpg?v=1743244256",
+   "onRequest": true
+  },
+  {
+   "title": "Intelligence",
+   "num": "",
+   "meta": "2025 — Techniques mixtes",
+   "desc": "Une réflexion graphique sur l'intelligence, dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/18650233_intelligence.jpg?v=1741014216",
+   "onRequest": true
+  },
+  {
+   "title": "Alfred Manessier",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Hommage au peintre abstrait Alfred Manessier.",
+   "image": "https://medias.artmajeur.com/hd/18479272_alfred-manessier-new.jpg?v=1741025097",
+   "onRequest": true
+  },
+  {
+   "title": "Neutron",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Le langage physiologique appliqué au vocabulaire de la physique des particules.",
+   "image": "https://medias.artmajeur.com/hd/18470497_neutron.jpg?v=1741025987",
+   "onRequest": true
+  },
+  {
+   "title": "Bactérie II",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Une bactérie imaginaire, dans la veine de la série Megaplanktos.",
+   "image": "https://medias.artmajeur.com/hd/18427912_bacterie-2.jpg?v=1737787104",
+   "onRequest": true
+  },
+  {
+   "title": "80 Mercure",
+   "num": "",
+   "meta": "2025 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 80.",
+   "image": "https://medias.artmajeur.com/hd/18749059_80-mercure.jpg?v=1743054612",
+   "onRequest": true
+  },
+  {
+   "title": "Insouciance",
+   "num": "",
+   "meta": "2025 — Arts numériques",
+   "desc": "Une émotion traduite en couple forme/couleur du langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/18641089_insouciance-hq.jpg?v=1740027217",
+   "onRequest": true
+  },
+  {
+   "title": "Saint Étienne",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Un clin d'œil au prénom de l'artiste, dans son propre alphabet.",
+   "image": "https://medias.artmajeur.com/hd/18472840_saint-etienne.jpg?v=1741025802",
+   "onRequest": true
+  },
+  {
+   "title": "Quark",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Le langage physiologique appliqué au vocabulaire de la physique des particules.",
+   "image": "https://medias.artmajeur.com/hd/18470494_qwark.jpg?v=1741025991",
+   "onRequest": true
+  },
+  {
+   "title": "Fusion",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "La fusion, entre physique et langage graphique.",
+   "image": "https://medias.artmajeur.com/hd/18352363_fusion.jpg?v=1741037779",
+   "onRequest": true
+  },
+  {
+   "title": "Vivre",
+   "num": "",
+   "meta": "2025 — Arts numériques",
+   "desc": "Le mot VIVRE traduit en couples forme/couleur du langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/18842023_vivre.jpg?v=1745772703",
+   "onRequest": true
+  },
+  {
+   "title": "Colibri",
+   "num": "",
+   "meta": "2025 — Arts numériques",
+   "desc": "Un colibri stylisé dans le vocabulaire graphique d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/18604366_colibri.jpg?v=1741016189",
+   "onRequest": true
+  },
+  {
+   "title": "Électron",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Le langage physiologique appliqué au vocabulaire de la physique des particules.",
+   "image": "https://medias.artmajeur.com/hd/18470506_electron.jpg?v=1741186369",
+   "onRequest": true
+  },
+  {
+   "title": "Concentration",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Un état d'esprit traduit en langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/18433450_concentration-hd.jpg?v=1737961446",
+   "onRequest": true
+  },
+  {
+   "title": "Création",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "La création elle-même, mise en mots et en formes.",
+   "image": "https://medias.artmajeur.com/hd/18326305_creation.jpg?v=1738000663",
+   "onRequest": true
+  },
+  {
+   "title": "Destruction",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Pendant de Création, dans le même vocabulaire graphique.",
+   "image": "https://medias.artmajeur.com/hd/18326296_destruction.jpg?v=1741040325",
+   "onRequest": true
+  },
+  {
+   "title": "Nue de profil",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Un nu traduit dans le langage physiologique d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/18073441_nue.jpg?v=1738198255",
+   "onRequest": true
+  },
+  {
+   "title": "Alexei Navalny",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Un hommage graphique à Alexei Navalny.",
+   "image": "https://medias.artmajeur.com/hd/17607295_alexei-navalny.jpg?v=1738322017",
+   "onRequest": true
+  },
+  {
+   "title": "Gustave Eiffel",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Réalisée pour le centenaire de la mort de Gustave Eiffel.",
+   "image": "https://medias.artmajeur.com/hd/17448655_gustave-eiffel.jpg?v=1738365148",
+   "onRequest": true
+  },
+  {
+   "title": "73 Tantale",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 73.",
+   "image": "https://medias.artmajeur.com/hd/17440543_73-tantale.jpg?v=1738367353",
+   "onRequest": true
+  },
+  {
+   "title": "70 Ytterbium",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 70.",
+   "image": "https://medias.artmajeur.com/hd/17419984_70-ytterbium.jpg?v=1738371184",
+   "onRequest": true
+  },
+  {
+   "title": "Amour / Haine",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Deux mots opposés, un seul vocabulaire graphique.",
+   "image": "https://medias.artmajeur.com/hd/12446240_haine-amour.jpg?v=1739319728",
+   "onRequest": true
+  },
+  {
+   "title": "Hommage à Vasarely",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Un hommage au père de l'Op Art, Victor Vasarely.",
+   "image": "https://medias.artmajeur.com/hd/12236357_vasarely.jpg?v=1739298748",
+   "onRequest": true
+  },
+  {
+   "title": "Plein & Vide",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Deux états opposés, dans le même langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12056498_vide-plein.jpg?v=1739309641",
+   "onRequest": true
+  },
+  {
+   "title": "Abstraction 4",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Composition abstraite dans le vocabulaire d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/18150670_abstraction-4.jpg?v=1738181171",
+   "onRequest": true
+  },
+  {
+   "title": "Les teeshirts de Hyères — 2024",
+   "num": "",
+   "meta": "2024 — Peinture",
+   "desc": "Le langage physiologique appliqué au textile, façon Hyères.",
+   "image": "https://medias.artmajeur.com/hd/18057421_450119170-3665538763733914-8024782711105126107-n.jpg?v=1738201748",
+   "onRequest": true
+  },
+  {
+   "title": "Amour en liberté",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Version numérique du thème de l'amour libre.",
+   "image": "https://medias.artmajeur.com/hd/17561380_amour-en-liberte-2.jpg?v=1741090137",
+   "onRequest": true
+  },
+  {
+   "title": "76 Osmium",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 76.",
+   "image": "https://medias.artmajeur.com/hd/17446033_76-osmium-multi.jpg?v=1741248565",
+   "onRequest": true
+  },
+  {
+   "title": "Ceci est un sapin",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Un clin d'œil à Magritte, en version sapin de Noël.",
+   "image": "https://medias.artmajeur.com/hd/17422633_ceci-est-un-sapin.jpg?v=1738370673",
+   "onRequest": true
+  },
+  {
+   "title": "Chromosome X",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Le chromosome X traduit dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12459083_chromosone-x.jpg?v=1739299599",
+   "onRequest": true
+  },
+  {
+   "title": "Wet / Dry",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Deux états de la matière, en opposition graphique.",
+   "image": "https://medias.artmajeur.com/hd/12445916_wet-dry-2.jpg?v=1739300354",
+   "onRequest": true
+  },
+  {
+   "title": "Léonard de Vinci",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Un hommage à Léonard de Vinci.",
+   "image": "https://medias.artmajeur.com/hd/12227585_leonardodavinci.jpg?v=1739306294",
+   "onRequest": true
+  },
+  {
+   "title": "Siaci Saint Honoré",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Une commande pour l'entreprise Siaci Saint Honoré.",
+   "image": "https://medias.artmajeur.com/hd/12037445_siaci-saint-honore-langage-graphique-e9-inertion.jpg?v=1739324188",
+   "onRequest": true
+  },
+  {
+   "title": "Abstraction 3",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Composition abstraite dans le vocabulaire d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/18150667_abstraction-3.jpg?v=1738181116",
+   "onRequest": true
+  },
+  {
+   "title": "Masculinisme",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Une réflexion graphique sur le masculinisme.",
+   "image": "https://medias.artmajeur.com/hd/17827372_masculinisme-2.jpg?v=1738266124",
+   "onRequest": true
+  },
+  {
+   "title": "Amour en gestation",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "L'amour naissant, traduit en langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/17557897_amour-en-gestation.jpg?v=1738337018",
+   "onRequest": true
+  },
+  {
+   "title": "75 Rhénium",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 75.",
+   "image": "https://medias.artmajeur.com/hd/17443666_75-rhenium-2.jpg?v=1738366270",
+   "onRequest": true
+  },
+  {
+   "title": "72 Hafnium",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 72.",
+   "image": "https://medias.artmajeur.com/hd/17420095_72-hafnium.jpg?v=1738371475",
+   "onRequest": true
+  },
+  {
+   "title": "Trip to the space: Earth, Moon and Mars",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Un voyage graphique entre la Terre, la Lune et Mars.",
+   "image": "https://medias.artmajeur.com/hd/12456272_earth-moon-mars.jpg?v=1739290786",
+   "onRequest": true
+  },
+  {
+   "title": "Cholet",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Un hommage à la ville de Cholet, ville natale de l'artiste.",
+   "image": "https://medias.artmajeur.com/hd/12356801_cholet-1.jpg?v=1739305999",
+   "onRequest": true
+  },
+  {
+   "title": "Baigneuse",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Version numérique du thème de la baigneuse.",
+   "image": "https://medias.artmajeur.com/hd/12194849_baigneuse-bis.jpg?v=1739308047",
+   "onRequest": true
+  },
+  {
+   "title": "60 Néodyme",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 60.",
+   "image": "https://medias.artmajeur.com/hd/16943959_60-neodyme.jpg?v=1738458863",
+   "onRequest": true
+  },
+  {
+   "title": "Abstraction 2",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Composition abstraite dans le vocabulaire d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/18150658_abstraction-2.jpg?v=1738181120",
+   "onRequest": true
+  },
+  {
+   "title": "Liberté",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Le mot Liberté traduit en couples forme/couleur.",
+   "image": "https://medias.artmajeur.com/hd/17800840_liberte.jpg?v=1738273372",
+   "onRequest": true
+  },
+  {
+   "title": "77 Iridium",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 77.",
+   "image": "https://medias.artmajeur.com/hd/17451157_77-iridium.jpg?v=1738365028",
+   "onRequest": true
+  },
+  {
+   "title": "74 Tungstène",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 74.",
+   "image": "https://medias.artmajeur.com/hd/17442232_74-tungstene.jpg?v=1738366614",
+   "onRequest": true
+  },
+  {
+   "title": "71 Lutécium",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 71.",
+   "image": "https://medias.artmajeur.com/hd/17420020_71-lutecium.jpg?v=1738371075",
+   "onRequest": true
+  },
+  {
+   "title": "Cellule",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "La cellule vivante, traduite en langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12451157_cellule.jpg?v=1739283859",
+   "onRequest": true
+  },
+  {
+   "title": "Atomium",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Un hommage graphique à l'Atomium de Bruxelles.",
+   "image": "https://medias.artmajeur.com/hd/12246344_atomium.jpg?v=1739311747",
+   "onRequest": true
+  },
+  {
+   "title": "Trou noir",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Le trou noir, exploré dans le vocabulaire graphique d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/12159470_trou-noir.jpg?v=1739309928",
+   "onRequest": true
+  },
+  {
+   "title": "57 Lanthane",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 57.",
+   "image": "https://medias.artmajeur.com/hd/16929127_57-lanthane.jpg?v=1738462395",
+   "onRequest": true
+  }
+ ]
+}
