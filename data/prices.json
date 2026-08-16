@@ -6,7 +6,7 @@
   },
   "x-space-gun": {
     "title": "X Space gun",
-    "price": 2000,
+    "price": 750,
     "onRequest": false
   },
   "mucha": {
@@ -16,8 +16,8 @@
   },
   "wesselmann": {
     "title": "Dialogue avec Tom Wesselmann",
-    "price": null,
-    "onRequest": true
+    "price": 1500,
+    "onRequest": false
   },
   "bather-garden": {
     "title": "Bather in the garden",
@@ -26,7 +26,7 @@
   },
   "robineuf": {
     "title": "Robineuf",
-    "price": null,
-    "onRequest": true
+    "price": 1750,
+    "onRequest": false
   }
 }
