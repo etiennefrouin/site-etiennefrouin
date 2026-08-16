@@ -42,6 +42,27 @@ collections:
               - { label: "Titre", name: "title", widget: "string" }
               - { label: "Texte", name: "text", widget: "text" }
 
+  - name: "elements"
+    label: "Tableau périodique (galerie)"
+    description: "Toutes les œuvres affichées sur la page Tableau périodique / Pyramide du site."
+    files:
+      - name: "elements"
+        label: "Liste des œuvres"
+        file: "data/elements.json"
+        format: "json"
+        fields:
+          - label: "Œuvres"
+            name: "items"
+            widget: "list"
+            summary: "{{title}}"
+            fields:
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Numéro atomique (ex: N° 79 — Au) — laisser vide si non applicable", name: "num", widget: "string", required: false }
+              - { label: "Date / technique", name: "meta", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Image (URL)", name: "image", widget: "string" }
+              - { label: "Prix sur demande", name: "onRequest", widget: "boolean", default: true }
+
   - name: "prices"
     label: "Prix des œuvres"
     description: "Les prix affichés sur le site pour les œuvres en vente. Laissez la case 'Prix sur demande' cochée pour les œuvres sans prix fixe."
