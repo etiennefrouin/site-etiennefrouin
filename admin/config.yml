@@ -63,6 +63,26 @@ collections:
               - { label: "Image (URL)", name: "image", widget: "string" }
               - { label: "Prix sur demande", name: "onRequest", widget: "boolean", default: true }
 
+  - name: "spaceguns"
+    label: "Space Gun (arsenal complet)"
+    description: "Toutes les œuvres affichées sur la page Space Gun du site (hors les 2 pièces vedettes en vente)."
+    files:
+      - name: "spaceguns"
+        label: "Liste de l'arsenal"
+        file: "data/spaceguns.json"
+        format: "json"
+        fields:
+          - label: "Œuvres"
+            name: "items"
+            widget: "list"
+            summary: "{{title}}"
+            fields:
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Date / technique", name: "meta", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Image (URL)", name: "image", widget: "string" }
+              - { label: "Statut (Vendu / Pas à vendre / Prix sur demande)", name: "status", widget: "string" }
+
   - name: "prices"
     label: "Prix des œuvres"
     description: "Les prix affichés sur le site pour les œuvres en vente. Laissez la case 'Prix sur demande' cochée pour les œuvres sans prix fixe."
