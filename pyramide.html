@@ -122,7 +122,7 @@ fetch('data/elements.json')
       article.className = 'piece';
       const numHtml = item.num ? `<p class="num">${item.num}</p>` : '';
       article.innerHTML = `
-        <img src="${item.image}" alt="${item.title}">
+        <img src="${item.image}" alt="${item.title}" onerror="this.onerror=null;this.src=this.src.replace('/hd/','/mini/');">
         <div class="cap">
           ${numHtml}
           <h3>${item.title}</h3>
