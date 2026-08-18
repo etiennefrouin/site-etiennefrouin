@@ -1,572 +1,2412 @@
 {
-  "items": [
-    {
-      "title": "Or",
-      "num": "N° 79 — Au",
-      "meta": "2025 — arts numériques",
-      "desc": "Ombre noire = solide, fond rose = actinide. L'élément de numéro atomique 79, dont le symbole Au vient du latin aurum.",
-      "image": "https://medias.artmajeur.com/hd/18721369_79-or.jpg?v=1742277331",
-      "onRequest": true
-    },
-    {
-      "title": "Radium",
-      "num": "N° 88 — Ra",
-      "meta": "2026 — arts numériques",
-      "desc": "Fond beige = alcalino-terreux. Blanc à l'état pur, il noircit à l'air libre — extrêmement radioactif, demi-vie de 1600 ans.",
-      "image": "https://medias.artmajeur.com/hd/19970911_88-radium.jpg?v=1780650005",
-      "onRequest": true
-    },
-    {
-      "title": "Neptunium",
-      "num": "N° 93 — Np",
-      "meta": "2026 — arts numériques",
-      "desc": "Fond rose = actinide. Premier des transuraniens, découvert en 1940, baptisé en écho à Neptune qui suit Uranus dans le système solaire.",
-      "image": "https://medias.artmajeur.com/hd/20159602_93-neptunium.jpg?v=1783920529",
-      "onRequest": true
-    },
-    {
-      "title": "Uranium",
-      "num": "N° 92 — U",
-      "meta": "2026 — arts numériques",
-      "desc": "Fond rose = actinide. Sa radioactivité fut découverte par Henri Becquerel en 1896, révélant un phénomène jusque-là inconnu.",
-      "image": "https://medias.artmajeur.com/hd/20013574_92-uranium.jpg?v=1779781957",
-      "onRequest": true
-    },
-    {
-      "title": "Bismuth",
-      "num": "N° 83 — Bi",
-      "meta": "2025 — arts numériques",
-      "desc": "Fond gris = métaux pauvres. Cinquième et dernier élément du groupe des pnictogènes.",
-      "image": "https://medias.artmajeur.com/hd/18851098_83-bismuth-pub.jpg?v=1746076937",
-      "onRequest": true
-    },
-    {
-      "title": "Polonium",
-      "num": "N° 84 — Po",
-      "meta": "2025 — arts numériques",
-      "desc": "Fond gris = métaux pauvres. Métal radioactif, présent à l'état de traces dans les minerais d'uranium.",
-      "image": "https://medias.artmajeur.com/hd/18876544_84-polonium.jpg?v=1746835413",
-      "onRequest": true
-    },
-    {
-      "title": "Actinium",
-      "num": "N° 89 — Ac",
-      "meta": "2026 — arts numériques",
-      "desc": "Fond rose = actinide. Métal radioactif blanc-argenté qui brille dans le noir d'une lueur bleu pâle, l'air environnant étant ionisé par les particules qu'il émet.",
-      "image": "https://medias.artmajeur.com/hd/19987357_89-actinium.jpg?v=1778220439",
-      "onRequest": true
-    },
-    {
-      "title": "Protactinium",
-      "num": "N° 91 — Pa",
-      "meta": "2026 — arts numériques",
-      "desc": "Fond rose = actinide. Son nom vient du grec « premier » et d'« actinium », qu'il précède dans la chaîne de désintégration radioactive de l'uranium 235.",
-      "image": "https://medias.artmajeur.com/hd/20005519_91-protactinium-insta.jpg?v=1780505374",
-      "onRequest": true
-    },
-    {
-      "title": "Thorium",
-      "num": "N° 90 — Th",
-      "meta": "2026 — arts numériques",
-      "desc": "Fond rose = actinide. Découvert en 1829 par le chimiste suédois Jöns Jacob Berzelius, nommé d'après Thor, dieu nordique du tonnerre.",
-      "image": "https://medias.artmajeur.com/hd/20002309_90-thorium.jpg?v=1780523231",
-      "onRequest": true
-    },
-    {
-      "title": "Francium",
-      "num": "N° 87 — Fr",
-      "meta": "2026 — arts numériques",
-      "desc": "Fond rouge = alcalins. Second élément le plus rare de la classification périodique — une trentaine de grammes seulement dans toute la croûte terrestre.",
-      "image": "https://medias.artmajeur.com/hd/19957618_87-francium.jpg?v=1777274426",
-      "onRequest": true
-    },
-    {
-      "title": "Astate",
-      "num": "N° 85 — At",
-      "meta": "2025 — arts numériques",
-      "desc": "Fond marron gris = métalloïde. Le plus rare des éléments naturels de la croûte terrestre, hors transuraniens, produit par désintégration radioactive.",
-      "image": "https://medias.artmajeur.com/hd/18882115_85-astate.jpg?v=1746957435",
-      "onRequest": true
-    },
-    {
-      "title": "HASARD",
-      "num": "",
-      "meta": "2025 — Arts numériques",
-      "desc": "Version numérique du mot HASARD, pochoir source de la série tuftée.",
-      "image": "https://medias.artmajeur.com/hd/19826038_hasard-6.jpg?v=1773745498",
-      "onRequest": true
-    },
-    {
-      "title": "Mobile",
-      "num": "",
-      "meta": "2025 — Arts numériques",
-      "desc": "Balance, compensation, opposition — la version numérique du mobile physiologique.",
-      "image": "https://medias.artmajeur.com/hd/18861367_mobile.jpg?v=1746342978",
-      "onRequest": true
-    },
-    {
-      "title": "82 Plomb",
-      "num": "",
-      "meta": "2025 — Arts numériques",
-      "desc": "Élément du tableau périodique détourné, numéro atomique 82.",
-      "image": "https://medias.artmajeur.com/hd/18757042_82-plomb.jpg?v=1763152914",
-      "onRequest": true
-    },
-    {
-      "title": "Banane",
-      "num": "",
-      "meta": "2025 — Arts numériques",
-      "desc": "Version numérique de la banane écrite dans l'alphabet physiologique.",
-      "image": "https://medias.artmajeur.com/hd/18706405_banane.jpg?v=1741847979",
-      "onRequest": true
-    },
-    {
-      "title": "Bernard Buffet",
-      "num": "",
-      "meta": "2024 — Arts numériques",
-      "desc": "Un hommage graphique au peintre Bernard Buffet.",
-      "image": "https://medias.artmajeur.com/hd/18481561_bernard-buffet.jpg?v=1740743246",
-      "onRequest": true
-    },
-    {
-      "title": "Proton",
-      "num": "",
-      "meta": "2024 — Arts numériques",
-      "desc": "Le langage physiologique appliqué au vocabulaire de la physique des particules.",
-      "image": "https://medias.artmajeur.com/hd/18470503_proton.jpg?v=1741026025",
-      "onRequest": true
-    },
-    {
-      "title": "Cténophore digital",
-      "num": "",
-      "meta": "2024 — Arts numériques",
-      "desc": "Version numérique de la créature des abysses de la série Megaplanktos.",
-      "image": "https://medias.artmajeur.com/hd/18430414_ctenophore.jpg?v=1741030001",
-      "onRequest": true
-    },
-    {
-      "title": "Don Quichotte",
-      "num": "",
-      "meta": "2025 — Arts numériques",
-      "desc": "Un clin d'œil à Cervantès traduit dans l'alphabet d'E9 Inertion.",
-      "image": "https://medias.artmajeur.com/hd/18973309_don-quichotte.jpg?v=1748501984",
-      "onRequest": true
-    },
-    {
-      "title": "Équilibre",
-      "num": "",
-      "meta": "2025 — Arts numériques",
-      "desc": "Balance et compensation des forces, en pochoir numérique.",
-      "image": "https://medias.artmajeur.com/hd/18858343_equilibre.jpg?v=1746258712",
-      "onRequest": true
-    },
-    {
-      "title": "81 Thallium",
-      "num": "",
-      "meta": "2025 — Arts numériques",
-      "desc": "Élément du tableau périodique, numéro atomique 81.",
-      "image": "https://medias.artmajeur.com/hd/18754309_81-thallium.jpg?v=1743244256",
-      "onRequest": true
-    },
-    {
-      "title": "Intelligence",
-      "num": "",
-      "meta": "2025 — Techniques mixtes",
-      "desc": "Une réflexion graphique sur l'intelligence, dans le langage physiologique.",
-      "image": "https://medias.artmajeur.com/hd/18650233_intelligence.jpg?v=1741014216",
-      "onRequest": true
-    },
-    {
-      "title": "Alfred Manessier",
-      "num": "",
-      "meta": "2024 — Arts numériques",
-      "desc": "Hommage au peintre abstrait Alfred Manessier.",
-      "image": "https://medias.artmajeur.com/hd/18479272_alfred-manessier-new.jpg?v=1741025097",
-      "onRequest": true
-    },
-    {
-      "title": "Neutron",
-      "num": "",
-      "meta": "2024 — Arts numériques",
-      "desc": "Le langage physiologique appliqué au vocabulaire de la physique des particules.",
-      "image": "https://medias.artmajeur.com/hd/18470497_neutron.jpg?v=1741025987",
-      "onRequest": true
-    },
-    {
-      "title": "Bactérie II",
-      "num": "",
-      "meta": "2024 — Arts numériques",
-      "desc": "Une bactérie imaginaire, dans la veine de la série Megaplanktos.",
-      "image": "https://medias.artmajeur.com/hd/18427912_bacterie-2.jpg?v=1737787104",
-      "onRequest": true
-    },
-    {
-      "title": "80 Mercure",
-      "num": "",
-      "meta": "2025 — Arts numériques",
-      "desc": "Élément du tableau périodique, numéro atomique 80.",
-      "image": "https://medias.artmajeur.com/hd/18749059_80-mercure.jpg?v=1743054612",
-      "onRequest": true
-    },
-    {
-      "title": "Insouciance",
-      "num": "",
-      "meta": "2025 — Arts numériques",
-      "desc": "Une émotion traduite en couple forme/couleur du langage physiologique.",
-      "image": "https://medias.artmajeur.com/hd/18641089_insouciance-hq.jpg?v=1740027217",
-      "onRequest": true
-    },
-    {
-      "title": "Saint Étienne",
-      "num": "",
-      "meta": "2024 — Arts numériques",
-      "desc": "Un clin d'œil au prénom de l'artiste, dans son propre alphabet.",
-      "image": "https://medias.artmajeur.com/hd/18472840_saint-etienne.jpg?v=1741025802",
-      "onRequest": true
-    },
-    {
-      "title": "Quark",
-      "num": "",
-      "meta": "2024 — Arts numériques",
-      "desc": "Le langage physiologique appliqué au vocabulaire de la physique des particules.",
-      "image": "https://medias.artmajeur.com/hd/18470494_qwark.jpg?v=1741025991",
-      "onRequest": true
-    },
-    {
-      "title": "Fusion",
-      "num": "",
-      "meta": "2024 — Arts numériques",
-      "desc": "La fusion, entre physique et langage graphique.",
-      "image": "https://medias.artmajeur.com/hd/18352363_fusion.jpg?v=1741037779",
-      "onRequest": true
-    },
-    {
-      "title": "Vivre",
-      "num": "",
-      "meta": "2025 — Arts numériques",
-      "desc": "Le mot VIVRE traduit en couples forme/couleur du langage physiologique.",
-      "image": "https://medias.artmajeur.com/hd/18842023_vivre.jpg?v=1745772703",
-      "onRequest": true
-    },
-    {
-      "title": "Colibri",
-      "num": "",
-      "meta": "2025 — Arts numériques",
-      "desc": "Un colibri stylisé dans le vocabulaire graphique d'E9 Inertion.",
-      "image": "https://medias.artmajeur.com/hd/18604366_colibri.jpg?v=1741016189",
-      "onRequest": true
-    },
-    {
-      "title": "Électron",
-      "num": "",
-      "meta": "2024 — Arts numériques",
-      "desc": "Le langage physiologique appliqué au vocabulaire de la physique des particules.",
-      "image": "https://medias.artmajeur.com/hd/18470506_electron.jpg?v=1741186369",
-      "onRequest": true
-    },
-    {
-      "title": "Concentration",
-      "num": "",
-      "meta": "2024 — Arts numériques",
-      "desc": "Un état d'esprit traduit en langage physiologique.",
-      "image": "https://medias.artmajeur.com/hd/18433450_concentration-hd.jpg?v=1737961446",
-      "onRequest": true
-    },
-    {
-      "title": "Création",
-      "num": "",
-      "meta": "2024 — Arts numériques",
-      "desc": "La création elle-même, mise en mots et en formes.",
-      "image": "https://medias.artmajeur.com/hd/18326305_creation.jpg?v=1738000663",
-      "onRequest": true
-    },
-    {
-      "title": "Destruction",
-      "num": "",
-      "meta": "2024 — Arts numériques",
-      "desc": "Pendant de Création, dans le même vocabulaire graphique.",
-      "image": "https://medias.artmajeur.com/hd/18326296_destruction.jpg?v=1741040325",
-      "onRequest": true
-    },
-    {
-      "title": "Nue de profil",
-      "num": "",
-      "meta": "2024 — Arts numériques",
-      "desc": "Un nu traduit dans le langage physiologique d'E9 Inertion.",
-      "image": "https://medias.artmajeur.com/hd/18073441_nue.jpg?v=1738198255",
-      "onRequest": true
-    },
-    {
-      "title": "Alexei Navalny",
-      "num": "",
-      "meta": "2024 — Arts numériques",
-      "desc": "Un hommage graphique à Alexei Navalny.",
-      "image": "https://medias.artmajeur.com/hd/17607295_alexei-navalny.jpg?v=1738322017",
-      "onRequest": true
-    },
-    {
-      "title": "Gustave Eiffel",
-      "num": "",
-      "meta": "2023 — Arts numériques",
-      "desc": "Réalisée pour le centenaire de la mort de Gustave Eiffel.",
-      "image": "https://medias.artmajeur.com/hd/17448655_gustave-eiffel.jpg?v=1738365148",
-      "onRequest": true
-    },
-    {
-      "title": "73 Tantale",
-      "num": "",
-      "meta": "2023 — Arts numériques",
-      "desc": "Élément du tableau périodique, numéro atomique 73.",
-      "image": "https://medias.artmajeur.com/hd/17440543_73-tantale.jpg?v=1738367353",
-      "onRequest": true
-    },
-    {
-      "title": "70 Ytterbium",
-      "num": "",
-      "meta": "2023 — Arts numériques",
-      "desc": "Élément du tableau périodique, numéro atomique 70.",
-      "image": "https://medias.artmajeur.com/hd/17419984_70-ytterbium.jpg?v=1738371184",
-      "onRequest": true
-    },
-    {
-      "title": "Amour / Haine",
-      "num": "",
-      "meta": "2019 — Arts numériques",
-      "desc": "Deux mots opposés, un seul vocabulaire graphique.",
-      "image": "https://medias.artmajeur.com/hd/12446240_haine-amour.jpg?v=1739319728",
-      "onRequest": true
-    },
-    {
-      "title": "Hommage à Vasarely",
-      "num": "",
-      "meta": "2019 — Arts numériques",
-      "desc": "Un hommage au père de l'Op Art, Victor Vasarely.",
-      "image": "https://medias.artmajeur.com/hd/12236357_vasarely.jpg?v=1739298748",
-      "onRequest": true
-    },
-    {
-      "title": "Plein & Vide",
-      "num": "",
-      "meta": "2019 — Arts numériques",
-      "desc": "Deux états opposés, dans le même langage physiologique.",
-      "image": "https://medias.artmajeur.com/hd/12056498_vide-plein.jpg?v=1739309641",
-      "onRequest": true
-    },
-    {
-      "title": "Abstraction 4",
-      "num": "",
-      "meta": "2024 — Arts numériques",
-      "desc": "Composition abstraite dans le vocabulaire d'E9 Inertion.",
-      "image": "https://medias.artmajeur.com/hd/18150670_abstraction-4.jpg?v=1738181171",
-      "onRequest": true
-    },
-    {
-      "title": "Les teeshirts de Hyères — 2024",
-      "num": "",
-      "meta": "2024 — Peinture",
-      "desc": "Le langage physiologique appliqué au textile, façon Hyères.",
-      "image": "https://medias.artmajeur.com/hd/18057421_450119170-3665538763733914-8024782711105126107-n.jpg?v=1738201748",
-      "onRequest": true
-    },
-    {
-      "title": "Amour en liberté",
-      "num": "",
-      "meta": "2024 — Arts numériques",
-      "desc": "Version numérique du thème de l'amour libre.",
-      "image": "https://medias.artmajeur.com/hd/17561380_amour-en-liberte-2.jpg?v=1741090137",
-      "onRequest": true
-    },
-    {
-      "title": "76 Osmium",
-      "num": "",
-      "meta": "2023 — Arts numériques",
-      "desc": "Élément du tableau périodique, numéro atomique 76.",
-      "image": "https://medias.artmajeur.com/hd/17446033_76-osmium-multi.jpg?v=1741248565",
-      "onRequest": true
-    },
-    {
-      "title": "Ceci est un sapin",
-      "num": "",
-      "meta": "2023 — Arts numériques",
-      "desc": "Un clin d'œil à Magritte, en version sapin de Noël.",
-      "image": "https://medias.artmajeur.com/hd/17422633_ceci-est-un-sapin.jpg?v=1738370673",
-      "onRequest": true
-    },
-    {
-      "title": "Chromosome X",
-      "num": "",
-      "meta": "2019 — Arts numériques",
-      "desc": "Le chromosome X traduit dans le langage physiologique.",
-      "image": "https://medias.artmajeur.com/hd/12459083_chromosone-x.jpg?v=1739299599",
-      "onRequest": true
-    },
-    {
-      "title": "Wet / Dry",
-      "num": "",
-      "meta": "2019 — Arts numériques",
-      "desc": "Deux états de la matière, en opposition graphique.",
-      "image": "https://medias.artmajeur.com/hd/12445916_wet-dry-2.jpg?v=1739300354",
-      "onRequest": true
-    },
-    {
-      "title": "Léonard de Vinci",
-      "num": "",
-      "meta": "2019 — Arts numériques",
-      "desc": "Un hommage à Léonard de Vinci.",
-      "image": "https://medias.artmajeur.com/hd/12227585_leonardodavinci.jpg?v=1739306294",
-      "onRequest": true
-    },
-    {
-      "title": "Siaci Saint Honoré",
-      "num": "",
-      "meta": "2019 — Arts numériques",
-      "desc": "Une commande pour l'entreprise Siaci Saint Honoré.",
-      "image": "https://medias.artmajeur.com/hd/12037445_siaci-saint-honore-langage-graphique-e9-inertion.jpg?v=1739324188",
-      "onRequest": true
-    },
-    {
-      "title": "Abstraction 3",
-      "num": "",
-      "meta": "2024 — Arts numériques",
-      "desc": "Composition abstraite dans le vocabulaire d'E9 Inertion.",
-      "image": "https://medias.artmajeur.com/hd/18150667_abstraction-3.jpg?v=1738181116",
-      "onRequest": true
-    },
-    {
-      "title": "Masculinisme",
-      "num": "",
-      "meta": "2024 — Arts numériques",
-      "desc": "Une réflexion graphique sur le masculinisme.",
-      "image": "https://medias.artmajeur.com/hd/17827372_masculinisme-2.jpg?v=1738266124",
-      "onRequest": true
-    },
-    {
-      "title": "Amour en gestation",
-      "num": "",
-      "meta": "2024 — Arts numériques",
-      "desc": "L'amour naissant, traduit en langage physiologique.",
-      "image": "https://medias.artmajeur.com/hd/17557897_amour-en-gestation.jpg?v=1738337018",
-      "onRequest": true
-    },
-    {
-      "title": "75 Rhénium",
-      "num": "",
-      "meta": "2023 — Arts numériques",
-      "desc": "Élément du tableau périodique, numéro atomique 75.",
-      "image": "https://medias.artmajeur.com/hd/17443666_75-rhenium-2.jpg?v=1738366270",
-      "onRequest": true
-    },
-    {
-      "title": "72 Hafnium",
-      "num": "",
-      "meta": "2023 — Arts numériques",
-      "desc": "Élément du tableau périodique, numéro atomique 72.",
-      "image": "https://medias.artmajeur.com/hd/17420095_72-hafnium.jpg?v=1738371475",
-      "onRequest": true
-    },
-    {
-      "title": "Trip to the space: Earth, Moon and Mars",
-      "num": "",
-      "meta": "2019 — Arts numériques",
-      "desc": "Un voyage graphique entre la Terre, la Lune et Mars.",
-      "image": "https://medias.artmajeur.com/hd/12456272_earth-moon-mars.jpg?v=1739290786",
-      "onRequest": true
-    },
-    {
-      "title": "Cholet",
-      "num": "",
-      "meta": "2019 — Arts numériques",
-      "desc": "Un hommage à la ville de Cholet, ville natale de l'artiste.",
-      "image": "https://medias.artmajeur.com/hd/12356801_cholet-1.jpg?v=1739305999",
-      "onRequest": true
-    },
-    {
-      "title": "Baigneuse",
-      "num": "",
-      "meta": "2019 — Arts numériques",
-      "desc": "Version numérique du thème de la baigneuse.",
-      "image": "https://medias.artmajeur.com/hd/12194849_baigneuse-bis.jpg?v=1739308047",
-      "onRequest": true
-    },
-    {
-      "title": "60 Néodyme",
-      "num": "",
-      "meta": "2023 — Arts numériques",
-      "desc": "Élément du tableau périodique, numéro atomique 60.",
-      "image": "https://medias.artmajeur.com/hd/16943959_60-neodyme.jpg?v=1738458863",
-      "onRequest": true
-    },
-    {
-      "title": "Abstraction 2",
-      "num": "",
-      "meta": "2024 — Arts numériques",
-      "desc": "Composition abstraite dans le vocabulaire d'E9 Inertion.",
-      "image": "https://medias.artmajeur.com/hd/18150658_abstraction-2.jpg?v=1738181120",
-      "onRequest": true
-    },
-    {
-      "title": "Liberté",
-      "num": "",
-      "meta": "2024 — Arts numériques",
-      "desc": "Le mot Liberté traduit en couples forme/couleur.",
-      "image": "https://medias.artmajeur.com/hd/17800840_liberte.jpg?v=1738273372",
-      "onRequest": true
-    },
-    {
-      "title": "77 Iridium",
-      "num": "",
-      "meta": "2023 — Arts numériques",
-      "desc": "Élément du tableau périodique, numéro atomique 77.",
-      "image": "https://medias.artmajeur.com/hd/17451157_77-iridium.jpg?v=1738365028",
-      "onRequest": true
-    },
-    {
-      "title": "74 Tungstène",
-      "num": "",
-      "meta": "2023 — Arts numériques",
-      "desc": "Élément du tableau périodique, numéro atomique 74.",
-      "image": "https://medias.artmajeur.com/hd/17442232_74-tungstene.jpg?v=1738366614",
-      "onRequest": true
-    },
-    {
-      "title": "71 Lutécium",
-      "num": "",
-      "meta": "2023 — Arts numériques",
-      "desc": "Élément du tableau périodique, numéro atomique 71.",
-      "image": "https://medias.artmajeur.com/hd/17420020_71-lutecium.jpg?v=1738371075",
-      "onRequest": true
-    },
-    {
-      "title": "Cellule",
-      "num": "",
-      "meta": "2019 — Arts numériques",
-      "desc": "La cellule vivante, traduite en langage physiologique.",
-      "image": "https://medias.artmajeur.com/hd/12451157_cellule.jpg?v=1739283859",
-      "onRequest": true
-    },
-    {
-      "title": "Atomium",
-      "num": "",
-      "meta": "2019 — Arts numériques",
-      "desc": "Un hommage graphique à l'Atomium de Bruxelles.",
-      "image": "file:///C:/Users/etien/OneDrive/Documents/ETIENNE/sculptures%20EF/langage%20graphique%20de%20e9%20inertion/pochoirs/atomium/atomium.jpg",
-      "onRequest": true
-    },
-    {
-      "title": "Trou noir",
-      "num": "",
-      "meta": "2019 — Arts numériques",
-      "desc": "Le trou noir, exploré dans le vocabulaire graphique d'E9 Inertion.",
-      "image": "https://medias.artmajeur.com/hd/12159470_trou-noir.jpg?v=1739309928",
-      "onRequest": true
-    },
-    {
-      "title": "57 Lanthane",
-      "num": "",
-      "meta": "2023 — Arts numériques",
-      "desc": "Élément du tableau périodique, numéro atomique 57.",
-      "image": "https://medias.artmajeur.com/hd/16929127_57-lanthane.jpg?v=1738462395",
-      "onRequest": true
-    }
-  ]
+ "items": [
+  {
+   "title": "Or",
+   "num": "N° 79 — Au",
+   "meta": "2025 — arts numériques",
+   "desc": "Ombre noire = solide, fond rose = actinide. L'élément de numéro atomique 79, dont le symbole Au vient du latin aurum.",
+   "image": "https://medias.artmajeur.com/hd/18721369_79-or.jpg?v=1742277331",
+   "onRequest": true
+  },
+  {
+   "title": "Radium",
+   "num": "N° 88 — Ra",
+   "meta": "2026 — arts numériques",
+   "desc": "Fond beige = alcalino-terreux. Blanc à l'état pur, il noircit à l'air libre — extrêmement radioactif, demi-vie de 1600 ans.",
+   "image": "https://medias.artmajeur.com/hd/19970911_88-radium.jpg?v=1780650005",
+   "onRequest": true
+  },
+  {
+   "title": "Neptunium",
+   "num": "N° 93 — Np",
+   "meta": "2026 — arts numériques",
+   "desc": "Fond rose = actinide. Premier des transuraniens, découvert en 1940, baptisé en écho à Neptune qui suit Uranus dans le système solaire.",
+   "image": "https://medias.artmajeur.com/hd/20159602_93-neptunium.jpg?v=1783920529",
+   "onRequest": true
+  },
+  {
+   "title": "Uranium",
+   "num": "N° 92 — U",
+   "meta": "2026 — arts numériques",
+   "desc": "Fond rose = actinide. Sa radioactivité fut découverte par Henri Becquerel en 1896, révélant un phénomène jusque-là inconnu.",
+   "image": "https://medias.artmajeur.com/hd/20013574_92-uranium.jpg?v=1779781957",
+   "onRequest": true
+  },
+  {
+   "title": "Bismuth",
+   "num": "N° 83 — Bi",
+   "meta": "2025 — arts numériques",
+   "desc": "Fond gris = métaux pauvres. Cinquième et dernier élément du groupe des pnictogènes.",
+   "image": "https://medias.artmajeur.com/hd/18851098_83-bismuth-pub.jpg?v=1746076937",
+   "onRequest": true
+  },
+  {
+   "title": "Polonium",
+   "num": "N° 84 — Po",
+   "meta": "2025 — arts numériques",
+   "desc": "Fond gris = métaux pauvres. Métal radioactif, présent à l'état de traces dans les minerais d'uranium.",
+   "image": "https://medias.artmajeur.com/hd/18876544_84-polonium.jpg?v=1746835413",
+   "onRequest": true
+  },
+  {
+   "title": "Actinium",
+   "num": "N° 89 — Ac",
+   "meta": "2026 — arts numériques",
+   "desc": "Fond rose = actinide. Métal radioactif blanc-argenté qui brille dans le noir d'une lueur bleu pâle, l'air environnant étant ionisé par les particules qu'il émet.",
+   "image": "https://medias.artmajeur.com/hd/19987357_89-actinium.jpg?v=1778220439",
+   "onRequest": true
+  },
+  {
+   "title": "Protactinium",
+   "num": "N° 91 — Pa",
+   "meta": "2026 — arts numériques",
+   "desc": "Fond rose = actinide. Son nom vient du grec « premier » et d'« actinium », qu'il précède dans la chaîne de désintégration radioactive de l'uranium 235.",
+   "image": "https://medias.artmajeur.com/hd/20005519_91-protactinium-insta.jpg?v=1780505374",
+   "onRequest": true
+  },
+  {
+   "title": "Thorium",
+   "num": "N° 90 — Th",
+   "meta": "2026 — arts numériques",
+   "desc": "Fond rose = actinide. Découvert en 1829 par le chimiste suédois Jöns Jacob Berzelius, nommé d'après Thor, dieu nordique du tonnerre.",
+   "image": "https://medias.artmajeur.com/hd/20002309_90-thorium.jpg?v=1780523231",
+   "onRequest": true
+  },
+  {
+   "title": "Francium",
+   "num": "N° 87 — Fr",
+   "meta": "2026 — arts numériques",
+   "desc": "Fond rouge = alcalins. Second élément le plus rare de la classification périodique — une trentaine de grammes seulement dans toute la croûte terrestre.",
+   "image": "https://medias.artmajeur.com/hd/19957618_87-francium.jpg?v=1777274426",
+   "onRequest": true
+  },
+  {
+   "title": "Astate",
+   "num": "N° 85 — At",
+   "meta": "2025 — arts numériques",
+   "desc": "Fond marron gris = métalloïde. Le plus rare des éléments naturels de la croûte terrestre, hors transuraniens, produit par désintégration radioactive.",
+   "image": "https://medias.artmajeur.com/hd/18882115_85-astate.jpg?v=1746957435",
+   "onRequest": true
+  },
+  {
+   "title": "HASARD",
+   "num": "",
+   "meta": "2025 — Arts numériques",
+   "desc": "Version numérique du mot HASARD, pochoir source de la série tuftée.",
+   "image": "https://medias.artmajeur.com/hd/19826038_hasard-6.jpg?v=1773745498",
+   "onRequest": true
+  },
+  {
+   "title": "Mobile",
+   "num": "",
+   "meta": "2025 — Arts numériques",
+   "desc": "Balance, compensation, opposition — la version numérique du mobile physiologique.",
+   "image": "https://medias.artmajeur.com/hd/18861367_mobile.jpg?v=1746342978",
+   "onRequest": true
+  },
+  {
+   "title": "82 Plomb",
+   "num": "",
+   "meta": "2025 — Arts numériques",
+   "desc": "Élément du tableau périodique détourné, numéro atomique 82.",
+   "image": "https://medias.artmajeur.com/hd/18757042_82-plomb.jpg?v=1763152914",
+   "onRequest": true
+  },
+  {
+   "title": "Banane",
+   "num": "",
+   "meta": "2025 — Arts numériques",
+   "desc": "Version numérique de la banane écrite dans l'alphabet physiologique.",
+   "image": "https://medias.artmajeur.com/hd/18706405_banane.jpg?v=1741847979",
+   "onRequest": true
+  },
+  {
+   "title": "Bernard Buffet",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Un hommage graphique au peintre Bernard Buffet.",
+   "image": "https://medias.artmajeur.com/hd/18481561_bernard-buffet.jpg?v=1740743246",
+   "onRequest": true
+  },
+  {
+   "title": "Proton",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Le langage physiologique appliqué au vocabulaire de la physique des particules.",
+   "image": "https://medias.artmajeur.com/hd/18470503_proton.jpg?v=1741026025",
+   "onRequest": true
+  },
+  {
+   "title": "Cténophore digital",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Version numérique de la créature des abysses de la série Megaplanktos.",
+   "image": "https://medias.artmajeur.com/hd/18430414_ctenophore.jpg?v=1741030001",
+   "onRequest": true
+  },
+  {
+   "title": "Don Quichotte",
+   "num": "",
+   "meta": "2025 — Arts numériques",
+   "desc": "Un clin d'œil à Cervantès traduit dans l'alphabet d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/18973309_don-quichotte.jpg?v=1748501984",
+   "onRequest": true
+  },
+  {
+   "title": "Équilibre",
+   "num": "",
+   "meta": "2025 — Arts numériques",
+   "desc": "Balance et compensation des forces, en pochoir numérique.",
+   "image": "https://medias.artmajeur.com/hd/18858343_equilibre.jpg?v=1746258712",
+   "onRequest": true
+  },
+  {
+   "title": "81 Thallium",
+   "num": "",
+   "meta": "2025 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 81.",
+   "image": "https://medias.artmajeur.com/hd/18754309_81-thallium.jpg?v=1743244256",
+   "onRequest": true
+  },
+  {
+   "title": "Intelligence",
+   "num": "",
+   "meta": "2025 — Techniques mixtes",
+   "desc": "Une réflexion graphique sur l'intelligence, dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/18650233_intelligence.jpg?v=1741014216",
+   "onRequest": true
+  },
+  {
+   "title": "Alfred Manessier",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Hommage au peintre abstrait Alfred Manessier.",
+   "image": "https://medias.artmajeur.com/hd/18479272_alfred-manessier-new.jpg?v=1741025097",
+   "onRequest": true
+  },
+  {
+   "title": "Neutron",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Le langage physiologique appliqué au vocabulaire de la physique des particules.",
+   "image": "https://medias.artmajeur.com/hd/18470497_neutron.jpg?v=1741025987",
+   "onRequest": true
+  },
+  {
+   "title": "Bactérie II",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Une bactérie imaginaire, dans la veine de la série Megaplanktos.",
+   "image": "https://medias.artmajeur.com/hd/18427912_bacterie-2.jpg?v=1737787104",
+   "onRequest": true
+  },
+  {
+   "title": "80 Mercure",
+   "num": "",
+   "meta": "2025 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 80.",
+   "image": "https://medias.artmajeur.com/hd/18749059_80-mercure.jpg?v=1743054612",
+   "onRequest": true
+  },
+  {
+   "title": "Insouciance",
+   "num": "",
+   "meta": "2025 — Arts numériques",
+   "desc": "Une émotion traduite en couple forme/couleur du langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/18641089_insouciance-hq.jpg?v=1740027217",
+   "onRequest": true
+  },
+  {
+   "title": "Saint Étienne",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Un clin d'œil au prénom de l'artiste, dans son propre alphabet.",
+   "image": "https://medias.artmajeur.com/hd/18472840_saint-etienne.jpg?v=1741025802",
+   "onRequest": true
+  },
+  {
+   "title": "Quark",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Le langage physiologique appliqué au vocabulaire de la physique des particules.",
+   "image": "https://medias.artmajeur.com/hd/18470494_qwark.jpg?v=1741025991",
+   "onRequest": true
+  },
+  {
+   "title": "Fusion",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "La fusion, entre physique et langage graphique.",
+   "image": "https://medias.artmajeur.com/hd/18352363_fusion.jpg?v=1741037779",
+   "onRequest": true
+  },
+  {
+   "title": "Vivre",
+   "num": "",
+   "meta": "2025 — Arts numériques",
+   "desc": "Le mot VIVRE traduit en couples forme/couleur du langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/18842023_vivre.jpg?v=1745772703",
+   "onRequest": true
+  },
+  {
+   "title": "Colibri",
+   "num": "",
+   "meta": "2025 — Arts numériques",
+   "desc": "Un colibri stylisé dans le vocabulaire graphique d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/18604366_colibri.jpg?v=1741016189",
+   "onRequest": true
+  },
+  {
+   "title": "Électron",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Le langage physiologique appliqué au vocabulaire de la physique des particules.",
+   "image": "https://medias.artmajeur.com/hd/18470506_electron.jpg?v=1741186369",
+   "onRequest": true
+  },
+  {
+   "title": "Concentration",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Un état d'esprit traduit en langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/18433450_concentration-hd.jpg?v=1737961446",
+   "onRequest": true
+  },
+  {
+   "title": "Création",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "La création elle-même, mise en mots et en formes.",
+   "image": "https://medias.artmajeur.com/hd/18326305_creation.jpg?v=1738000663",
+   "onRequest": true
+  },
+  {
+   "title": "Destruction",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Pendant de Création, dans le même vocabulaire graphique.",
+   "image": "https://medias.artmajeur.com/hd/18326296_destruction.jpg?v=1741040325",
+   "onRequest": true
+  },
+  {
+   "title": "Nue de profil",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Un nu traduit dans le langage physiologique d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/18073441_nue.jpg?v=1738198255",
+   "onRequest": true
+  },
+  {
+   "title": "Alexei Navalny",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Un hommage graphique à Alexei Navalny.",
+   "image": "https://medias.artmajeur.com/hd/17607295_alexei-navalny.jpg?v=1738322017",
+   "onRequest": true
+  },
+  {
+   "title": "Gustave Eiffel",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Réalisée pour le centenaire de la mort de Gustave Eiffel.",
+   "image": "https://medias.artmajeur.com/hd/17448655_gustave-eiffel.jpg?v=1738365148",
+   "onRequest": true
+  },
+  {
+   "title": "73 Tantale",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 73.",
+   "image": "https://medias.artmajeur.com/hd/17440543_73-tantale.jpg?v=1738367353",
+   "onRequest": true
+  },
+  {
+   "title": "70 Ytterbium",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 70.",
+   "image": "https://medias.artmajeur.com/hd/17419984_70-ytterbium.jpg?v=1738371184",
+   "onRequest": true
+  },
+  {
+   "title": "Amour / Haine",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Deux mots opposés, un seul vocabulaire graphique.",
+   "image": "https://medias.artmajeur.com/hd/12446240_haine-amour.jpg?v=1739319728",
+   "onRequest": true
+  },
+  {
+   "title": "Hommage à Vasarely",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Un hommage au père de l'Op Art, Victor Vasarely.",
+   "image": "https://medias.artmajeur.com/hd/12236357_vasarely.jpg?v=1739298748",
+   "onRequest": true
+  },
+  {
+   "title": "Plein & Vide",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Deux états opposés, dans le même langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12056498_vide-plein.jpg?v=1739309641",
+   "onRequest": true
+  },
+  {
+   "title": "Abstraction 4",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Composition abstraite dans le vocabulaire d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/18150670_abstraction-4.jpg?v=1738181171",
+   "onRequest": true
+  },
+  {
+   "title": "Les teeshirts de Hyères — 2024",
+   "num": "",
+   "meta": "2024 — Peinture",
+   "desc": "Le langage physiologique appliqué au textile, façon Hyères.",
+   "image": "https://medias.artmajeur.com/hd/18057421_450119170-3665538763733914-8024782711105126107-n.jpg?v=1738201748",
+   "onRequest": true
+  },
+  {
+   "title": "Amour en liberté",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Version numérique du thème de l'amour libre.",
+   "image": "https://medias.artmajeur.com/hd/17561380_amour-en-liberte-2.jpg?v=1741090137",
+   "onRequest": true
+  },
+  {
+   "title": "76 Osmium",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 76.",
+   "image": "https://medias.artmajeur.com/hd/17446033_76-osmium-multi.jpg?v=1741248565",
+   "onRequest": true
+  },
+  {
+   "title": "Ceci est un sapin",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Un clin d'œil à Magritte, en version sapin de Noël.",
+   "image": "https://medias.artmajeur.com/hd/17422633_ceci-est-un-sapin.jpg?v=1738370673",
+   "onRequest": true
+  },
+  {
+   "title": "Chromosome X",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Le chromosome X traduit dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12459083_chromosone-x.jpg?v=1739299599",
+   "onRequest": true
+  },
+  {
+   "title": "Wet / Dry",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Deux états de la matière, en opposition graphique.",
+   "image": "https://medias.artmajeur.com/hd/12445916_wet-dry-2.jpg?v=1739300354",
+   "onRequest": true
+  },
+  {
+   "title": "Léonard de Vinci",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Un hommage à Léonard de Vinci.",
+   "image": "https://medias.artmajeur.com/hd/12227585_leonardodavinci.jpg?v=1739306294",
+   "onRequest": true
+  },
+  {
+   "title": "Siaci Saint Honoré",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Une commande pour l'entreprise Siaci Saint Honoré.",
+   "image": "https://medias.artmajeur.com/hd/12037445_siaci-saint-honore-langage-graphique-e9-inertion.jpg?v=1739324188",
+   "onRequest": true
+  },
+  {
+   "title": "Abstraction 3",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Composition abstraite dans le vocabulaire d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/18150667_abstraction-3.jpg?v=1738181116",
+   "onRequest": true
+  },
+  {
+   "title": "Masculinisme",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Une réflexion graphique sur le masculinisme.",
+   "image": "https://medias.artmajeur.com/hd/17827372_masculinisme-2.jpg?v=1738266124",
+   "onRequest": true
+  },
+  {
+   "title": "Amour en gestation",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "L'amour naissant, traduit en langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/17557897_amour-en-gestation.jpg?v=1738337018",
+   "onRequest": true
+  },
+  {
+   "title": "75 Rhénium",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 75.",
+   "image": "https://medias.artmajeur.com/hd/17443666_75-rhenium-2.jpg?v=1738366270",
+   "onRequest": true
+  },
+  {
+   "title": "72 Hafnium",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 72.",
+   "image": "https://medias.artmajeur.com/hd/17420095_72-hafnium.jpg?v=1738371475",
+   "onRequest": true
+  },
+  {
+   "title": "Trip to the space: Earth, Moon and Mars",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Un voyage graphique entre la Terre, la Lune et Mars.",
+   "image": "https://medias.artmajeur.com/hd/12456272_earth-moon-mars.jpg?v=1739290786",
+   "onRequest": true
+  },
+  {
+   "title": "Cholet",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Un hommage à la ville de Cholet, ville natale de l'artiste.",
+   "image": "https://medias.artmajeur.com/hd/12356801_cholet-1.jpg?v=1739305999",
+   "onRequest": true
+  },
+  {
+   "title": "Baigneuse",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Version numérique du thème de la baigneuse.",
+   "image": "https://medias.artmajeur.com/hd/12194849_baigneuse-bis.jpg?v=1739308047",
+   "onRequest": true
+  },
+  {
+   "title": "60 Néodyme",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 60.",
+   "image": "https://medias.artmajeur.com/hd/16943959_60-neodyme.jpg?v=1738458863",
+   "onRequest": true
+  },
+  {
+   "title": "Abstraction 2",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Composition abstraite dans le vocabulaire d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/18150658_abstraction-2.jpg?v=1738181120",
+   "onRequest": true
+  },
+  {
+   "title": "Liberté",
+   "num": "",
+   "meta": "2024 — Arts numériques",
+   "desc": "Le mot Liberté traduit en couples forme/couleur.",
+   "image": "https://medias.artmajeur.com/hd/17800840_liberte.jpg?v=1738273372",
+   "onRequest": true
+  },
+  {
+   "title": "77 Iridium",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 77.",
+   "image": "https://medias.artmajeur.com/hd/17451157_77-iridium.jpg?v=1738365028",
+   "onRequest": true
+  },
+  {
+   "title": "74 Tungstène",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 74.",
+   "image": "https://medias.artmajeur.com/hd/17442232_74-tungstene.jpg?v=1738366614",
+   "onRequest": true
+  },
+  {
+   "title": "71 Lutécium",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 71.",
+   "image": "https://medias.artmajeur.com/hd/17420020_71-lutecium.jpg?v=1738371075",
+   "onRequest": true
+  },
+  {
+   "title": "Cellule",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "La cellule vivante, traduite en langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12451157_cellule.jpg?v=1739283859",
+   "onRequest": true
+  },
+  {
+   "title": "Atomium",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Un hommage graphique à l'Atomium de Bruxelles.",
+   "image": "https://medias.artmajeur.com/hd/12246344_atomium.jpg?v=1739311747",
+   "onRequest": true
+  },
+  {
+   "title": "Trou noir",
+   "num": "",
+   "meta": "2019 — Arts numériques",
+   "desc": "Le trou noir, exploré dans le vocabulaire graphique d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/12159470_trou-noir.jpg?v=1739309928",
+   "onRequest": true
+  },
+  {
+   "title": "57 Lanthane",
+   "num": "",
+   "meta": "2023 — Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 57.",
+   "image": "https://medias.artmajeur.com/hd/16929127_57-lanthane.jpg?v=1738462395",
+   "onRequest": true
+  },
+  {
+   "title": "54 Xénon",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 54.",
+   "image": "https://medias.artmajeur.com/hd/16862065_54-xenon.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "50 Étain",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 50.",
+   "image": "https://medias.artmajeur.com/hd/16625737_50-etain.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "47 Argent",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 47.",
+   "image": "https://medias.artmajeur.com/hd/16458385_47-argent.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "43 Technétium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 43.",
+   "image": "https://medias.artmajeur.com/hd/16401457_43-technetium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "39 Yttrium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 39.",
+   "image": "https://medias.artmajeur.com/hd/16386289_39-yttrium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Paresse",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un des sept péchés capitaux, traduit dans le langage physiologique d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/16222243_paresse.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Gourmandise",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un des sept péchés capitaux, traduit dans le langage physiologique d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/16179772_gourmandise.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "36 Krypton",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 36.",
+   "image": "https://medias.artmajeur.com/hd/15777028_36-krypton.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "32 Germanium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 32.",
+   "image": "https://medias.artmajeur.com/hd/15520033_32-germanium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "53 Iode",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 53.",
+   "image": "https://medias.artmajeur.com/hd/16855057_53-iode.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "49 Indium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 49.",
+   "image": "https://medias.artmajeur.com/hd/16599385_49-indium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "46 Palladium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 46.",
+   "image": "https://medias.artmajeur.com/hd/16449622_46-palladium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "42 Molybdène",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 42.",
+   "image": "https://medias.artmajeur.com/hd/16396264_42-molybdene.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "38 Strontium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 38.",
+   "image": "https://medias.artmajeur.com/hd/16359355_38-strontium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Luxure",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un des sept péchés capitaux, traduit dans le langage physiologique d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/16219612_luxure.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Orgueil",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un des sept péchés capitaux, traduit dans le langage physiologique d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/16175329_orgueil.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "35 Brome",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 35.",
+   "image": "https://medias.artmajeur.com/hd/15719365_35-brome.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "31 Gallium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 31.",
+   "image": "https://medias.artmajeur.com/hd/15510856_31-gallium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "52 Tellure",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 52.",
+   "image": "https://medias.artmajeur.com/hd/16822201_52-tellure.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Villa Frouin (pochoir numérique)",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une déclinaison numérique dédiée à la Villa Frouin, dans le langage physiologique d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/16578391_villa-frouin.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "45 Rhodium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 45.",
+   "image": "https://medias.artmajeur.com/hd/16449607_45-rhodium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "41 Niobium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 41.",
+   "image": "https://medias.artmajeur.com/hd/16394548_41-niobium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "37 Rubidium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 37.",
+   "image": "https://medias.artmajeur.com/hd/16315324_37-rubidium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Avarice",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un des sept péchés capitaux, traduit dans le langage physiologique d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/16200670_avarice.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Abondance versus Austérité",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Deux états économiques opposés, mis en regard dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/16087954_abondance-versus-austerite.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "34 Sélénium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 34.",
+   "image": "https://medias.artmajeur.com/hd/15710311_34-selenium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "30 Zinc",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 30.",
+   "image": "https://medias.artmajeur.com/hd/15499921_30-zinc.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "51 Antimoine",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 51.",
+   "image": "https://medias.artmajeur.com/hd/16640815_51-antimoine.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "48 Cadmium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 48.",
+   "image": "https://medias.artmajeur.com/hd/16478620_48-cadmium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "44 Ruthénium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 44.",
+   "image": "https://medias.artmajeur.com/hd/16407088_44-ruthenium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "40 Zirconium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 40.",
+   "image": "https://medias.artmajeur.com/hd/16389223_40-zirconium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Envie",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un des sept péchés capitaux, traduit dans le langage physiologique d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/16244254_envie.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Colère",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un des sept péchés capitaux, traduit dans le langage physiologique d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/16198291_colere.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Abondance",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un état de prospérité, traduit dans le langage physiologique d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/15973534_abondance.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "33 Arsenic",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 33.",
+   "image": "https://medias.artmajeur.com/hd/15526792_33-arsenic.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "29 Cuivre",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 29.",
+   "image": "https://medias.artmajeur.com/hd/15497035_29-cuivre.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "28 Nickel",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 28.",
+   "image": "https://medias.artmajeur.com/hd/15408157_28-nickel.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "La Matrice de François Jauvion",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une pièce numérique en écho au tapis tuftage dédié à François Jauvion.",
+   "image": "https://medias.artmajeur.com/hd/15225547_la-matrice-de-francois-jauvion.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Dune",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition inspirée des paysages désertiques, dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/15087077_dune.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "26 Fer",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 26.",
+   "image": "https://medias.artmajeur.com/hd/14764622_26-fer.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "22 Titane",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 22.",
+   "image": "https://medias.artmajeur.com/hd/14719268_22-titane.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Dédale",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un clin d'œil au mythe grec de Dédale, dans le vocabulaire d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/14453516_dedale.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "LCCQNEDR",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition cryptée, à déchiffrer dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/14323148_lccqnedr.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "20 Calcium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 20.",
+   "image": "https://medias.artmajeur.com/hd/14029028_20-calcium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "16 Soufre",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 16.",
+   "image": "https://medias.artmajeur.com/hd/14013059_16-soufre.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Réalisme - Surréalisme",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Deux mouvements artistiques mis en regard dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/15381025_realisme-surrealisme.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "André Robillard space gun",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un hommage numérique à André Robillard, figure de l'art brut qui a inspiré la pièce Robineuf.",
+   "image": "https://medias.artmajeur.com/hd/15146533_andre-robillard-space-gun.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Born to Create",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une déclaration d'intention artistique, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/14971400_born-to-create.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "25 Manganèse",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 25.",
+   "image": "https://medias.artmajeur.com/hd/14744981_25-manganese.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "We Are Bananas",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un clin d'œil facétieux, dans la veine de la série IL EST ÉCRIT BANANE.",
+   "image": "https://medias.artmajeur.com/hd/14658182_we-are-bananas.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Place Victor Vasarely",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un hommage graphique à Victor Vasarely, père de l'Op Art.",
+   "image": "https://medias.artmajeur.com/hd/14429552_place-victor-vasarely.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Walking on Mars",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition évoquant l'exploration martienne, dans l'univers spatial d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/14264834_walking-on-mars.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "19 Potassium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 19.",
+   "image": "https://medias.artmajeur.com/hd/14025542_19-potassium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "15 Phosphore",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 15.",
+   "image": "https://medias.artmajeur.com/hd/14006456_15-phosphore.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Abstraction",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Composition abstraite dans le vocabulaire graphique d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/15368278_abstraction.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Cognassier du Japon",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition botanique, dans le langage physiologique d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/15093707_cognassier-du-japon.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Colt",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une déclinaison graphique en écho au programme Space Gun.",
+   "image": "https://medias.artmajeur.com/hd/14864669_colt.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "24 Chrome",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 24.",
+   "image": "https://medias.artmajeur.com/hd/14735537_24-chrome.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Design Parade 2021",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une pièce réalisée à l'occasion du festival Design Parade à Hyères.",
+   "image": "https://medias.artmajeur.com/hd/14655338_design-parade-2021.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "21 Scandium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 21.",
+   "image": "https://medias.artmajeur.com/hd/14357339_21-scandium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Dialogue with Max Drekker",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un dialogue graphique avec l'univers de l'artiste Max Drekker.",
+   "image": "https://medias.artmajeur.com/hd/14157410_dialogue-with-max-drekker.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "18 Argon",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 18.",
+   "image": "https://medias.artmajeur.com/hd/14019761_18-argon.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "14 Silicium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 14.",
+   "image": "https://medias.artmajeur.com/hd/14003174_14-silicium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Autoportrait 2022",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un autoportrait d'Étienne Frouin, traduit dans son propre langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/15290569_autoportrait-2022.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Acanthes",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition botanique, dans le langage physiologique d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/15090293_acanthes.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "27 Cobalt",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 27.",
+   "image": "https://medias.artmajeur.com/hd/14803109_27-cobalt.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "23 Vanadium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 23.",
+   "image": "https://medias.artmajeur.com/hd/14723135_23-vanadium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Dialogue avec Edgard Pillet",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un dialogue graphique avec l'œuvre du peintre abstrait Edgard Pillet.",
+   "image": "https://medias.artmajeur.com/hd/14593901_dialogue-avec-edgard-pillet.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Hapax Legomenon",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition autour du terme linguistique désignant un mot n'apparaissant qu'une fois.",
+   "image": "https://medias.artmajeur.com/hd/14336024_hapax-legomenon.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "NKVD - OSSO",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition à la charge historique et symbolique forte.",
+   "image": "https://medias.artmajeur.com/hd/14075771_nkvd-osso.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "17 Chlore",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 17.",
+   "image": "https://medias.artmajeur.com/hd/14016404_17-chlore.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "13 Aluminium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 13.",
+   "image": "https://medias.artmajeur.com/hd/13985303_13-aluminium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "12 Magnésium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 12.",
+   "image": "https://medias.artmajeur.com/hd/13982099_12-magnesium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "8 Oxygène",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 8.",
+   "image": "https://medias.artmajeur.com/hd/13931210_8-oxygene.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Diego Maradona",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un hommage graphique au footballeur Diego Maradona.",
+   "image": "https://medias.artmajeur.com/hd/13902869_diego-maradona.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "1 Hydrogène",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Premier élément du tableau périodique, numéro atomique 1.",
+   "image": "https://medias.artmajeur.com/hd/13870664_1-hydrogene.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Maurice Genevoix au Panthéon",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une pièce réalisée à l'occasion de l'entrée de Maurice Genevoix au Panthéon.",
+   "image": "https://medias.artmajeur.com/hd/13834628_maurice-genevoix-au-pantheon.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Blue Moon",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition nocturne, dans le langage physiologique d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/13790384_blue-moon.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Moloch",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une figure mythologique, traduite dans le vocabulaire graphique d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/13761944_moloch.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "U",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une lettre isolée de l'alphabet physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13611497_u.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "A",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une lettre isolée de l'alphabet physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13594727_a.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "11 Sodium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 11.",
+   "image": "https://medias.artmajeur.com/hd/13960301_11-sodium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "7 Azote",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 7.",
+   "image": "https://medias.artmajeur.com/hd/13926908_7-azote.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "4 Béryllium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 4.",
+   "image": "https://medias.artmajeur.com/hd/13883261_4-beryllium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Dimitri Mendeleïev",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un hommage au chimiste russe, créateur de la classification périodique des éléments.",
+   "image": "https://medias.artmajeur.com/hd/13866218_dimitri-mendeleiev.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Armistice",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition commémorative, dans le langage physiologique d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/13828565_armistice.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Love on Canvas",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Le thème de l'amour, traduit sur toile dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13787000_love-on-canvas.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Décapité = Abattu",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition à forte charge symbolique dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13741862_decapite-abattu.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "O",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une lettre isolée de l'alphabet physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13609277_o.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Alexis Godillot",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un hommage graphique à Alexis Godillot, industriel du Second Empire.",
+   "image": "https://medias.artmajeur.com/hd/13578869_alexis-godillot.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "10 Néon",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 10.",
+   "image": "https://medias.artmajeur.com/hd/13957865_10-neon.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "6 Carbone",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 6.",
+   "image": "https://medias.artmajeur.com/hd/13910954_6-carbone.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "3 Hélium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 3.",
+   "image": "https://medias.artmajeur.com/hd/13879088_3-helium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Artsakh",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition dédiée à la région du Haut-Karabakh.",
+   "image": "https://medias.artmajeur.com/hd/13840970_artsakh.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Paradis vs Enfer",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Deux états opposés, mis en regard dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13812848_paradis-vs-enfer.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Neuropiline 1 & 2",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition inspirée des récepteurs cellulaires neuropilines.",
+   "image": "https://medias.artmajeur.com/hd/13776770_neuropiline-1-2.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Incompétence",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une réflexion graphique sur l'incompétence, dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13631729_incompetence.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "I",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une lettre isolée de l'alphabet physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13607237_i.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Villa Avé Maria 2",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une déclinaison numérique dédiée à l'ancien nom de la Villa Frouin.",
+   "image": "https://medias.artmajeur.com/hd/13576589_villa-ave-maria-2.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "9 Fluor",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 9.",
+   "image": "https://medias.artmajeur.com/hd/13941230_9-fluor.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "5 Bore",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 5.",
+   "image": "https://medias.artmajeur.com/hd/13906358_5-bore.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "2 Hélium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Élément du tableau périodique, numéro atomique 2.",
+   "image": "https://medias.artmajeur.com/hd/13874567_2-helium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Quadrature du cercle",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un défi géométrique classique, traduit dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13837892_quadrature-du-cercle.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Election Day",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition autour du jour du vote, dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13794002_election-day.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Couvre-feu",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition marquée par le contexte sanitaire, dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13764998_couvre-feu.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Y",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une lettre isolée de l'alphabet physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13614620_y.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "E",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une lettre isolée de l'alphabet physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13597187_e.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Mask",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition marquée par le contexte sanitaire, dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13563182_mask.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Masque",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition marquée par le contexte sanitaire, dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13560770_masque.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Théodamas & Hercule",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une scène mythologique grecque, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13447121_theodamas-hercule.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Scifi",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition de science-fiction, dans l'univers spatio-temporel d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/13421834_scifi.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "SpaceX",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition inspirée de l'exploration spatiale contemporaine.",
+   "image": "https://medias.artmajeur.com/hd/13349210_spacex.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Mimas & Ephaistos",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une scène mythologique grecque, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13319675_mimas-ephaistos.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Emphytos",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une figure mythologique grecque, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13289108_emphytos.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Clytios & Hécate",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une scène mythologique grecque, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13272443_clytios-hecate.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Alpos & Dionysos",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une scène mythologique grecque, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13245455_alpos-dionysos.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Nyx",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "La déesse grecque de la nuit, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13228085_nyx.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Villa Avé Maria",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une déclinaison numérique dédiée à l'ancien nom de la Villa Frouin.",
+   "image": "https://medias.artmajeur.com/hd/13558355_villa-ave-maria.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Démission",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition autour du thème de la démission, dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13447097_demission.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Pallas & Athéna",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une scène mythologique grecque, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13407875_pallas-athena.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Polybotès & Poséidon",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une scène mythologique grecque, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13336739_polybotes-poseidon.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Eurymédon",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une figure mythologique grecque, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13301168_eurymedon.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Égéon, Cottos & Gyès",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une scène mythologique grecque, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13282187_egeon-cottos-gyes.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Chthonios",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une figure mythologique grecque, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13255940_chthonios.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Tocilizumab",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition inspirée d'une molécule thérapeutique.",
+   "image": "https://medias.artmajeur.com/hd/13241801_tocilizumab.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Érèbe",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "La divinité grecque des ténèbres, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13224689_erebe.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Villa Noailles",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un hommage graphique à la Villa Noailles à Hyères.",
+   "image": "https://medias.artmajeur.com/hd/13550888_villa-noailles.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Alcyonée & Héraclès",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une scène mythologique grecque, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13430282_alcyonee-heracles.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Porphyrion",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une figure mythologique grecque, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13385435_porphyrion.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Molios & Hélios",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une scène mythologique grecque, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13328321_molios-helios.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Éphialtès, Apollon & Héraclès",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une scène mythologique grecque, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13298147_ephialtes-apollon-heracles.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "L'astragale de Damysos",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition mythologique grecque, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13278812_l-astragale-de-damysos.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Astréos",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une figure mythologique grecque, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13253180_astreos.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Céyx & Alcyone",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une scène mythologique grecque, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13238075_ceyx-alcyone.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Éther",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une figure mythologique grecque évoquant l'air pur des sommets.",
+   "image": "https://medias.artmajeur.com/hd/13214822_ether.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Hyères les Palmiers",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un hommage graphique à la ville de Hyères.",
+   "image": "https://medias.artmajeur.com/hd/13540643_hyeres-les-palmiers.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Mosquito",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition inspirée du monde des insectes, dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13427606_mosquito.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "La déesse Hel",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "La déesse nordique du royaume des morts, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13376174_la-deesse-hel.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Hippolyte & Artémis",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une scène mythologique grecque, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13323269_hippolyte-artemis.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Encelade & Athéna",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une scène mythologique grecque, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13295180_encelade-athena.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Coeos & Phébé",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une scène mythologique grecque, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13275251_coeos-phebe.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Aristée",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une figure mythologique grecque, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13249034_aristee.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Agrios & Thoas",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une scène mythologique grecque, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13234202_agrios-thoas.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Pontos",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "La divinité grecque de la mer, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13206929_pontos.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Eros",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Le dieu grec de l'amour, traduit dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13203188_eros.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Droit vs Courbe",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Deux principes formels opposés, mis en regard dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13181753_droit-vs-courbe.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Atlantide",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un hommage graphique au mythe de la cité engloutie.",
+   "image": "https://medias.artmajeur.com/hd/13154501_atlantide.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "America",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition évoquant le continent américain.",
+   "image": "https://medias.artmajeur.com/hd/13137140_america.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Pandémie",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition marquée par le contexte sanitaire mondial.",
+   "image": "https://medias.artmajeur.com/hd/13110884_pandemie.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Hel",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "La déesse nordique du royaume des morts, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13089875_hel.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Freyja",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "La déesse nordique de l'amour et de la fertilité, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13000337_freyja.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Travail versus Retraite",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Deux états de vie mis en regard dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12920132_travail-versus-retraite.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Outrenoir (I)",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un hommage au concept d'Outrenoir développé par Pierre Soulages.",
+   "image": "https://medias.artmajeur.com/hd/12860063_outrenoir-1.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Ouranos",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Le dieu grec du ciel, traduit dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13199336_ouranos.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Luttons contre ceux qui nous empêchent de rêver — 2020",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une déclinaison de la devise de l'artiste, dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13172129_luttons-contre-ceux-qui-nous-empechent-de-rever-2020.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Africa",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition évoquant le continent africain.",
+   "image": "https://medias.artmajeur.com/hd/13147682_africa.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Shutdown",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition marquée par le contexte sanitaire mondial.",
+   "image": "https://medias.artmajeur.com/hd/13127129_shutdown.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Coronavirus",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition marquée par le contexte sanitaire mondial.",
+   "image": "https://medias.artmajeur.com/hd/13105202_coronavirus.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Tyr",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Le dieu nordique de la guerre et de la justice, traduit dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13087328_tyr.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Polythanasie atomique revisitée",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition à forte charge symbolique dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12969146_polythanasie-atomique-revisitee.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Australia is Burning",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition évoquant les feux de forêt en Australie.",
+   "image": "https://medias.artmajeur.com/hd/12903941_australia-is-burning.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Pierre Soulages",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un hommage graphique au peintre Pierre Soulages.",
+   "image": "https://medias.artmajeur.com/hd/12860051_pierre-soulages.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Gaia",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "La déesse grecque de la Terre, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13190921_gaia.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Best vs Worst",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Deux extrêmes mis en regard dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13162289_best-vs-worst.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Asia",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition évoquant le continent asiatique.",
+   "image": "https://medias.artmajeur.com/hd/13144325_asia.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Confinement",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition marquée par le contexte sanitaire mondial.",
+   "image": "https://medias.artmajeur.com/hd/13123724_confinement.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Heimdall",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Le dieu nordique gardien du Bifrost, traduit dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13101113_heimdall.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Loki",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Le dieu nordique de la ruse, traduit dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13052762_loki.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Frigg",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "La déesse nordique du mariage, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12957299_frigg.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Illusion",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une réflexion graphique sur la perception, dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12889142_illusion.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Outrenoir (II)",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un hommage au concept d'Outrenoir développé par Pierre Soulages.",
+   "image": "https://medias.artmajeur.com/hd/12860045_outrenoir-2.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Chaos",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "La divinité primordiale grecque, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13186094_chaos.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Cytokine",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition inspirée du monde biologique et immunitaire.",
+   "image": "https://medias.artmajeur.com/hd/13158092_cytokine.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Europa",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition évoquant le continent européen.",
+   "image": "https://medias.artmajeur.com/hd/13137143_europa.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Résilience",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une qualité humaine, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13123721_resilience.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Njord",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Le dieu nordique de la mer, traduit dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13098488_njord.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Thor",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Le dieu nordique du tonnerre, traduit dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/13050500_thor.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Odin",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Le dieu nordique suprême, traduit dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12942749_odin.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "The Two Hands of Oswaldo Guayasamin",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un hommage graphique au peintre équatorien Oswaldo Guayasamín.",
+   "image": "https://medias.artmajeur.com/hd/12880568_the-two-hands-of-oswaldo-guayasamin.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Travail vs Grève",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Deux états sociaux mis en regard dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12851780_travail-vs-greve.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Electricity",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition inspirée du phénomène électrique.",
+   "image": "https://medias.artmajeur.com/hd/12795236_electricity.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Trémentines",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un hommage graphique à la commune natale de l'artiste, Trémentines.",
+   "image": "https://medias.artmajeur.com/hd/12738089_trementines.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Hurricane",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition évoquant la force des cyclones.",
+   "image": "https://medias.artmajeur.com/hd/12572489_hurricane.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Pour ou Contre",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Deux positions opposées, mises en regard dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12497075_pour-ou-contre.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Réalité / Fiction",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Deux états opposés, mis en regard dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12473021_realite-fiction.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Chromosome Y",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Le chromosome masculin, traduit dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12459107_chromosome-y.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "North/South & East/West",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Les points cardinaux mis en regard dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12453821_north-south-east-west.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Virus",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition inspirée du monde microbiologique.",
+   "image": "https://medias.artmajeur.com/hd/12323261_virus.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Sous le soleil de la nuit",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition évoquant la lumière nocturne.",
+   "image": "https://medias.artmajeur.com/hd/12780155_sous-le-soleil-de-la-nuit.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Danse macabre",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un hommage graphique au thème médiéval de la danse macabre.",
+   "image": "https://medias.artmajeur.com/hd/12644717_danse-macabre.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Beiu Brackez Grusevan Frouin Pico",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition collective, réunissant plusieurs noms de la famille et de proches.",
+   "image": "https://medias.artmajeur.com/hd/12560150_beiu-brackez-grusevan-frouin-pico.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Pierre de Rosette",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un hommage graphique à la Pierre de Rosette, clé de déchiffrement des hiéroglyphes.",
+   "image": "https://medias.artmajeur.com/hd/12490481_pierre-de-rosette.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Coccosphère",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition inspirée du monde microbiologique marin.",
+   "image": "https://medias.artmajeur.com/hd/12461849_coccosphere.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Dead or Alive",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "La composition source de la série de sérigraphies du même nom.",
+   "image": "https://medias.artmajeur.com/hd/12452348_dead-or-alive.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Le Qu4tre Mai 2019",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition liée à l'événement artistique Le Qu4tre à Argenteuil.",
+   "image": "https://medias.artmajeur.com/hd/12309128_le-qu4tre-mai-2019.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Soleil",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "L'astre solaire, traduit dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12777728_soleil.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Sannois",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition liée au Salon d'Automne de Sannois.",
+   "image": "https://medias.artmajeur.com/hd/12589316_sannois.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "The Man Who Talks to the Shapes",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une évocation de l'artiste lui-même, dialoguant avec les formes de son langage.",
+   "image": "https://medias.artmajeur.com/hd/12553682_the-man-who-talks-to-the-shapes.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Sucré / Salé",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Deux saveurs opposées, mises en regard dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12487427_sucre-sale.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Copépode",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition inspirée du monde microbiologique marin.",
+   "image": "https://medias.artmajeur.com/hd/12461729_copepode.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Chromosome I",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un chromosome, traduit dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12459062_chromosome-i.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Hommage à Morellet",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un hommage graphique à l'artiste François Morellet.",
+   "image": "https://medias.artmajeur.com/hd/12359699_hommage-a-morellet.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Cuvelier",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition dédiée aux céramistes Cécile et Stéphane Cuvelier, amis de la Villa Frouin.",
+   "image": "https://medias.artmajeur.com/hd/12763781_cuvelier.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Dorian",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition portant un prénom, dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12574076_dorian.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Space Ship",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition précurseur du programme Space Ship d'E9 Inertion.",
+   "image": "https://medias.artmajeur.com/hd/12497087_space-ship.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Objectivity / Subjectivity",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Deux points de vue opposés, mis en regard dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12478136_objectivity-subjectivity.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Ceratium",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition inspirée du monde microbiologique marin, en écho à la série Megaplanktos.",
+   "image": "https://medias.artmajeur.com/hd/12461699_ceratium.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Bactérie",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition inspirée du monde microbiologique.",
+   "image": "https://medias.artmajeur.com/hd/12448631_bacterie.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Marseille",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un hommage graphique à la ville de Marseille.",
+   "image": "https://medias.artmajeur.com/hd/12233558_marseille.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "I Am Here",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une déclaration de présence, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12211166_i-am-here.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Power",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Le pouvoir, traduit dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12191684_power.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Heartbeat",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Le battement de cœur, fondement rythmique du langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12080063_heartbeat.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Love",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "L'amour, traduit dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12049970_love.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Siaci Saint Honoré par E9 Inertion",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une commande pour l'entreprise Siaci Saint Honoré.",
+   "image": "https://medias.artmajeur.com/hd/12037445_siaci-saint-honore-par-e9-inertion.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Warm / Cold",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Deux températures opposées, mises en regard dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12208241_warm-cold.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Résurrection",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "La résurrection, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12189293_resurrection.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Rêver",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Le rêve, au cœur de la devise de l'artiste, traduit dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12143525_rever.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Les 4 éléments",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Les quatre éléments classiques, traduits dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12060710_les-4-elements.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Homme & Femme 2",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Homme et femme, opposés ou complémentaires, dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12046763_homme-femme-2.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Travail",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Le travail, traduit dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12224423_travail.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Le Qu4tre",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Une composition liée à l'événement artistique Le Qu4tre à Argenteuil.",
+   "image": "https://medias.artmajeur.com/hd/12201554_le-qu4tre.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Guerre",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "La guerre, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12169412_guerre.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Blanc & Noir",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Deux couleurs opposées, mises en regard dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12105272_blanc-noir.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Ombre & Lumière",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Deux états opposés, mis en regard dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12043034_ombre-lumiere.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Weak / Hard",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Deux états opposés, mis en regard dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12214076_weak-hard.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Baigneuse (pochoir)",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Version numérique du thème de la baigneuse.",
+   "image": "https://medias.artmajeur.com/hd/12194849_baigneuse.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Bauhaus",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un hommage graphique au mouvement Bauhaus.",
+   "image": "https://medias.artmajeur.com/hd/12166148_bauhaus.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Oui & Non",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Deux réponses opposées, mises en regard dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12096800_oui-non.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Vénus 2",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "La déesse de l'amour et de la beauté, traduite dans le langage physiologique.",
+   "image": "https://medias.artmajeur.com/hd/12053324_venus-2.jpg",
+   "onRequest": true
+  },
+  {
+   "title": "Nadège",
+   "num": "",
+   "meta": "Arts numériques",
+   "desc": "Un portrait graphique de Nadège Frouin, dans le langage physiologique d'Étienne.",
+   "image": "https://medias.artmajeur.com/hd/11939990_nadege.jpg",
+   "onRequest": true
+  }
+ ]
 }
