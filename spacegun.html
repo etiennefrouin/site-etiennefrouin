@@ -137,7 +137,7 @@ fetch('data/spaceguns.json')
       const article = document.createElement('article');
       article.className = 'piece';
       article.innerHTML = `
-        <img src="${item.image}" alt="${item.title}">
+        <img src="${item.image}" alt="${item.title}" onerror="this.onerror=null;this.src=this.src.replace('/hd/','/mini/');">
         <div class="cap">
           <h3>${item.title}</h3>
           <p class="meta">${item.meta}</p>
