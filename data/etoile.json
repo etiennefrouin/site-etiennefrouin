@@ -1,1 +1,32 @@
-
+{
+  "items": [
+    {
+      "title": "Dialogue avec Alfons Mucha",
+      "meta": "Dessin au fusain, mise en volume — 180x70x25 cm",
+      "desc": "Reprise au fusain sur panneau de medium, puis mise en volume avec des barres de fer rond lisse, cintrées et soudées à l'arc.",
+      "image": "https://lh3.googleusercontent.com/sitesv/AG8ngQULe1JVmU7hlslO03ozgZCXyCVBvichob8AHvqfB5JgMFv67XZQow2dPrJEKnHYXJoh8DTjpdj9k_HI8g_GxuCMPsnJEew9htmlObMhyj446dPEfdbcncje4xOdCmlel_LxDiL43smUPxnzcIEmBLBPK13PoBey1qQRF9yV1stMCLXnlN1bfNJ1WWnTToqVX5nzc5iRCrxFngZsIeBoiYzMXIUjLp2RYKCb0MpDZIc=w1280",
+      "priceId": "mucha"
+    },
+    {
+      "title": "Dialogue avec Tom Wesselmann",
+      "meta": "Technique mixte, bois, métal, fusain — 80x100x20 cm",
+      "desc": "Découvert dans la galerie du futur de la TGB. Une figure allongée derrière sa fenêtre, rideau bleu tiré, cigarette à la main.",
+      "image": "https://lh3.googleusercontent.com/sitesv/AG8ngQXPSr4uyTRgn7txlcRyFTaMT6YGFBqPVju08Vzk4h4DQTh3TPCpK2wsAGuHPfOYq97zuzdkX8M4-FDZEZXiaBENI-MeJNzcDjaU2lQ1aTskStzUaXMW2wxD5HMfvdoaFjJPuQOWwsDH7dYZcq6SqL106B0Do653BhreNZF-xo4J-bVOFF6SlyBIkwHmYZ_XbtrjS-2mqdwEihhkXDp73p1KbyM1c7yQx-SqCV1g1Pc=w1280",
+      "priceId": "wesselmann"
+    },
+    {
+      "title": "Bather in the garden",
+      "meta": "Barre de fer 6mm, cintrée, soudée, peinte — 200x60x20 cm",
+      "desc": "Une série mettant en avant le corps de la femme, l'amour, la sensualité, la légèreté.",
+      "image": "https://lh3.googleusercontent.com/sitesv/AG8ngQXkmL8Zw0uBfx3k84lDkI2feLU6nstTjzg-WxdOYTxv3Md_mXmXskNfdOk5Xv-e_MvuwkanWU91ua_qhDdsrgmH7wtfAmPynFdGnK0hpSxjrSwmaiGWG3kDoeC2MrMMjKTxPp0gZgRANgAgqqOmdQM-hMcB5zfwV6YhD2Zjn761O7wDTP0GZZLSyH_Rk9QfRA_x-8dJVVrxY5PZ5Dzz2NxMWzIzr7r_mLdjX0tGSug=w1280",
+      "priceId": "bather-garden"
+    },
+    {
+      "title": "Dialogue with Manet",
+      "meta": "2018 — bois et métal, fusain rehaussé d'huile",
+      "desc": "Hommage à l'Olympia d'Édouard Manet, découverte lors d'un voyage imaginaire d'E9 Inertion dans la Galerie du Futur de la cité engloutie U3.",
+      "image": "https://medias.artmajeur.com/hd/13273826_hommage-a-edouard-manet.jpg?v=1739267437",
+      "priceId": "dialogue-manet"
+    }
+  ]
+}
