@@ -92,19 +92,35 @@
   <p data-i18n="ships.intro">Le programme spatial d'E9 Inertion, notre héros spatio-temporel : des armes-sculptures en hommage facétieux à Smith &amp; Wesson, et un catalogue de photomontages glané au fil de ses voyages à travers bâtiments, demeures et églises.</p>
 </section>
 
-<div class="grid" style="grid-template-columns:1fr;">
-
-  <article class="piece">
-    <img src="https://medias.artmajeur.com/hd/19896922_space-ship-3.jpg?v=1777186665" alt="SPACE SHIP PROGRAMME, 2026">
-    <div class="cap">
-      <p class="meta" data-i18n="ships.p1.meta">2026 — arts numériques, photomontage</p>
-      <h3 data-i18n="ships.p1.title">Space Ship Programme</h3>
-      <p class="desc" data-i18n="ships.p1.desc">Le lancement d'un catalogue annuel rassemblant une centaine de photomontages réalisés lors des voyages d'E9 Inertion, à partir d'immeubles, de demeures et d'églises repérés en chemin.</p>
-      <a class="on-request-tag" href="mailto:contact@etiennefrouin.com?subject=Demande%20de%20prix"><span data-i18n="piece.on_request">Prix sur demande →</span></a>
-    </div>
-  </article>
-
+<div class="grid" id="ships-grid" style="grid-template-columns:1fr;">
+  <p style="padding:24px;font-size:13px;color:#413F3A;">Chargement…</p>
 </div>
+
+<script>
+fetch('data/spaceships.json')
+  .then(r => r.json())
+  .then(data => {
+    const grid = document.getElementById('ships-grid');
+    grid.innerHTML = '';
+    (data.items || []).forEach(item => {
+      const article = document.createElement('article');
+      article.className = 'piece';
+      article.innerHTML = `
+        <img src="${item.image}" alt="${item.title}" onerror="this.onerror=null;this.src=this.src.replace('/hd/','/mini/');">
+        <div class="cap">
+          <p class="meta">${item.meta}</p>
+          <h3>${item.title}</h3>
+          <p class="desc">${item.desc}</p>
+          <a class="on-request-tag" href="mailto:contact@etiennefrouin.com?subject=Demande%20de%20prix%20-%20${encodeURIComponent(item.title)}"><span data-i18n="piece.on_request">Prix sur demande →</span></a>
+        </div>
+      `;
+      grid.appendChild(article);
+    });
+  })
+  .catch(() => {
+    document.getElementById('ships-grid').innerHTML = '<p style="padding:24px;font-size:13px;color:#413F3A;">Impossible de charger les œuvres pour le moment.</p>';
+  });
+</script>
 
 <section class="origin wrap">
   <h3 data-i18n="ships.also.title">Voir aussi</h3>
