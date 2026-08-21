@@ -95,49 +95,36 @@
   <p data-i18n="etoile.intro">Pas de forme, pas de lettre, pas de couleur imposée : ici le langage physiologique se tait un instant. Ces pièces dialoguent librement avec d'autres artistes et remettent le corps, le nu, le portrait au centre — hors de tout code.</p>
 </section>
 
-<div class="grid">
-
-  <article class="piece">
-    <img src="https://lh3.googleusercontent.com/sitesv/AG8ngQULe1JVmU7hlslO03ozgZCXyCVBvichob8AHvqfB5JgMFv67XZQow2dPrJEKnHYXJoh8DTjpdj9k_HI8g_GxuCMPsnJEew9htmlObMhyj446dPEfdbcncje4xOdCmlel_LxDiL43smUPxnzcIEmBLBPK13PoBey1qQRF9yV1stMCLXnlN1bfNJ1WWnTToqVX5nzc5iRCrxFngZsIeBoiYzMXIUjLp2RYKCb0MpDZIc=w1280" alt="Dialogue avec Alfons Mucha">
-    <div class="cap">
-      <h3 data-i18n="etoile.p1.title">Dialogue avec Alfons Mucha</h3>
-      <p class="meta" data-i18n="etoile.p1.meta">Dessin au fusain, mise en volume — 180x70x25 cm</p>
-      <p class="desc" data-i18n="etoile.p1.desc">Reprise au fusain sur panneau de medium, puis mise en volume avec des barres de fer rond lisse, cintrées et soudées à l'arc.</p>
-      <div class="price-slot" data-price-id="mucha"></div>
-    </div>
-  </article>
-
-  <article class="piece">
-    <img src="https://lh3.googleusercontent.com/sitesv/AG8ngQXPSr4uyTRgn7txlcRyFTaMT6YGFBqPVju08Vzk4h4DQTh3TPCpK2wsAGuHPfOYq97zuzdkX8M4-FDZEZXiaBENI-MeJNzcDjaU2lQ1aTskStzUaXMW2wxD5HMfvdoaFjJPuQOWwsDH7dYZcq6SqL106B0Do653BhreNZF-xo4J-bVOFF6SlyBIkwHmYZ_XbtrjS-2mqdwEihhkXDp73p1KbyM1c7yQx-SqCV1g1Pc=w1280" alt="Dialogue avec Tom Wesselmann">
-    <div class="cap">
-      <h3 data-i18n="etoile.p2.title">Dialogue avec Tom Wesselmann</h3>
-      <p class="meta" data-i18n="etoile.p2.meta">Technique mixte, bois, métal, fusain — 80x100x20 cm</p>
-      <p class="desc" data-i18n="etoile.p2.desc">Découvert dans la galerie du futur de la TGB. Une figure allongée derrière sa fenêtre, rideau bleu tiré, cigarette à la main.</p>
-      <div class="price-slot" data-price-id="wesselmann"></div>
-    </div>
-  </article>
-
-  <article class="piece">
-    <img src="https://lh3.googleusercontent.com/sitesv/AG8ngQXkmL8Zw0uBfx3k84lDkI2feLU6nstTjzg-WxdOYTxv3Md_mXmXskNfdOk5Xv-e_MvuwkanWU91ua_qhDdsrgmH7wtfAmPynFdGnK0hpSxjrSwmaiGWG3kDoeC2MrMMjKTxPp0gZgRANgAgqqOmdQM-hMcB5zfwV6YhD2Zjn761O7wDTP0GZZLSyH_Rk9QfRA_x-8dJVVrxY5PZ5Dzz2NxMWzIzr7r_mLdjX0tGSug=w1280" alt="Bather in the garden">
-    <div class="cap">
-      <h3 data-i18n="etoile.p3.title">Bather in the garden</h3>
-      <p class="meta" data-i18n="etoile.p3.meta">Barre de fer 6mm, cintrée, soudée, peinte — 200x60x20 cm</p>
-      <p class="desc" data-i18n="etoile.p3.desc">Une série mettant en avant le corps de la femme, l'amour, la sensualité, la légèreté.</p>
-      <div class="price-slot" data-price-id="bather-garden"></div>
-    </div>
-  </article>
-
-  <article class="piece">
-    <img src="https://medias.artmajeur.com/hd/13273826_hommage-a-edouard-manet.jpg?v=1739267437" alt="Dialogue with Manet, 2018">
-    <div class="cap">
-      <h3 data-i18n="etoile.p4.title">Dialogue with Manet</h3>
-      <p class="meta" data-i18n="etoile.p4.meta">2018 — bois et métal, fusain rehaussé d'huile</p>
-      <p class="desc" data-i18n="etoile.p4.desc">Hommage à l'Olympia d'Édouard Manet, découverte lors d'un voyage imaginaire d'E9 Inertion dans la Galerie du Futur de la cité engloutie U3.</p>
-      <div class="price-slot" data-price-id="dialogue-manet" data-image="https://medias.artmajeur.com/hd/13273826_hommage-a-edouard-manet.jpg?v=1739267437" data-shipping="sculpture"></div>
-    </div>
-  </article>
-
+<div class="grid" id="etoile-grid">
+  <p style="padding:24px;font-size:13px;color:#413F3A;">Chargement des œuvres…</p>
 </div>
+
+<script>
+fetch('data/etoile.json')
+  .then(r => r.json())
+  .then(data => {
+    const items = data.items || [];
+    const grid = document.getElementById('etoile-grid');
+    grid.innerHTML = '';
+    items.forEach(item => {
+      const article = document.createElement('article');
+      article.className = 'piece';
+      article.innerHTML = `
+        <img src="${item.image}" alt="${item.title}" onerror="this.onerror=null;this.src=this.src.replace('/hd/','/mini/');">
+        <div class="cap">
+          <h3>${item.title}</h3>
+          <p class="meta">${item.meta}</p>
+          <p class="desc">${item.desc}</p>
+          <div class="price-slot" data-price-id="${item.priceId}" data-image="${item.image}" data-shipping="sculpture"></div>
+        </div>
+      `;
+      grid.appendChild(article);
+    });
+  })
+  .catch(() => {
+    document.getElementById('etoile-grid').innerHTML = '<p style="padding:24px;font-size:13px;color:#413F3A;">Impossible de charger les œuvres pour le moment.</p>';
+  });
+</script>
 
 <footer id="contact">
   <span>© 2026 Étienne Frouin (E9 Inertion)</span>
