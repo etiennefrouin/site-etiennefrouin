@@ -196,6 +196,44 @@ collections:
               - { label: "Description (paragraphe 2)", name: "p2", widget: "text" }
               - { label: "Image (URL)", name: "image", widget: "string" }
 
+  - name: "home"
+    label: "Page d'accueil (textes)"
+    description: "La tagline, le texte de légende, la mise en avant Villa Frouin et le texte À propos."
+    files:
+      - name: "home"
+        label: "Textes de l'accueil"
+        file: "data/home.json"
+        format: "json"
+        fields:
+          - label: "En-tête (hero)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Tagline", name: "tagline", widget: "string" }
+              - { label: "Sous-titre", name: "sub", widget: "text" }
+          - label: "Légende du langage"
+            name: "legend"
+            widget: "object"
+            fields:
+              - { label: "Texte d'introduction", name: "intro", widget: "text" }
+          - label: "Mise en avant Villa Frouin"
+            name: "villafrouinTeaser"
+            widget: "object"
+            fields:
+              - { label: "Étiquette", name: "eyebrow", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+          - label: "À propos"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Titre de section", name: "title", widget: "string" }
+              - { label: "Citation (en haut)", name: "quote1", widget: "text" }
+              - { label: "Paragraphe 1", name: "p1", widget: "text" }
+              - { label: "Paragraphe 2 (genèse du langage)", name: "p2", widget: "text" }
+              - { label: "Paragraphe 3 (bio)", name: "p3", widget: "text" }
+              - { label: "Citation (en bas)", name: "quote2", widget: "text" }
+
   - name: "prices"
     label: "Prix des œuvres"
     description: "Les prix affichés sur le site pour les œuvres en vente. Laissez la case 'Prix sur demande' cochée pour les œuvres sans prix fixe."
