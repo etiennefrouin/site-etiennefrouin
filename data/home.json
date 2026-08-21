@@ -1,1 +1,22 @@
-
+{
+  "hero": {
+    "tagline": "Fight against those who want to stop you dreaming.",
+    "sub": "Plasticien. Peinture, sculpture métal, art textile, pochoir — un langage physiologique où chaque forme et chaque couleur correspond à une lettre."
+  },
+  "legend": {
+    "intro": "Trois formes, leurs couleurs primaires et secondaires : le code qui structure chaque série. Entrez par la forme, pas par un menu."
+  },
+  "villafrouinTeaser": {
+    "eyebrow": "Le lieu",
+    "title": "Centre d'art International — Villa Frouin",
+    "desc": "Un cottage anglais de 1884, à Hyères Costebelle, devenu atelier, galerie et lieu de rencontres artistiques — où Étienne et Nadège Frouin créent et exposent au fil des saisons."
+  },
+  "about": {
+    "title": "À propos",
+    "quote1": "My goal is not to represent, but to make one feel: the heartbeat, the breath, the cellular memory. This language is not meant to be read, but perceived.",
+    "p1": "Je travaille le souffle vital logé dans la matière. À travers des formes biomécaniques, je cherche à exprimer un langage physiologique — un alphabet organique fait de pulsations, de tensions et de silences. Chaque sculpture est une entité vivante, un fragment de corps en transformation, porteur d'un message universel : la fusion de l'humain, du vivant et de la machine. Je traite le métal comme une peau — une membrane sensible — où chaque pli, chaque soudure devient la syllabe d'une langue oubliée.",
+    "p2": "Ce langage est né d'une visite au musée Matisse de Cateau-Cambrésis, devant l'alphabet plastique d'Auguste Herbin. Il suit le rythme de la vie, le rythme cardiaque, en trois séquences éternelles : haut, bas, repos. Ces séquences sont doublement matérialisées, par une forme et une couleur — parallélépipède, pyramide, disque — répétées sur 13 cycles pour former l'alphabet complet et les dix chiffres, soit 36 symboles. Trois couleurs primaires portent les consonnes : rouge, jaune, bleu. Les voyelles empruntent les couleurs secondaires des lettres qui les entourent.",
+    "p3": "Né en 1967, je vis et travaille à la Villa Frouin, à Hyères, où j'expose aux côtés de Nadège Frouin, artiste tapissier.",
+    "quote2": "Fight against those who want to stop you dreaming."
+  }
+}
