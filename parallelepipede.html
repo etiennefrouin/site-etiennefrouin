@@ -135,7 +135,7 @@ fetch('data/tufting.json')
       const article = document.createElement('article');
       article.className = 'piece';
       article.innerHTML = `
-        <img src="${item.image}" alt="${item.title}" onerror="this.onerror=null;this.src=this.src.replace('/hd/','/mini/');">
+        <img src="${item.image}" alt="${item.title}" onerror="this.onerror=null;this.src=this.src.replace('/hd/','/standard/').replace('/standard/','/mini/');">
         <div class="cap">
           <span class="letter-tag">${item.letter}</span>
           <h3>${item.title}</h3>
@@ -149,7 +149,7 @@ fetch('data/tufting.json')
 
     const t = data.tribute;
     document.getElementById('tufting-tribute').innerHTML = `
-      <img src="${t.image}" alt="${t.title}" onerror="this.onerror=null;this.src=this.src.replace('/hd/','/mini/');">
+      <img src="${t.image}" alt="${t.title}" onerror="this.onerror=null;this.src=this.src.replace('/hd/','/standard/').replace('/standard/','/mini/');">
       <div class="cap">
         <p class="meta">${t.meta}</p>
         <h3>${t.title}</h3>
