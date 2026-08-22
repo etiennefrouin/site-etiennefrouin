@@ -60,7 +60,7 @@ collections:
               - { label: "Numéro atomique (ex: N° 79 — Au) — laisser vide si non applicable", name: "num", widget: "string", required: false }
               - { label: "Date / technique", name: "meta", widget: "string" }
               - { label: "Description", name: "desc", widget: "text" }
-              - { label: "Image (URL)", name: "image", widget: "string" }
+              - { label: "Image", name: "image", widget: "image", media_library: { config: { multiple: false } } }
               - { label: "Prix sur demande", name: "onRequest", widget: "boolean", default: true }
 
   - name: "spaceguns"
@@ -80,7 +80,7 @@ collections:
               - { label: "Titre", name: "title", widget: "string" }
               - { label: "Date / technique", name: "meta", widget: "string" }
               - { label: "Description", name: "desc", widget: "text" }
-              - { label: "Image (URL)", name: "image", widget: "string" }
+              - { label: "Image", name: "image", widget: "image", media_library: { config: { multiple: false } } }
               - { label: "Statut (Vendu / Pas à vendre / Prix sur demande)", name: "status", widget: "string" }
 
   - name: "etoile"
@@ -100,7 +100,7 @@ collections:
               - { label: "Titre", name: "title", widget: "string" }
               - { label: "Date / technique", name: "meta", widget: "string" }
               - { label: "Description", name: "desc", widget: "text" }
-              - { label: "Image (URL)", name: "image", widget: "string" }
+              - { label: "Image", name: "image", widget: "image", media_library: { config: { multiple: false } } }
               - { label: "Identifiant de prix (ne pas modifier)", name: "priceId", widget: "string" }
 
   - name: "serigraphies"
@@ -119,7 +119,7 @@ collections:
               - { label: "Titre", name: "title", widget: "string" }
               - { label: "Date / technique", name: "meta", widget: "string" }
               - { label: "Description", name: "desc", widget: "text" }
-              - { label: "Image (URL)", name: "image", widget: "string" }
+              - { label: "Image", name: "image", widget: "image", media_library: { config: { multiple: false } } }
           - label: "Autres tirages"
             name: "items"
             widget: "list"
@@ -146,7 +146,7 @@ collections:
               - { label: "Titre", name: "title", widget: "string" }
               - { label: "Date / technique", name: "meta", widget: "string" }
               - { label: "Description", name: "desc", widget: "text" }
-              - { label: "Image (URL)", name: "image", widget: "string" }
+              - { label: "Image", name: "image", widget: "image", media_library: { config: { multiple: false } } }
 
   - name: "disque"
     label: "Sculpture métal & dessin/peinture"
@@ -165,7 +165,7 @@ collections:
               - { label: "Titre", name: "title", widget: "string" }
               - { label: "Date / technique", name: "meta", widget: "string" }
               - { label: "Description", name: "desc", widget: "text" }
-              - { label: "Image (URL)", name: "image", widget: "string" }
+              - { label: "Image", name: "image", widget: "image", media_library: { config: { multiple: false } } }
 
   - name: "tufting"
     label: "Tufting (HASARD)"
@@ -185,7 +185,7 @@ collections:
               - { label: "Titre", name: "title", widget: "string" }
               - { label: "Date / technique", name: "meta", widget: "string" }
               - { label: "Description", name: "desc", widget: "text" }
-              - { label: "Image (URL)", name: "image", widget: "string" }
+              - { label: "Image", name: "image", widget: "image", media_library: { config: { multiple: false } } }
           - label: "Pièce hommage (hors alphabet)"
             name: "tribute"
             widget: "object"
@@ -194,7 +194,7 @@ collections:
               - { label: "Date / technique", name: "meta", widget: "string" }
               - { label: "Description (paragraphe 1)", name: "p1", widget: "text" }
               - { label: "Description (paragraphe 2)", name: "p2", widget: "text" }
-              - { label: "Image (URL)", name: "image", widget: "string" }
+              - { label: "Image", name: "image", widget: "image", media_library: { config: { multiple: false } } }
 
   - name: "home"
     label: "Page d'accueil (textes)"
