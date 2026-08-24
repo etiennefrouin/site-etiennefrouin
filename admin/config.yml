@@ -1,3 +1,171 @@
+backend:
+  name: git-gateway
+  repo: etiennefrouin/site-etiennefrouin
+  branch: main
+  auth_type: pkce
+  base_url: https://auth.decapbridge.com
+  auth_endpoint: /sites/6d130f3f-9a33-45d8-a602-91fc2977771c/pkce
+  auth_token_endpoint: /sites/6d130f3f-9a33-45d8-a602-91fc2977771c/token
+  gateway_url: https://gateway.decapbridge.com
+
+commit_messages:
+  create: Create {{collection}} "{{slug}}" - {{author-name}} <{{author-login}}> via DecapBridge
+  update: Update {{collection}} "{{slug}}" - {{author-name}} <{{author-login}}> via DecapBridge
+  delete: Delete {{collection}} "{{slug}}" - {{author-name}} <{{author-login}}> via DecapBridge
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+site_url: https://etiennefrouin.com
+display_url: https://etiennefrouin.com
+
+collections:
+
+  - name: "news"
+    label: "Breaking News"
+    description: "Les actualités affichées sur la page Breaking News du site."
+    files:
+      - name: "news"
+        label: "Liste des actualités"
+        file: "data/news.json"
+        format: "json"
+        fields:
+          - label: "Actualités"
+            name: "items"
+            widget: "list"
+            summary: "{{title}} ({{date}})"
+            fields:
+              - { label: "Année", name: "date", widget: "string", hint: "Ex: 2026" }
+              - { label: "Catégorie", name: "tag", widget: "string", hint: "Ex: Nouvelle série, Sculpture, Événement..." }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Texte", name: "text", widget: "text" }
+
+  - name: "elements"
+    label: "Tableau périodique (galerie)"
+    description: "Toutes les œuvres affichées sur la page Tableau périodique / Pyramide du site."
+    files:
+      - name: "elements"
+        label: "Liste des œuvres"
+        file: "data/elements.json"
+        format: "json"
+        fields:
+          - label: "Œuvres"
+            name: "items"
+            widget: "list"
+            summary: "{{title}}"
+            fields:
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Numéro atomique (ex: N° 79 — Au) — laisser vide si non applicable", name: "num", widget: "string", required: false }
+              - { label: "Date / technique", name: "meta", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Image", name: "image", widget: "image", media_library: { config: { multiple: false } } }
+              - { label: "Prix sur demande", name: "onRequest", widget: "boolean", default: true }
+
+  - name: "spaceguns"
+    label: "Space Gun (arsenal complet)"
+    description: "Toutes les œuvres affichées sur la page Space Gun du site (hors les 2 pièces vedettes en vente)."
+    files:
+      - name: "spaceguns"
+        label: "Liste de l'arsenal"
+        file: "data/spaceguns.json"
+        format: "json"
+        fields:
+          - label: "Œuvres"
+            name: "items"
+            widget: "list"
+            summary: "{{title}}"
+            fields:
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Date / technique", name: "meta", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Image", name: "image", widget: "image", media_library: { config: { multiple: false } } }
+              - { label: "Statut (Vendu / Pas à vendre / Prix sur demande)", name: "status", widget: "string" }
+
+  - name: "etoile"
+    label: "Étoile (œuvres figuratives)"
+    description: "Les œuvres affichées sur la page Étoile."
+    files:
+      - name: "etoile"
+        label: "Liste des œuvres"
+        file: "data/etoile.json"
+        format: "json"
+        fields:
+          - label: "Œuvres"
+            name: "items"
+            widget: "list"
+            summary: "{{title}}"
+            fields:
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Date / technique", name: "meta", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Image", name: "image", widget: "image", media_library: { config: { multiple: false } } }
+              - { label: "Identifiant de prix (ne pas modifier)", name: "priceId", widget: "string" }
+
+  - name: "serigraphies"
+    label: "Sérigraphies"
+    description: "Le contenu de la page Sérigraphies."
+    files:
+      - name: "serigraphies"
+        label: "Sérigraphies"
+        file: "data/serigraphies.json"
+        format: "json"
+        fields:
+          - label: "Œuvre mise en avant"
+            name: "featured"
+            widget: "object"
+            fields:
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Date / technique", name: "meta", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Image", name: "image", widget: "image", media_library: { config: { multiple: false } } }
+          - label: "Autres tirages"
+            name: "items"
+            widget: "list"
+            summary: "{{title}}"
+            fields:
+              - { label: "Technique / édition", name: "tag", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Image", name: "image", widget: "image", media_library: { config: { multiple: false } }, required: false }
+
+  - name: "spaceships"
+    label: "Space ships"
+    description: "Les œuvres affichées sur la page Space ships."
+    files:
+      - name: "spaceships"
+        label: "Liste des œuvres"
+        file: "data/spaceships.json"
+        format: "json"
+        fields:
+          - label: "Œuvres"
+            name: "items"
+            widget: "list"
+            summary: "{{title}}"
+            fields:
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Date / technique", name: "meta", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Image", name: "image", widget: "image", media_library: { config: { multiple: false } } }
+
+  - name: "disque"
+    label: "Sculpture métal & dessin/peinture"
+    description: "Les œuvres affichées sur la page Disque."
+    files:
+      - name: "disque"
+        label: "Liste des œuvres"
+        file: "data/disque.json"
+        format: "json"
+        fields:
+          - label: "Œuvres"
+            name: "items"
+            widget: "list"
+            summary: "{{title}}"
+            fields:
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Date / technique", name: "meta", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Image", name: "image", widget: "image", media_library: { config: { multiple: false } } }
+
   - name: "tufting"
     label: "Tufting (HASARD)"
     description: "Les 6 panneaux de la série HASARD, plus la pièce hommage hors alphabet."
@@ -27,3 +195,99 @@
               - { label: "Description (paragraphe 2)", name: "p2", widget: "text" }
               - { label: "Image", name: "image", widget: "image", media_library: { config: { multiple: false } } }
               - { label: "Lien vidéo YouTube (optionnel)", name: "video", widget: "string", required: false }
+
+  - name: "home"
+    label: "Page d'accueil (textes)"
+    description: "La tagline, le texte de légende, la mise en avant Villa Frouin et le texte À propos."
+    files:
+      - name: "home"
+        label: "Textes de l'accueil"
+        file: "data/home.json"
+        format: "json"
+        fields:
+          - label: "En-tête (hero)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Tagline", name: "tagline", widget: "string" }
+              - { label: "Sous-titre", name: "sub", widget: "text" }
+          - label: "Légende du langage"
+            name: "legend"
+            widget: "object"
+            fields:
+              - { label: "Texte d'introduction", name: "intro", widget: "text" }
+          - label: "Mise en avant Villa Frouin"
+            name: "villafrouinTeaser"
+            widget: "object"
+            fields:
+              - { label: "Étiquette", name: "eyebrow", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+          - label: "À propos"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Titre de section", name: "title", widget: "string" }
+              - { label: "Citation (en haut)", name: "quote1", widget: "text" }
+              - { label: "Paragraphe 1", name: "p1", widget: "text" }
+              - { label: "Paragraphe 2 (genèse du langage)", name: "p2", widget: "text" }
+              - { label: "Paragraphe 3 (bio)", name: "p3", widget: "text" }
+              - { label: "Citation (en bas)", name: "quote2", widget: "text" }
+
+  - name: "prices"
+    label: "Prix des œuvres"
+    description: "Les prix affichés sur le site pour les œuvres en vente. Laissez la case 'Prix sur demande' cochée pour les œuvres sans prix fixe."
+    files:
+      - name: "prices"
+        label: "Liste des prix"
+        file: "data/prices.json"
+        format: "json"
+        fields:
+          - label: "Dialogue with Manet"
+            name: "dialogue-manet"
+            widget: "object"
+            collapsed: false
+            fields:
+              - { label: "Titre (ne pas modifier)", name: "title", widget: "string" }
+              - { label: "Prix en euros", name: "price", widget: "number", required: false, value_type: "int" }
+              - { label: "Prix sur demande (au lieu d'un prix fixe)", name: "onRequest", widget: "boolean" }
+          - label: "X Space gun"
+            name: "x-space-gun"
+            widget: "object"
+            collapsed: false
+            fields:
+              - { label: "Titre (ne pas modifier)", name: "title", widget: "string" }
+              - { label: "Prix en euros", name: "price", widget: "number", required: false, value_type: "int" }
+              - { label: "Prix sur demande (au lieu d'un prix fixe)", name: "onRequest", widget: "boolean" }
+          - label: "Dialogue avec Alfons Mucha"
+            name: "mucha"
+            widget: "object"
+            collapsed: false
+            fields:
+              - { label: "Titre (ne pas modifier)", name: "title", widget: "string" }
+              - { label: "Prix en euros", name: "price", widget: "number", required: false, value_type: "int" }
+              - { label: "Prix sur demande (au lieu d'un prix fixe)", name: "onRequest", widget: "boolean" }
+          - label: "Dialogue avec Tom Wesselmann"
+            name: "wesselmann"
+            widget: "object"
+            collapsed: false
+            fields:
+              - { label: "Titre (ne pas modifier)", name: "title", widget: "string" }
+              - { label: "Prix en euros", name: "price", widget: "number", required: false, value_type: "int" }
+              - { label: "Prix sur demande (au lieu d'un prix fixe)", name: "onRequest", widget: "boolean" }
+          - label: "Bather in the garden"
+            name: "bather-garden"
+            widget: "object"
+            collapsed: false
+            fields:
+              - { label: "Titre (ne pas modifier)", name: "title", widget: "string" }
+              - { label: "Prix en euros", name: "price", widget: "number", required: false, value_type: "int" }
+              - { label: "Prix sur demande (au lieu d'un prix fixe)", name: "onRequest", widget: "boolean" }
+          - label: "Robineuf"
+            name: "robineuf"
+            widget: "object"
+            collapsed: false
+            fields:
+              - { label: "Titre (ne pas modifier)", name: "title", widget: "string" }
+              - { label: "Prix en euros", name: "price", widget: "number", required: false, value_type: "int" }
+              - { label: "Prix sur demande (au lieu d'un prix fixe)", name: "onRequest", widget: "boolean" }
