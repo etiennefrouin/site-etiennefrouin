@@ -7,7 +7,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/cart.css">
-
 <style>
   :root{
     --paper:#EDEAE1;
@@ -17,7 +16,7 @@
   }
   *{box-sizing:border-box;}
   body{margin:0;background:var(--paper);color:var(--ink);font-family:'Space Mono', monospace;line-height:1.6;}
-  h1,h2,h3{font-family:'Archivo', sans-serif;font-weight:900;text-transform:uppercase;letter-spacing:-0.01em;margin:0;}
+  h1,h2,h3,.display{font-family:'Archivo', sans-serif;font-weight:900;text-transform:uppercase;letter-spacing:-0.01em;margin:0;}
   a{color:inherit;}
   img{display:block;max-width:100%;}
   .wrap{max-width:1040px;margin:0 auto;padding:0 24px;}
@@ -25,34 +24,43 @@
   header{border-bottom:1.5px solid var(--line);position:sticky;top:0;background:var(--paper);z-index:10;}
   .topbar{display:flex;justify-content:space-between;align-items:center;padding:16px 24px;max-width:1040px;margin:0 auto;flex-wrap:wrap;gap:10px;}
   .topbar .mark{font-family:'Archivo',sans-serif;font-weight:900;font-size:18px;}
-  .topbar nav{display:flex;gap:18px;font-size:12px;text-transform:uppercase;letter-spacing:0.06em;flex-wrap:wrap;}
+  .topbar nav{display:flex;gap:16px;font-size:11.5px;text-transform:uppercase;letter-spacing:0.05em;flex-wrap:wrap;}
   .topbar nav a{text-decoration:none;border-bottom:1.5px solid transparent;padding-bottom:2px;}
   .topbar nav a:hover,.topbar nav a.current{border-color:var(--ink);}
 
-  .series-hero{padding:56px 24px 40px;border-bottom:1.5px solid var(--line);}
-  .series-hero .eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:0.08em;color:#413F3A;margin-bottom:14px;display:flex;align-items:center;gap:10px;}
-  .series-hero h1{font-size:clamp(28px,4.5vw,44px);text-transform:none;line-height:1.05;max-width:20ch;}
-  .series-hero p{font-size:14px;color:#413F3A;max-width:60ch;margin-top:16px;}
+  .series-hero{padding:56px 24px 32px;border-bottom:1.5px solid var(--line);}
+  .series-hero .eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:0.08em;color:#413F3A;margin-bottom:14px;}
+  .series-hero h1{font-size:clamp(28px,4.5vw,42px);text-transform:none;line-height:1.05;}
+  .series-hero p{font-size:14px;color:#413F3A;max-width:60ch;margin-top:14px;}
 
-  .grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1.5px solid var(--line);}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1.5px solid var(--line);border-left:1.5px solid var(--line);}
   .piece{border-right:1.5px solid var(--line);border-bottom:1.5px solid var(--line);}
-  .piece:nth-child(3n){border-right:none;}
-  .piece img{aspect-ratio:1/1;object-fit:cover;width:100%;background:#DAD6CA;}
-  .piece .cap{padding:16px 18px 20px;}
-  .piece h3{font-size:14px;margin-bottom:6px;}
-  .piece .meta{font-size:11px;color:var(--accent);text-transform:uppercase;letter-spacing:0.04em;margin-bottom:8px;}
-  .piece p.desc{font-size:12.5px;color:#2A2926;margin:0;}
+  .piece img{width:100%;aspect-ratio:4/3;object-fit:cover;border-bottom:1.5px solid var(--line);}
+  .piece .cap{padding:20px 22px;}
+  .piece h3{font-size:14px;margin-bottom:8px;text-transform:none;}
+  .piece .meta{font-size:11px;text-transform:uppercase;letter-spacing:0.04em;color:#413F3A;margin-bottom:8px;}
+  .piece .desc{font-size:12.5px;color:#2A2926;margin-bottom:12px;}
+  .on-request-tag{display:inline-block;font-size:11.5px;text-transform:uppercase;letter-spacing:0.04em;text-decoration:underline;}
+  .piece-price{font-family:'Archivo',sans-serif;font-weight:900;font-size:16px;margin-bottom:10px;}
+  .add-to-cart-btn{font-family:'Space Mono',monospace;font-size:11.5px;text-transform:uppercase;letter-spacing:0.04em;background:var(--ink);color:var(--paper);border:none;padding:8px 14px;cursor:pointer;}
+  .video-link{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;text-transform:uppercase;letter-spacing:0.04em;border-bottom:1.5px solid var(--ink);padding-bottom:1px;margin-top:8px;}
 
-  .origin{padding:40px 24px;border-top:1.5px solid var(--line);}
-  .origin h3{font-size:14px;margin-bottom:12px;}
-  .origin p{font-size:13px;color:#2A2926;max-width:64ch;}
+  .subhead{padding:24px;border-top:1.5px solid var(--line);}
+  .subhead h2{font-size:15px;margin-bottom:8px;}
+  .subhead p{font-size:12.5px;color:#413F3A;margin:0;}
 
-  footer{border-top:1.5px solid var(--line);padding:28px 24px;font-size:12px;color:#413F3A;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;}
+  .origin{padding:40px 24px;}
+  .origin h3{font-size:15px;margin-bottom:14px;}
+  .origin p{font-size:13px;color:#2A2926;max-width:76ch;}
+
+  footer{border-top:1.5px solid var(--line);padding:28px 24px;font-size:12px;color:#413F3A;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;max-width:1040px;margin:0 auto;}
   footer a{text-decoration:underline;}
 
-  @media (max-width:720px){
+  @media (max-width:820px){
+    .grid{grid-template-columns:repeat(2,1fr);}
+  }
+  @media (max-width:560px){
     .grid{grid-template-columns:1fr;}
-    .piece{border-right:none;}
   }
 </style>
 </head>
@@ -87,7 +95,7 @@
 </header>
 
 <section class="series-hero wrap">
-  <p class="eyebrow"><svg width="24" height="24" viewBox="0 0 44 44" style="flex-shrink:0;"><circle cx="30" cy="14" r="8" fill="var(--accent)"/><path d="M24 20 L4 40 M27 24 L10 41 M20 16 L2 34" stroke="var(--accent)" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.55"/></svg> <span data-i18n="gun.eyebrow">Comète · plus de 45 pièces</span></p>
+  <p class="eyebrow" data-i18n="gun.eyebrow">Comète · plus de 45 pièces</p>
   <h1 data-i18n="gun.h1">Space Gun</h1>
   <p data-i18n="gun.intro">Des armes-sculptures en fer rond soudé, cintré et peint — un programme entier d'objets qui n'existent que pour porter un nom, une silhouette, un clin d'œil. Depuis 2014, plus de quarante pièces composent cet arsenal imaginaire du héros spatio-temporel E9 Inertion.</p>
 </section>
@@ -95,7 +103,7 @@
 <div class="grid">
 
   <article class="piece">
-    <img src="https://medias.artmajeur.com/hd/14063003_300cm5.jpg?v=1739205812" alt="X Space gun of E9 INERTION, 2018">
+    <img src="https://medias.artmajeur.com/hd/14063003_300cm5.jpg?v=1739205812" alt="X Space gun, 2018">
     <div class="cap">
       <h3 data-i18n="gun.p1.title">X Space gun</h3>
       <p class="meta" data-i18n="gun.p1.meta">2018 — métaux, 300 cm de barre de fer 6mm</p>
@@ -106,18 +114,19 @@
   </article>
 
   <article class="piece">
-    <img src="https://medias.artmajeur.com/standard/accimg_226255_article_robi-9-de-etienne-frouin-01kjdp1vk8zrn6saawx18mn7cb.jpg" alt="ROBINEUF Space gun">
+    <img src="https://medias.artmajeur.com/hd/15273793_robi-9.jpg?v=1739205536" alt="Robineuf">
     <div class="cap">
       <h3 data-i18n="gun.p2.title">Robineuf</h3>
       <p class="meta" data-i18n="gun.p2.meta">Métaux — sculpture</p>
       <p class="desc" data-i18n="gun.p2.desc">Présentée au Salon d'Automne de Paris, cette pièce rend hommage à André Robillard, figure de l'art brut connue pour ses propres fusils assemblés.</p>
       <div class="price-slot" data-price-id="robineuf"></div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=i6PeeIg3rrA" target="_blank" rel="noopener">▶ Voir la vidéo →</a>
     </div>
   </article>
 
 </div>
 
-<div class="subhead wrap" style="border-top:1.5px solid var(--line);padding:24px;">
+<div class="subhead wrap">
   <h2 style="font-size:15px;">Tout l'arsenal</h2>
   <p style="font-size:12.5px;color:#413F3A;">Les Space guns et les Flower power guns, depuis le premier Smith &amp; Frouin de 2014.</p>
 </div>
@@ -125,6 +134,18 @@
 <div class="grid" id="arsenal-grid">
   <p style="padding:24px;font-size:13px;color:#413F3A;">Chargement de l'arsenal…</p>
 </div>
+
+<section class="origin wrap">
+  <h3 data-i18n="gun.origin.title">Genèse du programme</h3>
+  <p data-i18n="gun.origin.p">Tout commence en 2014 avec le premier Smith &amp; Frouin, hommage cruel et beau au travail de Smith &amp; Wesson, réalisé en fer rond lisse de 6mm et peinture métal rouge. Suivent la Kalach F, la Trompe de la mort, le Fire Cube Gun (FCG), The Old One, une collection de quatre mini Smith et Frouin, le Bazookaf, The Radiator, l'Ozonateur, le JP Gun, l'Air Radiation Gun, le Fish Gun, le Crocogun, le Revolver — et une série de micro guns numérotés qui complètent aujourd'hui l'arsenal complet du héros spatio-temporel.</p>
+</section>
+
+<footer id="contact">
+  <span>© 2026 Étienne Frouin (E9 Inertion)</span>
+  <span><a href="mailto:contact@etiennefrouin.com">contact@etiennefrouin.com</a></span>
+  <span><a href="https://www.instagram.com/etiennefrouin/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/etienne.frouin.7" target="_blank" rel="noopener">Facebook</a></span>
+  <span><a href="cgv.html">CGV</a></span>
+</footer>
 
 <script>
 fetch('data/spaceguns.json')
@@ -137,7 +158,7 @@ fetch('data/spaceguns.json')
       const article = document.createElement('article');
       article.className = 'piece';
       article.innerHTML = `
-        <img src="${item.image}" alt="${item.title}" onerror="this.onerror=null;this.src=this.src.replace('/hd/','/mini/');">
+        <img src="${item.image}" alt="${item.title}" onerror="this.onerror=null;this.src=this.src.replace('/hd/','/standard/').replace('/standard/','/mini/');">
         <div class="cap">
           <h3>${item.title}</h3>
           <p class="meta">${item.meta}</p>
@@ -153,42 +174,29 @@ fetch('data/spaceguns.json')
   });
 </script>
 
-<section class="origin wrap">
-  <h3 data-i18n="gun.origin.title">Genèse du programme</h3>
-  <p data-i18n="gun.origin.p">Tout commence en 2014 avec le premier Smith &amp; Frouin, hommage cruel et beau au travail de Smith &amp; Wesson, réalisé en fer rond lisse de 6mm et peinture métal rouge. Suivent la Kalach F, la Trompe de la mort, le Fire Cube Gun (FCG), The Old One, une collection de quatre mini Smith et Frouin, le Bazookaf, The Radiator, l'Ozonateur, le JP Gun, l'Air Radiation Gun, le Fish Gun, le Crocogun, le Revolver — et une série de micro guns numérotés qui complètent aujourd'hui l'arsenal complet du héros spatio-temporel.</p>
-</section>
-
-<footer id="contact">
-  <span>© 2026 Étienne Frouin (E9 Inertion)</span>
-  <span><a href="mailto:contact@etiennefrouin.com">contact@etiennefrouin.com</a></span>
-  <span><a href="https://www.instagram.com/etiennefrouin/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/etienne.frouin.7" target="_blank" rel="noopener">Facebook</a></span>
-  <span><a href="cgv.html">CGV</a></span>
-</footer>
-
-
 <div class="cart-overlay" data-cart-overlay></div>
 <aside class="cart-panel" data-cart-panel>
   <div class="cart-panel-head">
-    <h2 data-i18n="cart.title">Votre sélection</h2>
+    <h2>Votre sélection</h2>
     <button class="cart-panel-close" data-cart-close aria-label="Fermer">✕</button>
   </div>
   <div class="cart-panel-body">
-    <p class="cart-empty" data-cart-empty data-i18n="cart.empty">Votre sélection est vide pour l'instant.</p>
+    <p class="cart-empty" data-cart-empty>Votre sélection est vide pour l'instant.</p>
     <div data-cart-list></div>
   </div>
   <div class="cart-panel-foot">
-    <label class="cart-dest-label" for="cart-dest" data-i18n="cart.dest_label">Livraison</label>
+    <label class="cart-dest-label" for="cart-dest">Livraison</label>
     <select class="cart-dest-select" id="cart-dest" data-cart-dest>
-      <option value="fr" data-i18n="cart.dest_fr">France</option>
-      <option value="eu" data-i18n="cart.dest_eu">Europe</option>
-      <option value="intl" data-i18n="cart.dest_intl">International</option>
+      <option value="fr">France</option>
+      <option value="eu">Europe</option>
+      <option value="intl">International</option>
     </select>
-    <div class="cart-total-row"><span data-i18n="cart.subtotal">Sous-total</span><span data-cart-subtotal>0 €</span></div>
-    <div class="cart-total-row"><span data-i18n="cart.shipping">Frais de port</span><span data-cart-shipping>0 €</span></div>
-    <div class="cart-total-row cart-total-row-final"><span data-i18n="cart.total">Total</span><span data-cart-total>0 €</span></div>
-    <button class="cart-paypal-btn" data-cart-paypal disabled data-i18n="cart.paypal">Payer avec PayPal</button>
-    <button class="cart-checkout-btn" data-cart-checkout disabled data-i18n="cart.email_btn">Envoyer le détail par email</button>
-    <p class="note" data-i18n="cart.note">Le paiement PayPal ouvre un nouvel onglet avec le montant total pré-rempli. Pensez aussi à envoyer le détail par email pour qu'Étienne sache quelles œuvres réserver.</p>
+    <div class="cart-total-row"><span>Sous-total</span><span data-cart-subtotal>0 €</span></div>
+    <div class="cart-total-row"><span>Frais de port</span><span data-cart-shipping>0 €</span></div>
+    <div class="cart-total-row cart-total-row-final"><span>Total</span><span data-cart-total>0 €</span></div>
+    <button class="cart-paypal-btn" data-cart-paypal disabled>Payer avec PayPal</button>
+    <button class="cart-checkout-btn" data-cart-checkout disabled>Envoyer le détail par email</button>
+    <p class="note">Le paiement PayPal ouvre un nouvel onglet avec le montant total pré-rempli. Pensez aussi à envoyer le détail par email pour qu'Étienne sache quelles œuvres réserver.</p>
   </div>
 </aside>
 <script src="assets/translations.js"></script>
