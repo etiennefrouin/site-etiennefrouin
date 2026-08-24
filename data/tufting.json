@@ -26,7 +26,7 @@
       "title": "A (vert)",
       "meta": "2026 — laine tuftée, 120x70 cm",
       "desc": "Seconde occurrence du A, en vert — couleur secondaire qui prend la teinte des lettres voisines.",
-      "image": "/assets/uploads/a-vert.jpeg"
+      "image": "https://medias.artmajeur.com/standard/19855168_l-ombre-d-un-hasard-a-insta-pub.jpg"
     },
     {
       "letter": "R",
@@ -40,7 +40,7 @@
       "title": "D",
       "meta": "2026 — laine tuftée, 120x70 cm",
       "desc": "Dernier panneau du mot HASARD, refermant la série des six pièces.",
-      "image": "/assets/uploads/d.jpeg"
+      "image": "https://medias.artmajeur.com/standard/19855183_l-ombre-d-un-hasard-d-insta-pub.jpg"
     }
   ],
   "tribute": {
@@ -48,6 +48,7 @@
     "meta": "2026 — laine tuftée, 80x70 cm",
     "p1": "Un tapis tufté hors alphabet, offert en signe d'amitié et de soutien à un proche traversant la maladie. Le soleil y côtoie quelques nuages, et un pull vert symbolise l'espérance.",
     "p2": "Réalisée dans le même médium que la série HASARD, cette pièce montre que le langage physiologique sait aussi se mettre de côté pour dire, simplement, l'affection.",
-    "image": "/assets/uploads/francois-jauvion-.jpeg"
+    "image": "https://medias.artmajeur.com/standard/19722031_francois-jauvion.jpg",
+    "video": "https://www.youtube.com/watch?v=1wg_lAuXOa4"
   }
 }
