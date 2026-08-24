@@ -7,17 +7,16 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/cart.css">
-
 <style>
   :root{
     --paper:#EDEAE1;
     --ink:#161513;
-    --accent:#5B5850; /* gris — archives hors alphabet */
+    --accent:#5B5850;
     --line:#161513;
   }
   *{box-sizing:border-box;}
   body{margin:0;background:var(--paper);color:var(--ink);font-family:'Space Mono', monospace;line-height:1.6;}
-  h1,h2,h3{font-family:'Archivo', sans-serif;font-weight:900;text-transform:uppercase;letter-spacing:-0.01em;margin:0;}
+  h1,h2,h3,h4,.display{font-family:'Archivo', sans-serif;font-weight:900;text-transform:uppercase;letter-spacing:-0.01em;margin:0;}
   a{color:inherit;}
   img{display:block;max-width:100%;}
   .wrap{max-width:1040px;margin:0 auto;padding:0 24px;}
@@ -25,35 +24,38 @@
   header{border-bottom:1.5px solid var(--line);position:sticky;top:0;background:var(--paper);z-index:10;}
   .topbar{display:flex;justify-content:space-between;align-items:center;padding:16px 24px;max-width:1040px;margin:0 auto;flex-wrap:wrap;gap:10px;}
   .topbar .mark{font-family:'Archivo',sans-serif;font-weight:900;font-size:18px;}
-  .topbar nav{display:flex;gap:20px;font-size:12px;text-transform:uppercase;letter-spacing:0.06em;flex-wrap:wrap;}
+  .topbar nav{display:flex;gap:16px;font-size:11.5px;text-transform:uppercase;letter-spacing:0.05em;flex-wrap:wrap;}
   .topbar nav a{text-decoration:none;border-bottom:1.5px solid transparent;padding-bottom:2px;}
   .topbar nav a:hover,.topbar nav a.current{border-color:var(--ink);}
 
-  .series-hero{padding:56px 24px 40px;border-bottom:1.5px solid var(--line);}
+  .series-hero{padding:56px 24px 32px;border-bottom:1.5px solid var(--line);}
   .series-hero .eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:0.08em;color:#413F3A;margin-bottom:14px;}
-  .series-hero h1{font-size:clamp(28px,4.5vw,44px);text-transform:none;line-height:1.05;max-width:20ch;}
-  .series-hero p{font-size:14px;color:#413F3A;max-width:60ch;margin-top:16px;}
+  .series-hero h1{font-size:clamp(28px,4.5vw,42px);text-transform:none;line-height:1.05;}
+  .series-hero p{font-size:14px;color:#413F3A;max-width:60ch;margin-top:14px;}
 
-  .featured{padding:0;border-bottom:1.5px solid var(--line);display:grid;grid-template-columns:1fr 1fr;}
-  .featured img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/5;}
-  .featured .cap{padding:32px 28px;display:flex;flex-direction:column;justify-content:center;}
-  .featured .cap .meta{font-size:11px;color:var(--accent);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:10px;}
-  .featured .cap h2{font-size:20px;margin-bottom:14px;}
-  .featured .cap p{font-size:13px;color:#2A2926;}
+  .featured{display:grid;grid-template-columns:1fr 1fr;border-bottom:1.5px solid var(--line);}
+  .featured img{width:100%;height:100%;object-fit:cover;border-right:1.5px solid var(--line);}
+  .featured .cap{padding:40px;display:flex;flex-direction:column;justify-content:center;}
+  .featured .meta{font-size:11.5px;text-transform:uppercase;letter-spacing:0.05em;color:#413F3A;margin-bottom:10px;}
+  .featured h2{font-size:22px;margin-bottom:14px;}
+  .featured p:not(.meta){font-size:13.5px;color:#2A2926;margin-bottom:18px;}
 
   .more{padding:40px 24px;}
-  .more h3{font-size:14px;margin-bottom:16px;}
-  .more-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5px;background:var(--line);border:1.5px solid var(--line);}
-  .more-item{background:var(--paper);padding:20px;}
-  .more-item .tag{font-size:11px;color:var(--accent);text-transform:uppercase;letter-spacing:0.04em;margin-bottom:6px;}
-  .more-item h4{font-size:14px;font-family:'Archivo',sans-serif;font-weight:700;text-transform:none;margin-bottom:6px;}
-  .more-item p{font-size:12.5px;color:#2A2926;margin:0;}
+  .more h3{font-size:15px;margin-bottom:20px;}
+  .more-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border-top:1.5px solid var(--line);border-left:1.5px solid var(--line);}
+  .more-item{border-right:1.5px solid var(--line);border-bottom:1.5px solid var(--line);}
+  .more-item img{width:100%;aspect-ratio:4/3;object-fit:cover;border-bottom:1.5px solid var(--line);}
+  .more-item .txt{padding:20px 22px;}
+  .more-item .tag{font-size:10.5px;text-transform:uppercase;letter-spacing:0.05em;color:#413F3A;margin-bottom:6px;}
+  .more-item h4{font-size:14px;margin-bottom:8px;text-transform:none;}
+  .more-item p:not(.tag){font-size:12.5px;color:#2A2926;margin:0;}
 
-  footer{border-top:1.5px solid var(--line);padding:28px 24px;font-size:12px;color:#413F3A;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;}
+  footer{border-top:1.5px solid var(--line);padding:28px 24px;font-size:12px;color:#413F3A;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;max-width:1040px;margin:0 auto;}
   footer a{text-decoration:underline;}
 
   @media (max-width:720px){
     .featured{grid-template-columns:1fr;}
+    .featured img{border-right:none;border-bottom:1.5px solid var(--line);}
     .more-grid{grid-template-columns:1fr;}
   }
 </style>
@@ -103,13 +105,20 @@
   <div class="more-grid" id="serig-more"></div>
 </section>
 
+<footer id="contact">
+  <span>© 2026 Étienne Frouin (E9 Inertion)</span>
+  <span><a href="mailto:contact@etiennefrouin.com">contact@etiennefrouin.com</a></span>
+  <span><a href="https://www.instagram.com/etiennefrouin/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/etienne.frouin.7" target="_blank" rel="noopener">Facebook</a></span>
+  <span><a href="cgv.html">CGV</a></span>
+</footer>
+
 <script>
 fetch('data/serigraphies.json')
   .then(r => r.json())
   .then(data => {
     const f = data.featured;
     document.getElementById('serig-featured').innerHTML = `
-      <img src="${f.image}" alt="${f.title}" onerror="this.onerror=null;this.src=this.src.replace('/hd/','/mini/');">
+      <img src="${f.image}" alt="${f.title}" onerror="this.onerror=null;this.src=this.src.replace('/hd/','/standard/').replace('/standard/','/mini/');">
       <div class="cap">
         <p class="meta">${f.meta}</p>
         <h2>${f.title}</h2>
@@ -122,10 +131,16 @@ fetch('data/serigraphies.json')
     (data.items || []).forEach(item => {
       const div = document.createElement('div');
       div.className = 'more-item';
+      const imgHtml = item.image
+        ? `<img src="${item.image}" alt="${item.title}" onerror="this.onerror=null;this.src=this.src.replace('/hd/','/standard/').replace('/standard/','/mini/');">`
+        : '';
       div.innerHTML = `
-        <p class="tag">${item.tag}</p>
-        <h4>${item.title}</h4>
-        <p>${item.desc}</p>
+        ${imgHtml}
+        <div class="txt">
+          <p class="tag">${item.tag}</p>
+          <h4>${item.title}</h4>
+          <p>${item.desc}</p>
+        </div>
       `;
       more.appendChild(div);
     });
@@ -135,37 +150,29 @@ fetch('data/serigraphies.json')
   });
 </script>
 
-<footer id="contact">
-  <span>© 2026 Étienne Frouin (E9 Inertion)</span>
-  <span><a href="mailto:contact@etiennefrouin.com">contact@etiennefrouin.com</a></span>
-  <span><a href="https://www.instagram.com/etiennefrouin/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/etienne.frouin.7" target="_blank" rel="noopener">Facebook</a></span>
-  <span><a href="cgv.html">CGV</a></span>
-</footer>
-
-
 <div class="cart-overlay" data-cart-overlay></div>
 <aside class="cart-panel" data-cart-panel>
   <div class="cart-panel-head">
-    <h2 data-i18n="cart.title">Votre sélection</h2>
+    <h2>Votre sélection</h2>
     <button class="cart-panel-close" data-cart-close aria-label="Fermer">✕</button>
   </div>
   <div class="cart-panel-body">
-    <p class="cart-empty" data-cart-empty data-i18n="cart.empty">Votre sélection est vide pour l'instant.</p>
+    <p class="cart-empty" data-cart-empty>Votre sélection est vide pour l'instant.</p>
     <div data-cart-list></div>
   </div>
   <div class="cart-panel-foot">
-    <label class="cart-dest-label" for="cart-dest" data-i18n="cart.dest_label">Livraison</label>
+    <label class="cart-dest-label" for="cart-dest">Livraison</label>
     <select class="cart-dest-select" id="cart-dest" data-cart-dest>
-      <option value="fr" data-i18n="cart.dest_fr">France</option>
-      <option value="eu" data-i18n="cart.dest_eu">Europe</option>
-      <option value="intl" data-i18n="cart.dest_intl">International</option>
+      <option value="fr">France</option>
+      <option value="eu">Europe</option>
+      <option value="intl">International</option>
     </select>
-    <div class="cart-total-row"><span data-i18n="cart.subtotal">Sous-total</span><span data-cart-subtotal>0 €</span></div>
-    <div class="cart-total-row"><span data-i18n="cart.shipping">Frais de port</span><span data-cart-shipping>0 €</span></div>
-    <div class="cart-total-row cart-total-row-final"><span data-i18n="cart.total">Total</span><span data-cart-total>0 €</span></div>
-    <button class="cart-paypal-btn" data-cart-paypal disabled data-i18n="cart.paypal">Payer avec PayPal</button>
-    <button class="cart-checkout-btn" data-cart-checkout disabled data-i18n="cart.email_btn">Envoyer le détail par email</button>
-    <p class="note" data-i18n="cart.note">Le paiement PayPal ouvre un nouvel onglet avec le montant total pré-rempli. Pensez aussi à envoyer le détail par email pour qu'Étienne sache quelles œuvres réserver.</p>
+    <div class="cart-total-row"><span>Sous-total</span><span data-cart-subtotal>0 €</span></div>
+    <div class="cart-total-row"><span>Frais de port</span><span data-cart-shipping>0 €</span></div>
+    <div class="cart-total-row cart-total-row-final"><span>Total</span><span data-cart-total>0 €</span></div>
+    <button class="cart-paypal-btn" data-cart-paypal disabled>Payer avec PayPal</button>
+    <button class="cart-checkout-btn" data-cart-checkout disabled>Envoyer le détail par email</button>
+    <p class="note">Le paiement PayPal ouvre un nouvel onglet avec le montant total pré-rempli. Pensez aussi à envoyer le détail par email pour qu'Étienne sache quelles œuvres réserver.</p>
   </div>
 </aside>
 <script src="assets/translations.js"></script>
