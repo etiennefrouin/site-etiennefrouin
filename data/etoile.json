@@ -27,6 +27,13 @@
       "desc": "Hommage à l'Olympia d'Édouard Manet, découverte lors d'un voyage imaginaire d'E9 Inertion dans la Galerie du Futur de la cité engloutie U3.",
       "image": "/assets/uploads/hommage-a-edouard-manet.jpg",
       "priceId": "dialogue-manet"
+    },
+    {
+      "title": "Hommage à Bernard BUFFET",
+      "desc": "Oeuvre découvert dans la première galerie de la TGB dans la ville U3\nCollection particulière\n\nLe voyage d’E9 INERTION\nDès le départ, je me suis créé mon fil rouge, mon héros spatiotemporel, mon double : E9 Inertion.\nE9 Inertion est un héros des temps passés vivant dans le futur, il est apparu en l’an 2014 de notre ère.\nSes voyages à travers l’espace-temps nous font découvrir ce qui est enfoui au plus profond de nous-même.\nEn attendant sa prochaine découverte, la ville engloutie U3 et ses trésors !\nU3, Under UUater city\nNotre héros va s’engouffrer avec plaisir dans le palais des Muses rassemblant l’ensemble des savoirs, ce palais est notamment constitué de la Grande Bibliothèque identique à celle d’Alexandrie en 288 avant notre ère.",
+      "meta": "2017, 100x60x23, technique mixte : fusain sur panneau de bois, bar de fer de 6 mm cintrée, soudée et peinte",
+      "image": "/assets/uploads/p1090642.jpg",
+      "priceId": "collection particulière"
     }
   ]
 }
