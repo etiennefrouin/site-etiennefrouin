@@ -39,6 +39,9 @@
   .featured .meta{font-size:11.5px;text-transform:uppercase;letter-spacing:0.05em;color:#413F3A;margin-bottom:10px;}
   .featured h2{font-size:22px;margin-bottom:14px;}
   .featured p:not(.meta){font-size:13.5px;color:#2A2926;margin-bottom:18px;}
+  .piece-price{font-family:'Archivo',sans-serif;font-weight:900;font-size:16px;margin-bottom:10px;}
+  .add-to-cart-btn{font-family:'Space Mono',monospace;font-size:11.5px;text-transform:uppercase;letter-spacing:0.04em;background:var(--ink);color:var(--paper);border:none;padding:8px 14px;cursor:pointer;}
+  .on-request-tag{display:inline-block;font-size:11.5px;text-transform:uppercase;letter-spacing:0.04em;text-decoration:underline;}
 
   .more{padding:40px 24px;}
   .more h3{font-size:15px;margin-bottom:20px;}
@@ -48,7 +51,7 @@
   .more-item .txt{padding:20px 22px;}
   .more-item .tag{font-size:10.5px;text-transform:uppercase;letter-spacing:0.05em;color:#413F3A;margin-bottom:6px;}
   .more-item h4{font-size:14px;margin-bottom:8px;text-transform:none;}
-  .more-item p:not(.tag){font-size:12.5px;color:#2A2926;margin:0;}
+  .more-item p:not(.tag){font-size:12.5px;color:#2A2926;margin:0 0 10px;}
 
   footer{border-top:1.5px solid var(--line);padding:28px 24px;font-size:12px;color:#413F3A;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;max-width:1040px;margin:0 auto;}
   footer a{text-decoration:underline;}
@@ -123,7 +126,7 @@ fetch('data/serigraphies.json')
         <p class="meta">${f.meta}</p>
         <h2>${f.title}</h2>
         <p>${f.desc}</p>
-        <a class="on-request-tag" href="mailto:contact@etiennefrouin.com?subject=Demande%20de%20prix%20-%20${encodeURIComponent(f.title)}"><span data-i18n="piece.on_request">Prix sur demande →</span></a>
+        <div class="price-slot" data-price-id="${f.priceId}" data-image="${f.image}" data-shipping="print"></div>
       </div>
     `;
     const more = document.getElementById('serig-more');
@@ -140,6 +143,7 @@ fetch('data/serigraphies.json')
           <p class="tag">${item.tag}</p>
           <h4>${item.title}</h4>
           <p>${item.desc}</p>
+          <div class="price-slot" data-price-id="${item.priceId}" data-image="${item.image || ''}" data-shipping="print"></div>
         </div>
       `;
       more.appendChild(div);
@@ -177,6 +181,7 @@ fetch('data/serigraphies.json')
 </aside>
 <script src="assets/translations.js"></script>
 <script src="assets/i18n.js"></script>
+<script src="assets/prices.js"></script>
 <script src="assets/cart.js" defer></script>
 </body>
 </html>
