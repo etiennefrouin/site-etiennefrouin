@@ -234,7 +234,7 @@ collections:
               - { label: "Paragraphe 3 (bio)", name: "p3", widget: "text" }
               - { label: "Citation (en bas)", name: "quote2", widget: "text" }
 
-   - name: "prices"
+  - name: "prices"
     label: "Prix des œuvres"
     description: "Tous les prix affichés sur le site. Cliquez sur 'Add' pour ajouter n'importe quelle nouvelle œuvre. Le champ 'Identifiant' doit correspondre exactement à celui utilisé dans la page concernée (demandez à Claude si vous ajoutez une œuvre depuis une autre collection)."
     files:
@@ -252,4 +252,3 @@ collections:
               - { label: "Titre", name: "title", widget: "string" }
               - { label: "Prix en euros (laisser vide si sur demande)", name: "price", widget: "number", required: false, value_type: "int" }
               - { label: "Prix sur demande", name: "onRequest", widget: "boolean", default: true }
-
