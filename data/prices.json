@@ -251,8 +251,8 @@
   },
   "bather-garden": {
     "title": "Bather in the garden",
-    "price": null,
-    "onRequest": true
+    "price": 2500,
+    "onRequest": false
   },
   "element-300": {
     "title": "Nadège",
@@ -1046,7 +1046,7 @@
   },
   "dialogue-manet": {
     "title": "Dialogue with Manet",
-    "price": 2300,
+    "price": 1500,
     "onRequest": false
   },
   "element-15": {
