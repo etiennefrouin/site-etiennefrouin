@@ -234,60 +234,22 @@ collections:
               - { label: "Paragraphe 3 (bio)", name: "p3", widget: "text" }
               - { label: "Citation (en bas)", name: "quote2", widget: "text" }
 
-  - name: "prices"
+   - name: "prices"
     label: "Prix des œuvres"
-    description: "Les prix affichés sur le site pour les œuvres en vente. Laissez la case 'Prix sur demande' cochée pour les œuvres sans prix fixe."
+    description: "Tous les prix affichés sur le site. Cliquez sur 'Add' pour ajouter n'importe quelle nouvelle œuvre. Le champ 'Identifiant' doit correspondre exactement à celui utilisé dans la page concernée (demandez à Claude si vous ajoutez une œuvre depuis une autre collection)."
     files:
       - name: "prices"
         label: "Liste des prix"
         file: "data/prices.json"
         format: "json"
         fields:
-          - label: "Dialogue with Manet"
-            name: "dialogue-manet"
-            widget: "object"
-            collapsed: false
+          - label: "Prix"
+            name: "items"
+            widget: "list"
+            summary: "{{title}} — {{fields.price}}"
             fields:
-              - { label: "Titre (ne pas modifier)", name: "title", widget: "string" }
-              - { label: "Prix en euros", name: "price", widget: "number", required: false, value_type: "int" }
-              - { label: "Prix sur demande (au lieu d'un prix fixe)", name: "onRequest", widget: "boolean" }
-          - label: "X Space gun"
-            name: "x-space-gun"
-            widget: "object"
-            collapsed: false
-            fields:
-              - { label: "Titre (ne pas modifier)", name: "title", widget: "string" }
-              - { label: "Prix en euros", name: "price", widget: "number", required: false, value_type: "int" }
-              - { label: "Prix sur demande (au lieu d'un prix fixe)", name: "onRequest", widget: "boolean" }
-          - label: "Dialogue avec Alfons Mucha"
-            name: "mucha"
-            widget: "object"
-            collapsed: false
-            fields:
-              - { label: "Titre (ne pas modifier)", name: "title", widget: "string" }
-              - { label: "Prix en euros", name: "price", widget: "number", required: false, value_type: "int" }
-              - { label: "Prix sur demande (au lieu d'un prix fixe)", name: "onRequest", widget: "boolean" }
-          - label: "Dialogue avec Tom Wesselmann"
-            name: "wesselmann"
-            widget: "object"
-            collapsed: false
-            fields:
-              - { label: "Titre (ne pas modifier)", name: "title", widget: "string" }
-              - { label: "Prix en euros", name: "price", widget: "number", required: false, value_type: "int" }
-              - { label: "Prix sur demande (au lieu d'un prix fixe)", name: "onRequest", widget: "boolean" }
-          - label: "Bather in the garden"
-            name: "bather-garden"
-            widget: "object"
-            collapsed: false
-            fields:
-              - { label: "Titre (ne pas modifier)", name: "title", widget: "string" }
-              - { label: "Prix en euros", name: "price", widget: "number", required: false, value_type: "int" }
-              - { label: "Prix sur demande (au lieu d'un prix fixe)", name: "onRequest", widget: "boolean" }
-          - label: "Robineuf"
-            name: "robineuf"
-            widget: "object"
-            collapsed: false
-            fields:
-              - { label: "Titre (ne pas modifier)", name: "title", widget: "string" }
-              - { label: "Prix en euros", name: "price", widget: "number", required: false, value_type: "int" }
-              - { label: "Prix sur demande (au lieu d'un prix fixe)", name: "onRequest", widget: "boolean" }
+              - { label: "Identifiant (ne pas modifier si l'œuvre existe déjà)", name: "id", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Prix en euros (laisser vide si sur demande)", name: "price", widget: "number", required: false, value_type: "int" }
+              - { label: "Prix sur demande", name: "onRequest", widget: "boolean", default: true }
+
