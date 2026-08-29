@@ -111,8 +111,8 @@
     {
       "id": "element-12",
       "title": "Mobile",
-      "price": null,
-      "onRequest": true
+      "price": 1500,
+      "onRequest": false
     },
     {
       "id": "element-13",
@@ -291,8 +291,8 @@
     {
       "id": "element-42",
       "title": "Hommage à Vasarely",
-      "price": null,
-      "onRequest": true
+      "price": 750,
+      "onRequest": false
     },
     {
       "id": "element-43",
@@ -309,14 +309,14 @@
     {
       "id": "element-45",
       "title": "Les teeshirts de Hyères — 2024",
-      "price": null,
-      "onRequest": true
+      "price": 30,
+      "onRequest": false
     },
     {
       "id": "element-46",
       "title": "Amour en liberté",
-      "price": null,
-      "onRequest": true
+      "price": 300,
+      "onRequest": false
     },
     {
       "id": "element-47",
@@ -393,8 +393,8 @@
     {
       "id": "element-59",
       "title": "Cholet",
-      "price": null,
-      "onRequest": true
+      "price": 250,
+      "onRequest": false
     },
     {
       "id": "element-60",
@@ -579,8 +579,8 @@
     {
       "id": "element-90",
       "title": "Villa Frouin (pochoir numérique)",
-      "price": null,
-      "onRequest": true
+      "price": 90,
+      "onRequest": false
     },
     {
       "id": "element-91",
@@ -1389,8 +1389,8 @@
     {
       "id": "element-225",
       "title": "Luttons contre ceux qui nous empêchent de rêver — 2020",
-      "price": null,
-      "onRequest": true
+      "price": 500,
+      "onRequest": false
     },
     {
       "id": "element-226",
@@ -1623,8 +1623,8 @@
     {
       "id": "element-264",
       "title": "Dead or Alive",
-      "price": null,
-      "onRequest": true
+      "price": 150,
+      "onRequest": false
     },
     {
       "id": "element-265",
@@ -1636,7 +1636,7 @@
       "id": "element-266",
       "title": "Soleil",
       "price": null,
-      "onRequest": true
+      "onRequest": false
     },
     {
       "id": "element-267",
@@ -1773,8 +1773,8 @@
     {
       "id": "element-289",
       "title": "Homme & Femme 2",
-      "price": null,
-      "onRequest": true
+      "price": 300,
+      "onRequest": false
     },
     {
       "id": "element-290",
@@ -1791,8 +1791,8 @@
     {
       "id": "element-292",
       "title": "Guerre",
-      "price": null,
-      "onRequest": true
+      "price": 300,
+      "onRequest": false
     },
     {
       "id": "element-293",
@@ -1827,8 +1827,8 @@
     {
       "id": "element-298",
       "title": "Oui & Non",
-      "price": null,
-      "onRequest": true
+      "price": 250,
+      "onRequest": false
     },
     {
       "id": "element-299",
