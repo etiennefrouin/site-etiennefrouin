@@ -3,20 +3,23 @@
     "meta": "2025 — sérigraphie, 23 exemplaires numérotés et signés",
     "title": "Série DEAD OR ALIVE",
     "desc": "Une nature morte contemporaine : un crâne, une fenêtre en ogive en écho à la Villa Frouin, et les symboles géométriques du langage physiologique d'E9 Inertion. Troisième sérigraphie de la série.",
-    "image": "https://medias.artmajeur.com/standard/19326715_553578501-1548285129957816-2901472902692066923-n.jpg"
+    "image": "https://medias.artmajeur.com/standard/19326715_553578501-1548285129957816-2901472902692066923-n.jpg",
+    "priceId": "serig-dead-or-alive"
   },
   "items": [
     {
       "tag": "Sérigraphie",
       "title": "Amour",
       "desc": "Tirage numéroté sur papier, autour du thème de l'amour revisité par le langage physiologique.",
-      "image": "https://medias.artmajeur.com/standard/18422818_469399218-507372602340326-3283794838793651894-n.jpg"
+      "image": "https://medias.artmajeur.com/standard/18422818_469399218-507372602340326-3283794838793651894-n.jpg",
+      "priceId": "serig-amour"
     },
     {
       "tag": "Sérigraphie · 23 exemplaires",
       "title": "Villa Frouin",
       "desc": "Première série de l'atelier d'imprimerie consacrée à la Villa Frouin Hyères Costebelle. Format A3, papier cartonné 300g.",
-      "image": "https://medias.artmajeur.com/standard/18130750_image0.jpg"
+      "image": "https://medias.artmajeur.com/standard/18130750_image0.jpg",
+      "priceId": "serig-villa-frouin"
     }
   ]
 }
