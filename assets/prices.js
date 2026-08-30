@@ -18,6 +18,12 @@ document.addEventListener("DOMContentLoaded", function () {
         const info = prices[id];
         if (!info) return;
 
+        // Statut fixe (Vendu / Pas à vendre) : texte simple, non cliquable
+        if (info.status && info.status !== "Prix sur demande") {
+          slot.innerHTML = `<p class="on-request-tag" style="pointer-events:none;">${info.status}</p>`;
+          return;
+        }
+
         if (info.onRequest || !info.price) {
           slot.innerHTML = `<a class="on-request-tag" href="mailto:contact@etiennefrouin.com?subject=Demande%20de%20prix%20-%20${encodeURIComponent(info.title)}">Prix sur demande →</a>`;
         } else {
