@@ -80,6 +80,7 @@ collections:
               - { label: "Description", name: "desc", widget: "text" }
               - { label: "Image", name: "image", widget: "image", media_library: { config: { multiple: false } } }
               - { label: "Statut (Vendu / Pas à vendre / Prix sur demande)", name: "status", widget: "string" }
+              - { label: "Identifiant de prix (ne pas modifier)", name: "priceId", widget: "string" }
 
   - name: "etoile"
     label: "Étoile (œuvres figuratives)"
