@@ -163,7 +163,7 @@ fetch('data/spaceguns.json')
           <h3>${item.title}</h3>
           <p class="meta">${item.meta}</p>
           <p class="desc">${item.desc}</p>
-          <p class="on-request-tag" style="pointer-events:none;">${item.status}</p>
+          <div class="price-slot" data-price-id="${item.priceId}" data-image="${item.image}" data-shipping="sculpture"></div>
         </div>
       `;
       grid.appendChild(article);
