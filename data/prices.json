@@ -1737,8 +1737,8 @@
     {
       "id": "element-283",
       "title": "Love",
-      "price": null,
-      "onRequest": true
+      "price": 100,
+      "onRequest": false
     },
     {
       "id": "element-284",
@@ -1827,8 +1827,8 @@
     {
       "id": "element-298",
       "title": "Oui & Non",
-      "price": null,
-      "onRequest": true
+      "price": 200,
+      "onRequest": false
     },
     {
       "id": "element-299",
@@ -1845,26 +1845,26 @@
     {
       "id": "disque-banane",
       "title": "Banane (sculpture)",
-      "price": null,
-      "onRequest": true
+      "price": 950,
+      "onRequest": false
     },
     {
       "id": "disque-mangue",
       "title": "Mangue",
       "price": null,
-      "onRequest": true
+      "onRequest": false
     },
     {
       "id": "disque-mobile-mobile",
       "title": "Mobile MOBILE",
-      "price": null,
-      "onRequest": true
+      "price": 1500,
+      "onRequest": false
     },
     {
       "id": "disque-langouste",
       "title": "Langouste",
       "price": null,
-      "onRequest": true
+      "onRequest": false
     },
     {
       "id": "disque-mobile",
@@ -1875,14 +1875,14 @@
     {
       "id": "disque-ctenophore",
       "title": "Cténophore",
-      "price": null,
-      "onRequest": true
+      "price": 1500,
+      "onRequest": false
     },
     {
       "id": "disque-cactusgun",
       "title": "Cactusgun",
       "price": null,
-      "onRequest": true
+      "onRequest": false
     },
     {
       "id": "serig-dead-or-alive",
@@ -1911,44 +1911,44 @@
     {
       "id": "tufting-h",
       "title": "H (L'ombre du HASARD)",
-      "price": null,
-      "onRequest": true
+      "price": 200,
+      "onRequest": false
     },
     {
       "id": "tufting-a-bleu",
       "title": "A (bleu) (L'ombre du HASARD)",
-      "price": null,
-      "onRequest": true
+      "price": 200,
+      "onRequest": false
     },
     {
       "id": "tufting-s",
       "title": "S (L'ombre du HASARD)",
-      "price": null,
-      "onRequest": true
+      "price": 200,
+      "onRequest": false
     },
     {
       "id": "tufting-a-vert",
       "title": "A (vert) (L'ombre du HASARD)",
-      "price": null,
-      "onRequest": true
+      "price": 200,
+      "onRequest": false
     },
     {
       "id": "tufting-r",
       "title": "R (L'ombre du HASARD)",
-      "price": null,
-      "onRequest": true
+      "price": 200,
+      "onRequest": false
     },
     {
       "id": "tufting-d",
       "title": "D (L'ombre du HASARD)",
-      "price": null,
-      "onRequest": true
+      "price": 200,
+      "onRequest": false
     },
     {
       "id": "tufting-jauvion",
       "title": "Francois JAUVION",
       "price": null,
-      "onRequest": true
+      "onRequest": false
     },
     {
       "id": "arsenal-le-premier-smith-frouin",
@@ -2002,8 +2002,8 @@
     {
       "id": "arsenal-the-jp-gun",
       "title": "The JP Gun",
-      "price": null,
-      "onRequest": true
+      "price": 750,
+      "onRequest": false
     },
     {
       "id": "arsenal-the-air-radiation-gun",
@@ -2158,7 +2158,7 @@
     {
       "id": "arsenal-the-banana-gun",
       "title": "The Banana Gun",
-      "price": null,
+      "price": 752,
       "onRequest": false,
       "status": "Pas à vendre"
     },
@@ -2235,28 +2235,28 @@
     {
       "id": "arsenal-hibisgun",
       "title": "Hibisgun",
-      "price": null,
+      "price": 750,
       "onRequest": false,
       "status": "Pas à vendre"
     },
     {
       "id": "arsenal-agapangun",
       "title": "Agapangun",
-      "price": null,
+      "price": 750,
       "onRequest": false,
       "status": "Pas à vendre"
     },
     {
       "id": "arsenal-crassugun",
       "title": "Crassugun",
-      "price": null,
+      "price": 750,
       "onRequest": false,
       "status": "Pas à vendre"
     },
     {
       "id": "arsenal-astrophygun",
       "title": "Astrophygun",
-      "price": null,
+      "price": 746,
       "onRequest": false,
       "status": "Pas à vendre"
     }
