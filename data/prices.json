@@ -1893,14 +1893,14 @@
     {
       "id": "serig-amour",
       "title": "Amour",
-      "price": null,
-      "onRequest": true
+      "price": 90,
+      "onRequest": false
     },
     {
       "id": "serig-villa-frouin",
       "title": "Villa Frouin",
-      "price": null,
-      "onRequest": true
+      "price": 90,
+      "onRequest": false
     },
     {
       "id": "ships-space-ship-programme",
