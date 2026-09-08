@@ -115,7 +115,7 @@ fetch('data/disque.json')
       const article = document.createElement('article');
       article.className = 'piece';
       article.innerHTML = `
-        <img src="${item.image}" alt="${item.title}" onerror="this.onerror=null;this.src=this.src.replace('/hd/','/standard/').replace('/standard/','/mini/');">
+        <img src="${item.image}" alt="${item.title}" data-umami-event="clic-oeuvre" data-umami-event-nom="${item.title}" onerror="this.onerror=null;this.src=this.src.replace('/hd/','/standard/').replace('/standard/','/mini/');">
         <div class="cap">
           <h3>${item.title}</h3>
           <p class="meta">${item.meta}</p>
