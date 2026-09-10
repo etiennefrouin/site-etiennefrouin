@@ -95,6 +95,22 @@
   .c-green{--accent:var(--green);}
   .shape-glyph{fill:var(--accent);}
 
+  /* scintillement "battement de cœur" — écho au rythme cardiaque du langage physiologique */
+  @keyframes e9-heartbeat{
+    0%, 100% { transform:scale(1); }
+    10% { transform:scale(1.14); }
+    20% { transform:scale(1); }
+    32% { transform:scale(1.14); }
+    46% { transform:scale(1); }
+  }
+  .shape-glyph{
+    animation:e9-heartbeat 3.2s ease-in-out infinite;
+    transform-origin:center;
+  }
+  .shape-card:nth-child(2) .shape-glyph{ animation-delay:0.15s; }
+  .shape-card:nth-child(3) .shape-glyph{ animation-delay:0.3s; }
+  .shape-card:nth-child(4) .shape-glyph{ animation-delay:0.45s; }
+
   /* about */
   .about{padding:56px 24px;border-top:1.5px solid var(--line);display:grid;grid-template-columns:1fr 1.4fr;gap:40px;}
   .about h2{font-size:22px;margin-bottom:16px;}
@@ -118,6 +134,7 @@
   @media (prefers-reduced-motion:reduce){
     html{scroll-behavior:auto;}
     .shape-card{transition:none;}
+    .shape-glyph{animation:none;}
   }
 </style>
 </head>
