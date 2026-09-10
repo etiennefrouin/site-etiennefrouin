@@ -1,10 +1,25 @@
 {
   "formats": [
-    { "id": "papier-a4", "label": "Papier — A4 (21 x 29,7 cm)", "material": "Papier photo fine art", "size": "A4", "price": 35 },
-    { "id": "papier-a3", "label": "Papier — A3 (29,7 x 42 cm)", "material": "Papier photo fine art", "size": "A3", "price": 55 },
-    { "id": "papier-50x70", "label": "Papier — 50x70 cm", "material": "Papier photo fine art", "size": "50x70", "price": 95 },
-    { "id": "dibond-a3", "label": "Dibond — A3 (29,7 x 42 cm)", "material": "Aluminium Dibond", "size": "A3", "price": 95 },
-    { "id": "dibond-50x70", "label": "Dibond — 50x70 cm", "material": "Aluminium Dibond", "size": "50x70", "price": 175 },
-    { "id": "dibond-60x90", "label": "Dibond — 60x90 cm", "material": "Aluminium Dibond", "size": "60x90", "price": 225 }
+    {
+      "id": "papier-a4",
+      "label": "Papier — 30x30",
+      "material": "Papier photo fine art",
+      "size": "carré",
+      "price": 35
+    },
+    {
+      "id": "papier-a3",
+      "label": "Papier — 50x50",
+      "material": "Papier photo fine art",
+      "size": "carré",
+      "price": 55
+    },
+    {
+      "id": "dibond-a3",
+      "label": "Dibond — 50x50",
+      "material": "Aluminium Dibond",
+      "size": "carré",
+      "price": 95
+    }
   ]
 }
