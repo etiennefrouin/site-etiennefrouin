@@ -39,8 +39,22 @@
       "title": "Cactusgun",
       "meta": "Série flower power guns — fer, tôle perforée",
       "desc": "Dédiée au jardin de la Villa Frouin : ces armes florales sont destinées à distribuer le bonheur et la vie par la pollinisation.",
-      "image": "https://lh3.googleusercontent.com/sitesv/AG8ngQWOwLzPEErmcGBibv6yiX3PRo_kImANe5s7ZQwT1mrBOiGuOJRExrVqgfE_NdiaCH1XgV0HLIODrFm_MAofrzyNJiKlnJbW4zdIivpV8RWvjsI68sRuguGad31whLi_GyMs-PTODfocCFu441awtzCMGeAUo3XP8xFAYSGbVcK55UOYkIAhxAEbpav7sk90KnlOHjZvQd3WcyU8s3yVha-3HDHfp2G2eJsWX8DC=w1280",
+      "image": "/assets/uploads/383255121_649434977179737_6216687761241218380_n.jpg",
       "priceId": "disque-cactusgun"
+    },
+    {
+      "meta": "Série flower power guns — fer, tôle perforée",
+      "title": "AGAPANGUN",
+      "desc": "Dédiée au jardin de la Villa Frouin : ces armes florales sont destinées à distribuer le bonheur et la vie par la pollinisation.",
+      "image": "/assets/uploads/image1.jpeg",
+      "priceId": "AGAPANGUN"
+    },
+    {
+      "meta": "Série flower power guns — fer, tôle perforée",
+      "desc": "Dédiée au jardin de la Villa Frouin : ces armes florales sont destinées à distribuer le bonheur et la vie par la pollinisation.",
+      "image": "/assets/uploads/383100394_696521965728618_7494880933335452842_n.jpg",
+      "title": "ASTROPHYGUN",
+      "priceId": "ASTROPHYGUN"
     }
   ]
 }
