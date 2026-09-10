@@ -2277,6 +2277,12 @@
       "id": "ASTROPHYGUN",
       "title": "ASTROPHYGUN",
       "price": 750
+    },
+    {
+      "onRequest": false,
+      "id": "HIBISGUN",
+      "title": "HIBISGUN",
+      "price": 750
     }
   ]
 }
