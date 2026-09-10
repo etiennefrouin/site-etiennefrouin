@@ -2265,6 +2265,12 @@
       "id": "AGAPANGAN",
       "title": "AGAPANGAN",
       "price": 749
+    },
+    {
+      "onRequest": false,
+      "id": "CRASSUGUN",
+      "title": "CRASSUGUN",
+      "price": 750
     }
   ]
 }
