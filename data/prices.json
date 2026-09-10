@@ -2249,7 +2249,7 @@
     {
       "id": "arsenal-crassugun",
       "title": "Crassugun",
-      "price": "",
+      "price": 750,
       "onRequest": false,
       "status": "Pas à vendre"
     },
