@@ -21,7 +21,7 @@ display_url: https://etiennefrouin.com
 
 collections:
 
-   - name: "news"
+ - name: "news"
     label: "Breaking News"
     description: "Les actualités affichées sur la page Breaking News du site."
     files:
