@@ -2256,15 +2256,15 @@
     {
       "id": "arsenal-astrophygun",
       "title": "Astrophygun",
-      "price": 746,
+      "price": 750,
       "onRequest": false,
       "status": "Pas à vendre"
     },
     {
       "onRequest": false,
-      "id": "AGAPANGAN",
-      "title": "AGAPANGAN",
-      "price": 749
+      "id": "AGAPANGUN",
+      "title": "AGAPANGUN",
+      "price": 746
     },
     {
       "onRequest": false,
