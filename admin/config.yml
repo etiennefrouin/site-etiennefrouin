@@ -39,6 +39,8 @@ collections:
               - { label: "Catégorie", name: "tag", widget: "string", hint: "Ex: Nouvelle série, Sculpture, Événement..." }
               - { label: "Titre", name: "title", widget: "string" }
               - { label: "Texte", name: "text", widget: "text" }
+              - { label: "Photo (optionnel)", name: "image", widget: "image", media_library: { config: { multiple: false } }, required: false }
+              - { label: "Lien vidéo YouTube (optionnel)", name: "video", widget: "string", required: false }
 
   - name: "elements"
     label: "Tableau périodique (galerie)"
