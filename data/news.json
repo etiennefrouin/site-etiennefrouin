@@ -2,6 +2,14 @@
   "items": [
     {
       "date": "2026",
+      "tag": "CREATION ETE 2026",
+      "title": "CREATION ETE 2026",
+      "text": "L’été 2026 se termine\nEncore un bon stock de croquis pour le futur 😜\nCentrés sur l’Homme et son langage\nDe futures sculptures métal !",
+      "image": "",
+      "video": "https://youtube.com/shorts/TYbW8SmND0E"
+    },
+    {
+      "date": "2026",
       "tag": "Événement",
       "title": "Conférence sur le langage physiologique",
       "text": "Les samedis et dimanches à 16h30, une conférence de 30 minutes présente le langage physiologique d'E9 Inertion, ainsi que le travail de peintre et de sculpteur métal d'Étienne Frouin.",
@@ -41,14 +49,6 @@
       "title": "Le premier Smith & Frouin",
       "text": "La toute première pièce du programme spatial d'E9 Inertion, héros des temps futurs — hommage cruel et beau au travail de Smith & Wesson. Fer rond lisse de 6mm, peinture métal rouge. Suivront la Kalach F, la Trompe de la mort, le Fire Cube Gun et bien d'autres.",
       "image": "/assets/uploads/photo-de-david.jpg"
-    },
-    {
-      "date": "2026",
-      "tag": "CREATION ETE 2026",
-      "title": "CREATION ETE 2026",
-      "text": "L’été 2026 se termine\nEncore un bon stock de croquis pour le futur 😜\nCentrés sur l’Homme et son langage\nDe futures sculptures métal !",
-      "image": "",
-      "video": "https://youtube.com/shorts/TYbW8SmND0E"
     }
   ]
 }
