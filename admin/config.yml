@@ -243,6 +243,26 @@ collections:
               - { label: "Paragraphe 3 (bio)", name: "p3", widget: "text" }
               - { label: "Citation (en bas)", name: "quote2", widget: "text" }
 
+  - name: "print-formats"
+    label: "Formats d'impression (Œuvres digitales)"
+    description: "La grille de formats/supports proposée pour l'achat en impression des œuvres digitales du Tableau périodique. Modifiable librement : ajoutez, supprimez ou changez les prix."
+    files:
+      - name: "print-formats"
+        label: "Liste des formats"
+        file: "data/print-formats.json"
+        format: "json"
+        fields:
+          - label: "Formats"
+            name: "formats"
+            widget: "list"
+            summary: "{{label}} — {{fields.price}}€"
+            fields:
+              - { label: "Identifiant (ne pas modifier si déjà utilisé)", name: "id", widget: "string" }
+              - { label: "Libellé affiché", name: "label", widget: "string" }
+              - { label: "Support", name: "material", widget: "string" }
+              - { label: "Taille", name: "size", widget: "string" }
+              - { label: "Prix en euros", name: "price", widget: "number", value_type: "int" }
+
   - name: "prices"
     label: "Prix des œuvres"
     description: "Tous les prix affichés sur le site. Cliquez sur 'Add' pour ajouter n'importe quelle nouvelle œuvre. Le champ 'Identifiant' doit correspondre exactement à celui utilisé dans la page concernée (demandez à Claude si vous ajoutez une œuvre depuis une autre collection)."
