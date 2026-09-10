@@ -2271,6 +2271,12 @@
       "id": "CRASSUGUN",
       "title": "CRASSUGUN",
       "price": 750
+    },
+    {
+      "onRequest": false,
+      "id": "ASTROPHYGUN",
+      "title": "ASTROPHYGUN",
+      "price": 750
     }
   ]
 }
