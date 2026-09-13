@@ -16,14 +16,6 @@
       "video": ""
     },
     {
-      "date": "2026",
-      "tag": "Événement",
-      "title": "Conférence sur le langage physiologique",
-      "text": "Les samedis et dimanches à 16h30, une conférence de 30 minutes présente le langage physiologique d'E9 Inertion, ainsi que le travail de peintre et de sculpteur métal d'Étienne Frouin.",
-      "image": "/assets/uploads/autoportrait-.jpg",
-      "video": ""
-    },
-    {
       "date": "2025",
       "tag": "Atelier d'imprimerie",
       "title": "Première série sérigraphie Villa Frouin",
@@ -48,20 +40,20 @@
       "video": ""
     },
     {
-      "date": "2014",
-      "tag": "Origine",
-      "title": "Le premier Smith & Frouin",
-      "text": "La toute première pièce du programme spatial d'E9 Inertion, héros des temps futurs — hommage cruel et beau au travail de Smith & Wesson. Fer rond lisse de 6mm, peinture métal rouge. Suivront la Kalach F, la Trompe de la mort, le Fire Cube Gun et bien d'autres.",
-      "image": "/assets/uploads/photo-de-david.jpg",
-      "video": ""
-    },
-    {
       "video": "https://www.youtube.com/watch?v=XmTs7cXH0I0",
       "text": "La série 2017 mettant en avant les artistes de référence\ndécouverts dans la galerie du Futur dans la Très Grande Bibliothèque de la cite UNDER UUATER dit U3",
       "tag": "RETROSPECTIVE",
       "title": "Rétrospective 2017",
       "image": "/assets/uploads/_pvo7098.jpg",
       "date": "2017"
+    },
+    {
+      "date": "2014",
+      "tag": "Origine",
+      "title": "Le premier Smith & Frouin",
+      "text": "La toute première pièce du programme spatial d'E9 Inertion, héros des temps futurs — hommage cruel et beau au travail de Smith & Wesson. Fer rond lisse de 6mm, peinture métal rouge. Suivront la Kalach F, la Trompe de la mort, le Fire Cube Gun et bien d'autres.",
+      "image": "/assets/uploads/photo-de-david.jpg",
+      "video": ""
     }
   ]
 }
