@@ -2,6 +2,13 @@
   "items": [
     {
       "date": "2026",
+      "tag": "LIVRE",
+      "text": "Vous allez prochainement partir en voyage avec un de ces vaisseaux de l'espace, vous n'aurez qu'à choisir sur le livre prochainement édité en décembre prochain pour réaliser votre rêve !\nFight against those who want you to stop dreaming.\nE9 Inertion, alias Etienne Frouin — 2025\n",
+      "title": "SPACESHIPS 2025 ETIENNE FROUIN",
+      "image": "/assets/uploads/projet-catalogue-spaceship-2025-page-de-couverture.jpg"
+    },
+    {
+      "date": "2026",
       "tag": "EVENEMENT",
       "title": "COPIER CREER HYERES 2026",
       "text": "Le stand des oeuvres de Etienne FROUIN alias E9 INERTION lors de l'événement COPIER CREER à HYERES 2026\n\n#etiennefrouin #villefrouin #e9inertion",
@@ -62,13 +69,6 @@
       "text": "La toute première pièce du programme spatial d'E9 Inertion, héros des temps futurs — hommage cruel et beau au travail de Smith & Wesson. Fer rond lisse de 6mm, peinture métal rouge. Suivront la Kalach F, la Trompe de la mort, le Fire Cube Gun et bien d'autres.",
       "image": "/assets/uploads/photo-de-david.jpg",
       "video": ""
-    },
-    {
-      "date": "2026",
-      "tag": "LIVRE",
-      "text": "Vous allez prochainement partir en voyage avec un de ces vaisseaux de l'espace, vous n'aurez qu'à choisir sur le livre prochainement édité en décembre prochain pour réaliser votre rêve !\nFight against those who want you to stop dreaming.\nE9 Inertion, alias Etienne Frouin — 2025\n",
-      "title": "SPACESHIPS 2025 ETIENNE FROUIN",
-      "image": "/assets/uploads/projet-catalogue-spaceship-2025-page-de-couverture.jpg"
     }
   ]
 }
