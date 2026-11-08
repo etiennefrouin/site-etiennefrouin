@@ -2,18 +2,18 @@
   "items": [
     {
       "date": "2026",
-      "tag": "LIVRE",
-      "text": "Vous allez prochainement partir en voyage avec un de ces vaisseaux de l'espace, vous n'aurez qu'à choisir sur le livre prochainement édité en décembre prochain pour réaliser votre rêve !\nFight against those who want you to stop dreaming.\nE9 Inertion, alias Etienne Frouin — 2025\n",
-      "title": "SPACESHIPS 2025 ETIENNE FROUIN",
-      "image": "/assets/uploads/projet-catalogue-spaceship-2025-page-de-couverture.jpg"
-    },
-    {
-      "date": "2026",
       "tag": "EVENEMENT",
       "title": "COPIER CREER HYERES 2026",
       "text": "Le stand des oeuvres de Etienne FROUIN alias E9 INERTION lors de l'événement COPIER CREER à HYERES 2026\n\n#etiennefrouin #villefrouin #e9inertion",
       "video": "https://youtube.com/shorts/CL0SGZnp4Zc",
       "image": "/assets/uploads/img_1794.jpg"
+    },
+    {
+      "date": "2026",
+      "tag": "LIVRE",
+      "text": "Vous allez prochainement partir en voyage avec un de ces vaisseaux de l'espace, vous n'aurez qu'à choisir sur le livre prochainement édité en décembre prochain pour réaliser votre rêve !\nFight against those who want you to stop dreaming.\nE9 Inertion, alias Etienne Frouin — 2025\n",
+      "title": "SPACESHIPS 2025 ETIENNE FROUIN",
+      "image": "/assets/uploads/projet-catalogue-spaceship-2025-page-de-couverture.jpg"
     },
     {
       "text": "L’été se termine\nEncore un bon stock de croquis pour le futur 😜\nCentrés sur l’Homme et son langage\nde futures sculptures métal !",
@@ -133,6 +133,14 @@
       "text": "La toute première pièce du programme spatial d'E9 Inertion, héros des temps futurs — hommage cruel et beau au travail de Smith & Wesson. Fer rond lisse de 6mm, peinture métal rouge. Suivront la Kalach F, la Trompe de la mort, le Fire Cube Gun et bien d'autres.",
       "image": "/assets/uploads/photo-de-david.jpg",
       "video": ""
+    },
+    {
+      "date": "2022",
+      "tag": "EXPOSITION",
+      "title": "SALON d'AUTOMNE DE PARIS 2022",
+      "text": "Le Salon d’Automne est une association d’artistes, sans but lucratif, née en 1903, reconnue d’utilité publique depuis 1920, dont le but est l’encouragement et le développement des beaux-arts dans toutes ses manifestations et particulièrement par des expositions tant en France qu’à l’étranger.\nSALON D'AUTOMNE de PARIS 2022\n\nSECTION ART ENVIRONNEMENTAL de Jack DUFOUR\n\nDes peintures pariétales au 21e siècle, l’homme s’inscrit dans son environnement\n\nDe la matière minérale comme les mégalithes aux matériaux détournés des sociétés industrielles contemporaines, le dialogue homme / environnement se perpétue depuis des siècles.\n\nOeuvre présentée: Bather in the garden of Eden",
+      "image": "/assets/uploads/salon-automne-frouin-48747-.jpg",
+      "image2": "/assets/uploads/310647783_10160091650272118_5769921819749181083_n.jpg"
     }
   ]
 }
