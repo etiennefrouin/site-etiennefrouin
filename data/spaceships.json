@@ -209,6 +209,20 @@
       "meta": "PHOTO",
       "priceId": "SHIP 30",
       "image": "/assets/uploads/image00013.jpeg"
+    },
+    {
+      "title": "SPACESHIP 31",
+      "meta": "PHOTO",
+      "priceId": "SHIP 31",
+      "desc": "C’est avec un grand plaisir que je vous partage ce premier album regroupant les plus belles photos réalisées lors de mes voyages en France courant 2025. L’œil aiguisé, attentif aux courbes et aux tranchants architecturaux, je prends des photos tel un robot circulant\ndans les mégalopoles disposées aux 4 coins de notre planète. Je vous laisse naviguer avec un de ses vaisseaux hors normes réalisés à partir du recyclage de bâtiment, église, cathédrale, gare, entrepôt, etc…. Vous ne verrez plus comme avant les toits, les façades de votre\nimmeuble, de votre église. Je vous invite à scruter plus que jamais ces vaisseaux afin d’identifier l’origine de ceux-ci, transformant la réalité.",
+      "image": "/assets/uploads/image00013b.jpeg"
+    },
+    {
+      "title": "SPACESHIP 32",
+      "meta": "PHOTO",
+      "priceId": "SHIP 32",
+      "desc": "C’est avec un grand plaisir que je vous partage ce premier album regroupant les plus belles photos réalisées lors de mes voyages en France courant 2025. L’œil aiguisé, attentif aux courbes et aux tranchants architecturaux, je prends des photos tel un robot circulant\ndans les mégalopoles disposées aux 4 coins de notre planète. Je vous laisse naviguer avec un de ses vaisseaux hors normes réalisés à partir du recyclage de bâtiment, église, cathédrale, gare, entrepôt, etc…. Vous ne verrez plus comme avant les toits, les façades de votre\nimmeuble, de votre église. Je vous invite à scruter plus que jamais ces vaisseaux afin d’identifier l’origine de ceux-ci, transformant la réalité.",
+      "image": "/assets/uploads/image00013c.jpeg"
     }
   ]
 }
