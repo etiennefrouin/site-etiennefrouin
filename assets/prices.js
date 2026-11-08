@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
       document.querySelectorAll("[data-price-id]").forEach((slot) => {
         const id = slot.getAttribute("data-price-id");
-        const info = prices[id];
-        if (!info) return;
+        // Si l'œuvre n'a pas encore de prix saisi : « Prix sur demande » par défaut
+        const info = prices[id] || { id: id, title: slot.getAttribute("data-title") || id, onRequest: true };
 
         // Statut fixe (Vendu / Pas à vendre) : texte simple, non cliquable
         if (info.status && info.status !== "Prix sur demande") {
