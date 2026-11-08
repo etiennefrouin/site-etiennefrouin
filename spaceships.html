@@ -113,6 +113,8 @@ fetch('data/spaceships.json')
     const grid = document.getElementById('ships-grid');
     grid.innerHTML = '';
     (data.items || []).forEach(item => {
+      const slug = (item.title || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+      const pid = item.priceId || ('ships-' + slug);
       const article = document.createElement('article');
       article.className = 'piece';
       article.innerHTML = `
@@ -121,7 +123,7 @@ fetch('data/spaceships.json')
           <p class="meta">${item.meta}</p>
           <h3>${item.title}</h3>
           <p class="desc">${item.desc}</p>
-          <div class="price-slot" data-price-id="${item.priceId}" data-image="${item.image}" data-shipping="print"></div>
+          <div class="price-slot" data-price-id="${pid}" data-title="${(item.title||'').replace(/"/g,'&quot;')}" data-image="${item.image}" data-shipping="print"></div>
         </div>
       `;
       grid.appendChild(article);
