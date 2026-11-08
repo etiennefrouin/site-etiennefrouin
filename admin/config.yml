@@ -40,6 +40,7 @@ collections:
               - { label: "Titre", name: "title", widget: "string" }
               - { label: "Texte", name: "text", widget: "text" }
               - { label: "Photo (optionnel)", name: "image", widget: "image", media_library: { config: { multiple: false } }, required: false }
+              - { label: "Deuxième photo (optionnel)", name: "image2", widget: "image", media_library: { config: { multiple: false } }, required: false }
               - { label: "Lien vidéo YouTube (optionnel)", name: "video", widget: "string", required: false }
 
   - name: "elements"
